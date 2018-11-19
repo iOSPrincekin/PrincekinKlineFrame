@@ -584,31 +584,31 @@ class PKIndexSUBView: UIView {
         
         switch button.indexOptionButtonType {
             
-        case .MA:
+        case .MA?:
             selectMainnbutton(button)
             
             break
-        case .BOLL:
+        case .BOLL?:
             selectMainnbutton(button)
             break
-        case .MainHide:
+        case .MainHide?:
 //            PKKLineParamters.KLineMAType = PKKLineMAType.enumValue(string: "Close")
 //            selectedMainButton?.isSelected = false
             selectMainnbutton(button)
             break
-        case .MACD:
+        case .MACD?:
             selectSubbutton(button)
             break
-        case .KDJ:
+        case .KDJ?:
             selectSubbutton(button)
             break
-        case .RSI:
+        case .RSI?:
             selectSubbutton(button)
             break
-        case .WR:
+        case .WR?:
             selectSubbutton(button)
             break
-        case .SubHide:
+        case .SubHide?:
 //            PKKLineParamters.AccessoryType = PKKLineAccessoryType.enumValue(string: "Close")
 //            selectedSubButton?.isSelected = false
             selectSubbutton(button)

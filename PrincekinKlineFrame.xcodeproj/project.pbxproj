@@ -55,7 +55,6 @@
 		9B360AEE215F601700FB0EB5 /* PKKLineDataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineDataParser.swift; sourceTree = "<group>"; };
 		9B96A4B5215F4B20003D1CD8 /* PrincekinKlineFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrincekinKlineFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B96A4B8215F4B20003D1CD8 /* PrincekinKlineFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincekinKlineFrame.h; sourceTree = "<group>"; };
-		9B96A4B9215F4B20003D1CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B96A4C1215F4B4A003D1CD8 /* PKKLinePortraitValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLinePortraitValueView.swift; sourceTree = "<group>"; };
 		9B96A4C2215F4B4A003D1CD8 /* PKKLineValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineValueView.swift; sourceTree = "<group>"; };
 		9B96A4C4215F4B4A003D1CD8 /* PKKLineAccessoryPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineAccessoryPainter.swift; sourceTree = "<group>"; };
@@ -160,7 +159,6 @@
 				9B96A4CF215F4B4B003D1CD8 /* PKKLineVolumeView */,
 				9B96A503215F4B5F003D1CD8 /* Configuration */,
 				9B96A50E215F4B67003D1CD8 /* Resource */,
-				9B96A4B9215F4B20003D1CD8 /* Info.plist */,
 			);
 			path = PrincekinKlineFrame;
 			sourceTree = "<group>";
