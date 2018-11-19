@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B043DEB2176DB8000F569C1 /* data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B043DEA2176DB8000F569C1 /* data1.json */; };
+		9B1D3054215CC14000434464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D3053215CC14000434464 /* AppDelegate.swift */; };
+		9B1D3056215CC14100434464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D3055215CC14100434464 /* ViewController.swift */; };
+		9B1D305B215CC14200434464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1D305A215CC14200434464 /* Assets.xcassets */; };
+		9B1D305E215CC14200434464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1D305C215CC14200434464 /* LaunchScreen.storyboard */; };
+		9B1D3067215CC42F00434464 /* PKKLinePortraitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B1D3065215CC42E00434464 /* PKKLinePortraitViewController.xib */; };
+		9B1D3068215CC42F00434464 /* PKKLinePortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D3066215CC42E00434464 /* PKKLinePortraitViewController.swift */; };
+		9B1D306A215CC4CD00434464 /* PKKLineDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D3069215CC4CD00434464 /* PKKLineDemoView.swift */; };
+		9B1D306D215CC5CC00434464 /* PKFullScreenKLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D306B215CC5CB00434464 /* PKFullScreenKLineViewController.swift */; };
+		9B1D306E215CC5CC00434464 /* PKSFullScreenKLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B1D306C215CC5CB00434464 /* PKSFullScreenKLineViewController.xib */; };
+		9B360AF1215F660800FB0EB5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B360AF0215F660800FB0EB5 /* data.json */; };
+		9B360AF4215F696E00FB0EB5 /* SocketStob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B360AF3215F696E00FB0EB5 /* SocketStob.swift */; };
+		9B96A421215F25E7003D1CD8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B96A420215F25E7003D1CD8 /* ViewController.xib */; };
+		B6C64AC2923CF3EEB182757D /* Pods_PrincekinKlineFrameDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437C5A1660BDB915FA6A68BD /* Pods_PrincekinKlineFrameDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120FB1742E35808B5A6F945E /* Pods-PrincekinKlineFrameDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrameDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrameDemo/Pods-PrincekinKlineFrameDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		437C5A1660BDB915FA6A68BD /* Pods_PrincekinKlineFrameDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrincekinKlineFrameDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B043DEA2176DB8000F569C1 /* data1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data1.json; sourceTree = "<group>"; };
+		9B1D3050215CC14000434464 /* PrincekinKlineFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrincekinKlineFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1D3053215CC14000434464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B1D3055215CC14100434464 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B1D305A215CC14200434464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B1D305D215CC14200434464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B1D305F215CC14200434464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1D3065215CC42E00434464 /* PKKLinePortraitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKKLinePortraitViewController.xib; sourceTree = "<group>"; };
+		9B1D3066215CC42E00434464 /* PKKLinePortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLinePortraitViewController.swift; sourceTree = "<group>"; };
+		9B1D3069215CC4CD00434464 /* PKKLineDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineDemoView.swift; sourceTree = "<group>"; };
+		9B1D306B215CC5CB00434464 /* PKFullScreenKLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKFullScreenKLineViewController.swift; sourceTree = "<group>"; };
+		9B1D306C215CC5CB00434464 /* PKSFullScreenKLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKSFullScreenKLineViewController.xib; sourceTree = "<group>"; };
+		9B360AF0215F660800FB0EB5 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		9B360AF3215F696E00FB0EB5 /* SocketStob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStob.swift; sourceTree = "<group>"; };
+		9B96A420215F25E7003D1CD8 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		CD0F5EBFFA506975A5528AAD /* Pods-PrincekinKlineFrameDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrameDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrameDemo/Pods-PrincekinKlineFrameDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B1D304D215CC14000434464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C64AC2923CF3EEB182757D /* Pods_PrincekinKlineFrameDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		316CCBC203F75E705A64415B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				120FB1742E35808B5A6F945E /* Pods-PrincekinKlineFrameDemo.debug.xcconfig */,
+				CD0F5EBFFA506975A5528AAD /* Pods-PrincekinKlineFrameDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B1D3047215CC14000434464 = {
+			isa = PBXGroup;
+			children = (
+				9B1D3052215CC14000434464 /* PrincekinKlineFrameDemo */,
+				9B1D3051215CC14000434464 /* Products */,
+				316CCBC203F75E705A64415B /* Pods */,
+				CE9B1B373D05AD15FDBFA43B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B1D3051215CC14000434464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B1D3050215CC14000434464 /* PrincekinKlineFrameDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B1D3052215CC14000434464 /* PrincekinKlineFrameDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9B360AF2215F692300FB0EB5 /* Resource */,
+				9B1D3053215CC14000434464 /* AppDelegate.swift */,
+				9B1D3055215CC14100434464 /* ViewController.swift */,
+				9B96A420215F25E7003D1CD8 /* ViewController.xib */,
+				9B1D3069215CC4CD00434464 /* PKKLineDemoView.swift */,
+				9B1D3066215CC42E00434464 /* PKKLinePortraitViewController.swift */,
+				9B1D3065215CC42E00434464 /* PKKLinePortraitViewController.xib */,
+				9B1D306B215CC5CB00434464 /* PKFullScreenKLineViewController.swift */,
+				9B1D306C215CC5CB00434464 /* PKSFullScreenKLineViewController.xib */,
+				9B1D305A215CC14200434464 /* Assets.xcassets */,
+				9B1D305C215CC14200434464 /* LaunchScreen.storyboard */,
+				9B1D305F215CC14200434464 /* Info.plist */,
+			);
+			path = PrincekinKlineFrameDemo;
+			sourceTree = "<group>";
+		};
+		9B360AF2215F692300FB0EB5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9B360AF3215F696E00FB0EB5 /* SocketStob.swift */,
+				9B360AF0215F660800FB0EB5 /* data.json */,
+				9B043DEA2176DB8000F569C1 /* data1.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CE9B1B373D05AD15FDBFA43B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				437C5A1660BDB915FA6A68BD /* Pods_PrincekinKlineFrameDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B1D304F215CC14000434464 /* PrincekinKlineFrameDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1D3062215CC14200434464 /* Build configuration list for PBXNativeTarget "PrincekinKlineFrameDemo" */;
+			buildPhases = (
+				A5AF2811751036D9563746C3 /* [CP] Check Pods Manifest.lock */,
+				9B1D304C215CC14000434464 /* Sources */,
+				9B1D304D215CC14000434464 /* Frameworks */,
+				9B1D304E215CC14000434464 /* Resources */,
+				CFB7A8E58D53489C5A80FBC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrincekinKlineFrameDemo;
+			productName = PrincekinKlineFrameDemo;
+			productReference = 9B1D3050215CC14000434464 /* PrincekinKlineFrameDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B1D3048215CC14000434464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = LEE;
+				TargetAttributes = {
+					9B1D304F215CC14000434464 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B1D304B215CC14000434464 /* Build configuration list for PBXProject "PrincekinKlineFrameDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B1D3047215CC14000434464;
+			productRefGroup = 9B1D3051215CC14000434464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B1D304F215CC14000434464 /* PrincekinKlineFrameDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B1D304E215CC14000434464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B96A421215F25E7003D1CD8 /* ViewController.xib in Resources */,
+				9B360AF1215F660800FB0EB5 /* data.json in Resources */,
+				9B1D305E215CC14200434464 /* LaunchScreen.storyboard in Resources */,
+				9B1D306E215CC5CC00434464 /* PKSFullScreenKLineViewController.xib in Resources */,
+				9B1D305B215CC14200434464 /* Assets.xcassets in Resources */,
+				9B1D3067215CC42F00434464 /* PKKLinePortraitViewController.xib in Resources */,
+				9B043DEB2176DB8000F569C1 /* data1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5AF2811751036D9563746C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrincekinKlineFrameDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB7A8E58D53489C5A80FBC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrincekinKlineFrameDemo/Pods-PrincekinKlineFrameDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
+				"${BUILT_PRODUCTS_DIR}/PrincekinKlineFrame/PrincekinKlineFrame.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrincekinKlineFrame.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrincekinKlineFrameDemo/Pods-PrincekinKlineFrameDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B1D304C215CC14000434464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1D3056215CC14100434464 /* ViewController.swift in Sources */,
+				9B1D306D215CC5CC00434464 /* PKFullScreenKLineViewController.swift in Sources */,
+				9B360AF4215F696E00FB0EB5 /* SocketStob.swift in Sources */,
+				9B1D3054215CC14000434464 /* AppDelegate.swift in Sources */,
+				9B1D3068215CC42F00434464 /* PKKLinePortraitViewController.swift in Sources */,
+				9B1D306A215CC4CD00434464 /* PKKLineDemoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B1D305C215CC14200434464 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B1D305D215CC14200434464 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B1D3060215CC14200434464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B1D3061215CC14200434464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B1D3063215CC14200434464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120FB1742E35808B5A6F945E /* Pods-PrincekinKlineFrameDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXH8LLTUQN;
+				INFOPLIST_FILE = PrincekinKlineFrameDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.PrincekinKlineFrameDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B1D3064215CC14200434464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0F5EBFFA506975A5528AAD /* Pods-PrincekinKlineFrameDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXH8LLTUQN;
+				INFOPLIST_FILE = PrincekinKlineFrameDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.PrincekinKlineFrameDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B1D304B215CC14000434464 /* Build configuration list for PBXProject "PrincekinKlineFrameDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1D3060215CC14200434464 /* Debug */,
+				9B1D3061215CC14200434464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1D3062215CC14200434464 /* Build configuration list for PBXNativeTarget "PrincekinKlineFrameDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1D3063215CC14200434464 /* Debug */,
+				9B1D3064215CC14200434464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B1D3048215CC14000434464 /* Project object */;
+}
