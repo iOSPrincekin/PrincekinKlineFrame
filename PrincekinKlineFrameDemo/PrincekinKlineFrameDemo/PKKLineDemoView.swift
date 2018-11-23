@@ -14,7 +14,7 @@ import OHHTTPStubs
 let iOSPrincekinTestBaseURLHost = "www.iOSPrincekinTestBaseURLHost.com"
 let iOSPrincekinTestBaseURL = "http://\(iOSPrincekinTestBaseURLHost)"
 class PKKLineDemoView: PKKLineContainerView{
-    var socket =  SocketStob.init("")
+    weak var socket =  SocketStob.init("")
     var klineArray : [PKKLine]?{
         get{
             return mainView.scrollView.klineView.klineGroup.klineArray
@@ -41,16 +41,18 @@ class PKKLineDemoView: PKKLineContainerView{
     func createGetKLineDataByHttpStub() {
         //  transferArrayToJson()
         //  getJsonArrayString()
+        weak var weakSelf : PKKLineDemoView! = self
         stub(condition: isHost(iOSPrincekinTestBaseURLHost)) {
             req in
             print(req)
             let dataDic = ["1":"2"]
             let stubData = try! JSONSerialization.data(withJSONObject: dataDic, options: .prettyPrinted)
-            return OHHTTPStubsResponse(fileAtPath: OHPathForFile("data.json", type(of: self))!,statusCode: 200,headers: ["Content-Type":"application/json"])
+            return OHHTTPStubsResponse(fileAtPath: OHPathForFile("data.json", type(of: weakSelf))!,statusCode: 200,headers: ["Content-Type":"application/json"])
             
         }
     }
     func getDataFromHttp(){
+        weak var weakSelf : PKKLineDemoView! = self
         createGetKLineDataByHttpStub()
         var param : [String : Any] = [String : Any]()
         param["symbol"] = wSymbol   //"CZRETH"
@@ -63,13 +65,19 @@ class PKKLineDemoView: PKKLineContainerView{
             }
             let klineGroup = PKKLineGroup()
             klineGroup.klineArray = PKKLineGroup.klineArray(klineStringArray: dataArray!)
-            self.initData(klineArray: klineGroup.klineArray)
-            self.initFullVCData()
-            
-            self.socket.socketDelegate = self
+            weakSelf.initData(klineArray: klineGroup.klineArray)
+            weakSelf.initFullVCData()
+            weakSelf.socket?.socketDelegate = weakSelf
         }
     }
-    
+    //销毁socket  以便于进行释放self
+    func destroyTSocketRocke() {
+        socket?.disConnect()
+        socket = nil
+    }
+    deinit {
+        print("PKKLineDemoView-----销毁了")
+    }
     
 }
 //时间按钮点击时，相应的代理事件
@@ -118,6 +126,7 @@ extension PKKLineDemoView : PKKLineChangeKlineTypeDelegate {
         }
     }
     func getKline() {
+        print("点击-------->>>>>>>次数")
         PKKLineParamters.KLineStyle = .standard
         getDataFromHttp()
     }
@@ -132,9 +141,9 @@ extension PKKLineDemoView : SocketStobDelegate{
         let kDic : [String : Any] = data as! [String : Any]
         let klineGroup = PKKLineGroup()
         klineGroup.klineArray = PKKLineGroup.klineArray(klineStringDictionary: [kDic])
-        
+        weak var weakSelf : PKKLineDemoView! = self
         DispatchQueue.main.async(execute: {
-            self.appendData(klineArray:  klineGroup.klineArray)
+            weakSelf.appendData(klineArray:  klineGroup.klineArray)
             //self.appendFullVCData(klineGroup.klineArray)
         })
     }
