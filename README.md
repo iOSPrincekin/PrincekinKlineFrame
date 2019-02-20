@@ -1,7 +1,7 @@
 PrincekinKlineFrame
 ===========
 
-[![Platform](http://cocoapod-badges.herokuapp.com/p/PrincekinKlineFrame/badge.png)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
+[![Platform](https://img.shields.io/badge/platform-ios%7Cmacosx-green.svg)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
 [![Language: Swift-4.1](https://img.shields.io/badge/Swift-4.1-blue.svg)](https://swift.org)
 
 
