@@ -22,7 +22,7 @@ class PKKLinePortraitViewController: UIViewController{
         klineView.wSymbol = "BTC/USDT"
     }
     deinit{
-        
+      
         klineView.destroyTSocketRocke()
         print("ViewController---销毁了")
     }
