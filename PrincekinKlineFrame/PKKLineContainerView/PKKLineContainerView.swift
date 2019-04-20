@@ -17,7 +17,7 @@ open class PKKLineContainerView: UIView {
     public   let topButtonsView = PKKLineTopButtonsView()
     public   weak var kLineChangeTypeDelegate : PKKLineChangeKlineTypeDelegate?
     public   var buttonClickBlock : PKKLineTopButtonsViewButtonClickBlock!
-     var indexButtonBeClickedBlock : ((String) -> Void)?
+    public   var indexButtonBeClickedBlock : ((String) -> Void)?
 //    convenience init() {
 //        self.init(frame: .zero)
 //    }
