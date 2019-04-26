@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
       s.dependency 'SnapKit'
       s.source       = { :git => "https://github.com/iOSPrincekin/PrincekinKlineFrame.git", :tag => "0.0.30" }
       s.source_files  = 'PrincekinKlineFrame/**/*'
+      s.exclude_files = 'PrincekinKlineFrame/*.plist'
    end

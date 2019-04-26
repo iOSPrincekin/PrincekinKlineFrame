@@ -12,7 +12,7 @@ import UIKit
 import PrincekinKlineFrame
 class PKFullScreenKLineViewController: UIViewController {
    weak var kLinePortraitVC : PKKLinePortraitViewController!
-     var klineArray : [PKKLine]?
+	var klineArray : [PKKLine]?
     @IBOutlet var fullView: PKKLineFullScreenView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,16 @@ class PKFullScreenKLineViewController: UIViewController {
         fullView.closeBlock = {
             weakSelf!.dismiss(animated: true, completion: nil)
         }
+        let backBtn = UIButton.init(frame: CGRect(x: 10, y: 10, width: 60, height: 20))
+        backBtn.addTarget(self, action: #selector(back(_:)), for: .touchUpInside)
+        backBtn.backgroundColor = UIColor.clear
+        view.addSubview(backBtn)
+        backBtn.setTitle("返回", for: .normal);
+		backBtn.setTitle("返回", for: .selected);
+		
+
+		
+		
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -76,7 +86,10 @@ class PKFullScreenKLineViewController: UIViewController {
     override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation{
         return .landscapeRight
     }
-    
+	@objc func back(_ sender: Any) {
+	self.dismiss(animated: true, completion: nil);
+		}
+	
     
     deinit {
     }
@@ -93,12 +106,13 @@ class PKFullScreenKLineViewController: UIViewController {
 }
 extension PKFullScreenKLineViewController : FullScreenButtonClickDelegate {
     func indexButtonClick(_ str: String) {
-      
+		kLinePortraitVC.clickKlineIndexView(str)
+
     }
     
     func buttonClick(_ title: String) {
     //    print("当前点击的title是------\(title)")
-       
+			kLinePortraitVC.clickKlineView(title)
     }
     
     

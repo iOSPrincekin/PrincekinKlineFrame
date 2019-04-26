@@ -52,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		0C6E5260D70EC3C1049AFC7F /* Pods-PrincekinKlineFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrame/Pods-PrincekinKlineFrame.debug.xcconfig"; sourceTree = "<group>"; };
+		9B25A27F2272D49100BE4044 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B360AEE215F601700FB0EB5 /* PKKLineDataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineDataParser.swift; sourceTree = "<group>"; };
 		9B96A4B5215F4B20003D1CD8 /* PrincekinKlineFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrincekinKlineFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B96A4B8215F4B20003D1CD8 /* PrincekinKlineFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincekinKlineFrame.h; sourceTree = "<group>"; };
@@ -93,7 +94,6 @@
 		9B96A513215F4B67003D1CD8 /* LocalizedUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedUtils.swift; sourceTree = "<group>"; };
 		9B96A514215F4B67003D1CD8 /* PKKLineCancel@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PKKLineCancel@3x.jpg"; sourceTree = "<group>"; };
 		9B96A515215F4B67003D1CD8 /* LocalizedUtils.swift.tmp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedUtils.swift.tmp.swift; sourceTree = "<group>"; };
-		9BCFD4C1226B1D7D00DA6CE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PrincekinKlineFrame/Info.plist; sourceTree = SOURCE_ROOT; };
 		D0551952965085C61FE8C9A2 /* Pods-PrincekinKlineFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrame/Pods-PrincekinKlineFrame.release.xcconfig"; sourceTree = "<group>"; };
 		DEB9E30EE7E34E34BF199710 /* Pods_PrincekinKlineFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrincekinKlineFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -148,6 +148,7 @@
 		9B96A4B7215F4B20003D1CD8 /* PrincekinKlineFrame */ = {
 			isa = PBXGroup;
 			children = (
+				9B25A27F2272D49100BE4044 /* Info.plist */,
 				9B96A4B8215F4B20003D1CD8 /* PrincekinKlineFrame.h */,
 				9B96A4D4215F4B4B003D1CD8 /* Manager */,
 				9B96A4CA215F4B4B003D1CD8 /* Model */,
@@ -160,7 +161,6 @@
 				9B96A4CF215F4B4B003D1CD8 /* PKKLineVolumeView */,
 				9B96A503215F4B5F003D1CD8 /* Configuration */,
 				9B96A50E215F4B67003D1CD8 /* Resource */,
-				9BCFD4C1226B1D7D00DA6CE1 /* Info.plist */,
 			);
 			path = PrincekinKlineFrame;
 			sourceTree = "<group>";

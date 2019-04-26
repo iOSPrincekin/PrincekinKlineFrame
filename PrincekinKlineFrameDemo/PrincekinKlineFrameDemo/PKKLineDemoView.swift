@@ -28,10 +28,11 @@ class PKKLineDemoView: PKKLineContainerView{
     }
     
     func initFullVCData()  {
-        fullVC?.reloadData(klineArray: klineArray ?? [PKKLine]())
+        fullVC?.reloadData(klineArray: klineArray!)
     }
-    func appendFullVCData()  {
-        fullVC?.appendData(klineArray: klineArray ?? [PKKLine]())
+	
+    func appendFullVCData(klineArray: [PKKLine])  {
+        fullVC?.appendData(klineArray: klineArray)
     }
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -126,8 +127,7 @@ extension PKKLineDemoView : PKKLineChangeKlineTypeDelegate {
         }
     }
     func getKline() {
-        print("点击-------->>>>>>>次数")
-        PKKLineParamters.KLineStyle = .standard
+		PKKLineParamters.KLineStyle = .standard
         getDataFromHttp()
     }
 }
@@ -144,7 +144,7 @@ extension PKKLineDemoView : SocketStobDelegate{
         weak var weakSelf : PKKLineDemoView! = self
         DispatchQueue.main.async(execute: {
             weakSelf.appendData(klineArray:  klineGroup.klineArray)
-            //self.appendFullVCData(klineGroup.klineArray)
+			self.appendFullVCData(klineArray: klineGroup.klineArray)
         })
     }
     
