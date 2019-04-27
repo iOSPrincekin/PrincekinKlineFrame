@@ -2,7 +2,7 @@ PrincekinKlineFrame
 ===========
 
 [![Platform](https://img.shields.io/badge/platform-ios%7Cmacosx-green.svg)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
-[![Language: Swift-4.1](https://img.shields.io/badge/Swift-4.1-blue.svg)](https://swift.org)
+[![Language: Swift-4.1](https://img.shields.io/badge/Swift-blue.svg)](https://swift.org)
 
 
 `PrincekinKlineFrame` 是使用Swift语言编写的在iOS平台上运行的k线图库，她具有轻量、敏捷、稳定等特点，可为虚拟货币、金融等行业提供专业的k线图信息显示，具有很强的实用性和可扩展性。
@@ -35,6 +35,32 @@ PrincekinKlineFrame
     5.可参考PrincekinKlineFrameDemo
     
     
+</details>
+
+
+<details open=1>
+<summary>横屏</summary>
+    
+### 优点：    
+    PrincekinKlineFrame横屏功能和竖屏共用同一数据源，保证了数据的准确性和较小的cpu消耗，同时横屏和竖屏的交互性，如全部按钮的点击事件已经做好同步，符合实际开发产品的需要，开发者只要按照正确姿势进行使用即可。
+    
+### 步骤：
+    
+    1.在你的工程中创建一个类A继承自UIViewController，在类A中定义一个PKKLineFullScreenView的对象属性fullView，同时类A实现FullScreenButtonClickDelegate中的全部代理方法；
+    
+    2.在类A中定义一个PKKLine的数组对象klineArray用于接收数据源；
+    
+    3.在类A中定义一个竖屏对象kLinePortraitVC；
+    
+    4.实现类A的横屏状态；
+   
+    5.一般类A是从竖屏对象中跳转过来，在跳转方法中初始化话一个类A对象，将竖屏对象中数据源赋值给类A对象的klineArray属性，将竖屏对象赋值给类A对象的kLinePortraitVC属性；
+
+    6.可参考PrincekinKlineFrameDemo
+    
+    
+</details>
+
 ### 关于[PrincekinKlineFrameDemo](https://github.com/iOSPrincekin/PrincekinKlineFrame/tree/master/PrincekinKlineFrameDemo)说明：
 
    1.我采用的是OHHTTPStubs模拟网络请求，获取K线图的Http数据，可用于开发过程中的网络调试，如果感兴趣可参考 [OHHTTPStubs](https://github.com/AliSoftware/OHHTTPStubs)
@@ -43,7 +69,7 @@ PrincekinKlineFrame
     
    3.虽然有15min、30min、1hour等按钮可以点击，但是我只实现15min的网络数据，在开发过程中，可以更具需要添加网络数据；
     
-</details>
+
 
 
     
@@ -54,6 +80,13 @@ PrincekinKlineFrame
 <summary>竖屏</summary>
     
 [![img](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/竖屏.gif)](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/竖屏.gif)
+
+</details>
+
+<details open=1>
+<summary>横屏</summary>
+    
+[![img](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/横屏.gif)](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/横屏.gif)
 
 </details>
 
