@@ -35,7 +35,9 @@ PrincekinKlineFrame
     5.可参考PrincekinKlineFrameDemo
     
     
-### 关于[PrincekinKlineFrameDemo](https://github.com/iOSPrincekin/PrincekinKlineFrame/tree/master/PrincekinKlineFrameDemo)说明：
+</details>
+
+## 关于[PrincekinKlineFrameDemo](https://github.com/iOSPrincekin/PrincekinKlineFrame/tree/master/PrincekinKlineFrameDemo)说明：
 
    1.我采用的是OHHTTPStubs模拟网络请求，获取K线图的Http数据，可用于开发过程中的网络调试，如果感兴趣可参考 [OHHTTPStubs](https://github.com/AliSoftware/OHHTTPStubs)
     
@@ -43,7 +45,7 @@ PrincekinKlineFrame
     
    3.虽然有15min、30min、1hour等按钮可以点击，但是我只实现15min的网络数据，在开发过程中，可以更具需要添加网络数据；
     
-</details>
+
 
 
     
