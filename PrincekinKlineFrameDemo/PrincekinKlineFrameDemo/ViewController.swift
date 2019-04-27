@@ -32,18 +32,14 @@ class ViewController: UIViewController {
         
     }
     @IBAction func FullScreenVCClick(_ sender: UIButton) {
-//        let sureAction = UIAlertAction.init(title: "确定", style: .default) { (action) in
-//          UIApplication.shared.openURL(URL(string: "https://github.com/iOSPrincekin/PrincekinKlineFrame")!)
-//        }
-//        let tmpAlertVC = UIAlertController.init(title: "提示", message: "20个star，放全屏，动动您的手指，支持一下吧！", preferredStyle: .alert)
-//        tmpAlertVC.addAction(sureAction)
-//        present(tmpAlertVC, animated: true, completion: nil)
-//
+        let sureAction = UIAlertAction.init(title: "确定", style: .default) { (action) in
+          UIApplication.shared.openURL(URL(string: "https://github.com/iOSPrincekin/PrincekinKlineFrame")!)
+        }
+        let tmpAlertVC = UIAlertController.init(title: "提示", message: "需要深度图的同学，动动您的手指star一下吧，稍后将会奉上！", preferredStyle: .alert)
+        tmpAlertVC.addAction(sureAction)
+        present(tmpAlertVC, animated: true, completion: nil)
 
 
- 
-       // navigationController?.pushViewController(fullVC, animated: true)
-		
 
     }
     

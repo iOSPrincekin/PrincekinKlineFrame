@@ -18,12 +18,12 @@ class PKKLinePortraitViewController: UIViewController{
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
+		klineView.wSymbol = "BTC/USDT"
     }
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
-        klineView.wSymbol = "BTC/USDT"
-    }
+//    override func viewDidAppear(_ animated: Bool) {
+//        super.viewDidAppear(true)
+//		
+//    }
 	//fullVC  右边的“index”按钮的点击事件传递给kLineView
     func clickKlineIndexView(_ str : String) {
         klineView.indexButtonBeClickedBlock!(str)
@@ -37,6 +37,7 @@ class PKKLinePortraitViewController: UIViewController{
 	    let fullVC = PKFullScreenKLineViewController()
 		_fullVC = fullVC
 		fullVC.klineArray = klineView.klineArray
+		fullVC.kLinePortraitVC = self;
 		klineView.fullVC = fullVC;
 		present(fullVC, animated: true, completion: nil)
 

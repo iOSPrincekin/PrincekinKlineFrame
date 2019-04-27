@@ -11,7 +11,7 @@
 import UIKit
 import PrincekinKlineFrame
 class PKFullScreenKLineViewController: UIViewController {
-   weak var kLinePortraitVC : PKKLinePortraitViewController!
+    weak var kLinePortraitVC : PKKLinePortraitViewController!
 	var klineArray : [PKKLine]?
     @IBOutlet var fullView: PKKLineFullScreenView!
     override func viewDidLoad() {
@@ -111,8 +111,8 @@ extension PKFullScreenKLineViewController : FullScreenButtonClickDelegate {
     }
     
     func buttonClick(_ title: String) {
-    //    print("当前点击的title是------\(title)")
-			kLinePortraitVC.clickKlineView(title)
+      //  print("当前点击的title是------\(title)")
+		kLinePortraitVC.clickKlineView(title)
     }
     
     
