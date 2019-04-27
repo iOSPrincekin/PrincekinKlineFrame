@@ -2,7 +2,7 @@ PrincekinKlineFrame
 ===========
 
 [![Platform](https://img.shields.io/badge/platform-ios%7Cmacosx-green.svg)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
-[![Language: Swift-4.1](https://img.shields.io/badge/Swift-4.1-blue.svg)](https://swift.org)
+[![Language: Swift-4.1](https://img.shields.io/badge/Swift-blue.svg)](https://swift.org)
 
 
 `PrincekinKlineFrame` 是使用Swift语言编写的在iOS平台上运行的k线图库，她具有轻量、敏捷、稳定等特点，可为虚拟货币、金融等行业提供专业的k线图信息显示，具有很强的实用性和可扩展性。
@@ -37,7 +37,7 @@ PrincekinKlineFrame
     
 </details>
 
-## 关于[PrincekinKlineFrameDemo](https://github.com/iOSPrincekin/PrincekinKlineFrame/tree/master/PrincekinKlineFrameDemo)说明：
+### 关于[PrincekinKlineFrameDemo](https://github.com/iOSPrincekin/PrincekinKlineFrame/tree/master/PrincekinKlineFrameDemo)说明：
 
    1.我采用的是OHHTTPStubs模拟网络请求，获取K线图的Http数据，可用于开发过程中的网络调试，如果感兴趣可参考 [OHHTTPStubs](https://github.com/AliSoftware/OHHTTPStubs)
     
