@@ -77,7 +77,7 @@ PrincekinKlineFrame
 
 # 使用效果
 
-<details open=1>
+<details open=0>
 <summary>竖屏</summary>
     
 [![img](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/竖屏.gif)](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/竖屏.gif)
