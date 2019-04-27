@@ -27,11 +27,7 @@ class PKFullScreenKLineViewController: UIViewController {
         view.addSubview(backBtn)
         backBtn.setTitle("返回", for: .normal);
 		backBtn.setTitle("返回", for: .selected);
-		
 
-		
-		
-        // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -50,23 +46,13 @@ class PKFullScreenKLineViewController: UIViewController {
     }
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-
-//        if #available(iOS 10.0, *) {
-//            (UIApplication.shared.delegate as! AppDelegate).interfaceOrientation = .landscape
-//        } else {
-//            // Fallback on earlier versions
-//        }
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
           reloadData(klineArray: klineArray ?? [PKKLine]())
-      //  UIDevice.current.setValue(UIInterfaceOrientation.landscapeRight.rawValue, forKey: "orientation")
-
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-//        let nav : WFSNavigationViewController = self.navigationController as! WFSNavigationViewController
-//        nav.supportLandscape = false
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -89,20 +75,9 @@ class PKFullScreenKLineViewController: UIViewController {
 	@objc func back(_ sender: Any) {
 	self.dismiss(animated: true, completion: nil);
 		}
-	
-    
     deinit {
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+	
 }
 extension PKFullScreenKLineViewController : FullScreenButtonClickDelegate {
     func indexButtonClick(_ str: String) {
