@@ -57,6 +57,13 @@ PrincekinKlineFrame
 
 </details>
 
+<details open=1>
+<summary>横屏</summary>
+    
+[![img](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/横屏.gif)](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/横屏.gif)
+
+</details>
+
 ----
 # 许可
 
