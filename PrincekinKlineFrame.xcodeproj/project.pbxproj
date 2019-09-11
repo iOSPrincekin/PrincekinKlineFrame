@@ -7,93 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B360AEF215F601700FB0EB5 /* PKKLineDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B360AEE215F601700FB0EB5 /* PKKLineDataParser.swift */; };
-		9B96A4BA215F4B20003D1CD8 /* PrincekinKlineFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B96A4B8215F4B20003D1CD8 /* PrincekinKlineFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B96A4E6215F4B4C003D1CD8 /* PKKLinePortraitValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4C1215F4B4A003D1CD8 /* PKKLinePortraitValueView.swift */; };
-		9B96A4E7215F4B4C003D1CD8 /* PKKLineValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4C2215F4B4A003D1CD8 /* PKKLineValueView.swift */; };
-		9B96A4E8215F4B4C003D1CD8 /* PKKLineAccessoryPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4C4215F4B4A003D1CD8 /* PKKLineAccessoryPainter.swift */; };
-		9B96A4E9215F4B4C003D1CD8 /* PKKLineAccessoryMAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4C5215F4B4A003D1CD8 /* PKKLineAccessoryMAView.swift */; };
-		9B96A4EA215F4B4C003D1CD8 /* PKKLineAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4C6215F4B4A003D1CD8 /* PKKLineAccessoryView.swift */; };
-		9B96A4EB215F4B4C003D1CD8 /* PKTimeKLineSubStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4C8215F4B4A003D1CD8 /* PKTimeKLineSubStruct.swift */; };
-		9B96A4EC215F4B4C003D1CD8 /* PKKLineTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4C9215F4B4B003D1CD8 /* PKKLineTimeView.swift */; };
-		9B96A4ED215F4B4C003D1CD8 /* PKKLineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4CB215F4B4B003D1CD8 /* PKKLineCalculator.swift */; };
-		9B96A4EE215F4B4C003D1CD8 /* PKKLineSubStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4CC215F4B4B003D1CD8 /* PKKLineSubStruct.swift */; };
-		9B96A4EF215F4B4C003D1CD8 /* PKKLineGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4CD215F4B4B003D1CD8 /* PKKLineGroup.swift */; };
-		9B96A4F0215F4B4C003D1CD8 /* PKKLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4CE215F4B4B003D1CD8 /* PKKLine.swift */; };
-		9B96A4F1215F4B4C003D1CD8 /* PkKLineVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4D0215F4B4B003D1CD8 /* PkKLineVolumeView.swift */; };
-		9B96A4F2215F4B4C003D1CD8 /* PKKLineVolumePainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4D1215F4B4B003D1CD8 /* PKKLineVolumePainter.swift */; };
-		9B96A4F3215F4B4C003D1CD8 /* PKKLineVolumeMAPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4D2215F4B4B003D1CD8 /* PKKLineVolumeMAPainter.swift */; };
-		9B96A4F4215F4B4C003D1CD8 /* PKKLineVolumeMAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4D3215F4B4B003D1CD8 /* PKKLineVolumeMAView.swift */; };
-		9B96A4F5215F4B4C003D1CD8 /* VerificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4D5215F4B4B003D1CD8 /* VerificationManager.swift */; };
-		9B96A4F6215F4B4C003D1CD8 /* PKKLineFullScreenTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4D7215F4B4B003D1CD8 /* PKKLineFullScreenTopView.swift */; };
-		9B96A4F7215F4B4C003D1CD8 /* PKKLineFullScreenMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4D8215F4B4B003D1CD8 /* PKKLineFullScreenMiddleView.swift */; };
-		9B96A4F8215F4B4C003D1CD8 /* PKKLineFullScreenBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4D9215F4B4B003D1CD8 /* PKKLineFullScreenBottomView.swift */; };
-		9B96A4F9215F4B4C003D1CD8 /* PKKLineFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4DA215F4B4B003D1CD8 /* PKKLineFullScreenView.swift */; };
-		9B96A4FA215F4B4C003D1CD8 /* PKKLinePainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4DC215F4B4B003D1CD8 /* PKKLinePainter.swift */; };
-		9B96A4FB215F4B4C003D1CD8 /* PKKLineMAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4DD215F4B4B003D1CD8 /* PKKLineMAView.swift */; };
-		9B96A4FC215F4B4C003D1CD8 /* PKKLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4DE215F4B4B003D1CD8 /* PKKLineView.swift */; };
-		9B96A4FD215F4B4C003D1CD8 /* PKKLineMAPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4DF215F4B4B003D1CD8 /* PKKLineMAPainter.swift */; };
-		9B96A4FE215F4B4C003D1CD8 /* PKKLineCrossLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4E1215F4B4B003D1CD8 /* PKKLineCrossLine.swift */; };
-		9B96A4FF215F4B4C003D1CD8 /* PKKLineScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4E2215F4B4B003D1CD8 /* PKKLineScrollView.swift */; };
-		9B96A500215F4B4C003D1CD8 /* PKKLineRightYView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4E3215F4B4B003D1CD8 /* PKKLineRightYView.swift */; };
-		9B96A501215F4B4C003D1CD8 /* PKKLineContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4E4215F4B4B003D1CD8 /* PKKLineContainerView.swift */; };
-		9B96A502215F4B4C003D1CD8 /* PKKLineTopButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A4E5215F4B4B003D1CD8 /* PKKLineTopButtonsView.swift */; };
-		9B96A509215F4B5F003D1CD8 /* PKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A504215F4B5F003D1CD8 /* PKColor.swift */; };
-		9B96A50A215F4B5F003D1CD8 /* PKKLineTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A505215F4B5F003D1CD8 /* PKKLineTheme.swift */; };
-		9B96A50B215F4B5F003D1CD8 /* PKKLineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A506215F4B5F003D1CD8 /* PKKLineConfig.swift */; };
-		9B96A50C215F4B5F003D1CD8 /* PKKLineTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A507215F4B5F003D1CD8 /* PKKLineTool.swift */; };
-		9B96A50D215F4B5F003D1CD8 /* PKKLineParamters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A508215F4B5F003D1CD8 /* PKKLineParamters.swift */; };
-		9B96A517215F4B67003D1CD8 /* PKKLineCancel@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B96A512215F4B67003D1CD8 /* PKKLineCancel@2x.jpg */; };
-		9B96A518215F4B67003D1CD8 /* LocalizedUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A513215F4B67003D1CD8 /* LocalizedUtils.swift */; };
-		9B96A519215F4B67003D1CD8 /* PKKLineCancel@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B96A514215F4B67003D1CD8 /* PKKLineCancel@3x.jpg */; };
-		9B96A51A215F4B67003D1CD8 /* LocalizedUtils.swift.tmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A515215F4B67003D1CD8 /* LocalizedUtils.swift.tmp.swift */; };
+		9BBFACE8232978DD006EB0CE /* PKTimeKLineSubStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACB5232978DD006EB0CE /* PKTimeKLineSubStruct.swift */; };
+		9BBFACE9232978DD006EB0CE /* PKKLineTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACB6232978DD006EB0CE /* PKKLineTimeView.swift */; };
+		9BBFACEA232978DD006EB0CE /* PKKLineCrossLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACB8232978DD006EB0CE /* PKKLineCrossLine.swift */; };
+		9BBFACEB232978DD006EB0CE /* PKKLineScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACB9232978DD006EB0CE /* PKKLineScrollView.swift */; };
+		9BBFACEC232978DD006EB0CE /* PKKLineRightYView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACBA232978DD006EB0CE /* PKKLineRightYView.swift */; };
+		9BBFACED232978DD006EB0CE /* PKKLineContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACBB232978DD006EB0CE /* PKKLineContainerView.swift */; };
+		9BBFACEE232978DD006EB0CE /* PKKLineTopButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACBC232978DD006EB0CE /* PKKLineTopButtonsView.swift */; };
+		9BBFACEF232978DD006EB0CE /* PKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACBE232978DD006EB0CE /* PKColor.swift */; };
+		9BBFACF0232978DD006EB0CE /* PKKLineTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACBF232978DD006EB0CE /* PKKLineTheme.swift */; };
+		9BBFACF1232978DD006EB0CE /* PKKLineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACC0232978DD006EB0CE /* PKKLineConfig.swift */; };
+		9BBFACF2232978DD006EB0CE /* PKKLineTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACC1232978DD006EB0CE /* PKKLineTool.swift */; };
+		9BBFACF3232978DD006EB0CE /* PKKLineParamters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACC2232978DD006EB0CE /* PKKLineParamters.swift */; };
+		9BBFACF4232978DD006EB0CE /* PKKLinePortraitValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACC4232978DD006EB0CE /* PKKLinePortraitValueView.swift */; };
+		9BBFACF5232978DD006EB0CE /* PKKLineValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACC5232978DD006EB0CE /* PKKLineValueView.swift */; };
+		9BBFACF6232978DD006EB0CE /* PkKLineVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACC7232978DD006EB0CE /* PkKLineVolumeView.swift */; };
+		9BBFACF7232978DD006EB0CE /* PKKLineVolumePainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACC8232978DD006EB0CE /* PKKLineVolumePainter.swift */; };
+		9BBFACF8232978DD006EB0CE /* PKKLineVolumeMAPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACC9232978DD006EB0CE /* PKKLineVolumeMAPainter.swift */; };
+		9BBFACF9232978DD006EB0CE /* PKKLineVolumeMAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACCA232978DD006EB0CE /* PKKLineVolumeMAView.swift */; };
+		9BBFACFA232978DD006EB0CE /* PKKLinePainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACCC232978DD006EB0CE /* PKKLinePainter.swift */; };
+		9BBFACFB232978DD006EB0CE /* PKKLineMAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACCD232978DD006EB0CE /* PKKLineMAView.swift */; };
+		9BBFACFC232978DD006EB0CE /* PKKLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACCE232978DD006EB0CE /* PKKLineView.swift */; };
+		9BBFACFD232978DD006EB0CE /* PKKLineMAPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACCF232978DD006EB0CE /* PKKLineMAPainter.swift */; };
+		9BBFACFE232978DD006EB0CE /* PKKLineAccessoryPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD1232978DD006EB0CE /* PKKLineAccessoryPainter.swift */; };
+		9BBFACFF232978DD006EB0CE /* PKKLineAccessoryMAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD2232978DD006EB0CE /* PKKLineAccessoryMAView.swift */; };
+		9BBFAD00232978DD006EB0CE /* PKKLineAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD3232978DD006EB0CE /* PKKLineAccessoryView.swift */; };
+		9BBFAD01232978DD006EB0CE /* PrincekinKlineFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBFACD4232978DD006EB0CE /* PrincekinKlineFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BBFAD02232978DD006EB0CE /* PKKLineDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD6232978DD006EB0CE /* PKKLineDataParser.swift */; };
+		9BBFAD03232978DD006EB0CE /* VerificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD7232978DD006EB0CE /* VerificationManager.swift */; };
+		9BBFAD04232978DD006EB0CE /* PKKLineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD9232978DD006EB0CE /* PKKLineCalculator.swift */; };
+		9BBFAD05232978DD006EB0CE /* PKKLineSubStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACDA232978DD006EB0CE /* PKKLineSubStruct.swift */; };
+		9BBFAD06232978DD006EB0CE /* PKKLineGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACDB232978DD006EB0CE /* PKKLineGroup.swift */; };
+		9BBFAD07232978DD006EB0CE /* PKKLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACDC232978DD006EB0CE /* PKKLine.swift */; };
+		9BBFAD08232978DD006EB0CE /* PKKLineCancel@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BBFACDE232978DD006EB0CE /* PKKLineCancel@2x.jpg */; };
+		9BBFAD09232978DD006EB0CE /* LocalizedUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACDF232978DD006EB0CE /* LocalizedUtils.swift */; };
+		9BBFAD0A232978DD006EB0CE /* PKKLineCancel@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BBFACE0232978DD006EB0CE /* PKKLineCancel@3x.jpg */; };
+		9BBFAD0B232978DD006EB0CE /* LocalizedUtils.swift.tmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE1232978DD006EB0CE /* LocalizedUtils.swift.tmp.swift */; };
+		9BBFAD0C232978DD006EB0CE /* PKKLineFullScreenTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE3232978DD006EB0CE /* PKKLineFullScreenTopView.swift */; };
+		9BBFAD0D232978DD006EB0CE /* PKKLineFullScreenMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE4232978DD006EB0CE /* PKKLineFullScreenMiddleView.swift */; };
+		9BBFAD0E232978DD006EB0CE /* PKKLineFullScreenBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE5232978DD006EB0CE /* PKKLineFullScreenBottomView.swift */; };
+		9BBFAD0F232978DD006EB0CE /* PKKLineFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE6232978DD006EB0CE /* PKKLineFullScreenView.swift */; };
+		9BBFAD10232978DD006EB0CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BBFACE7232978DD006EB0CE /* Info.plist */; };
 		DCA0DC2B52261989668788D3 /* Pods_PrincekinKlineFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB9E30EE7E34E34BF199710 /* Pods_PrincekinKlineFrame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C6E5260D70EC3C1049AFC7F /* Pods-PrincekinKlineFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrame/Pods-PrincekinKlineFrame.debug.xcconfig"; sourceTree = "<group>"; };
-		9B25A27F2272D49100BE4044 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B360AEE215F601700FB0EB5 /* PKKLineDataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineDataParser.swift; sourceTree = "<group>"; };
 		9B96A4B5215F4B20003D1CD8 /* PrincekinKlineFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrincekinKlineFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B96A4B8215F4B20003D1CD8 /* PrincekinKlineFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincekinKlineFrame.h; sourceTree = "<group>"; };
-		9B96A4C1215F4B4A003D1CD8 /* PKKLinePortraitValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLinePortraitValueView.swift; sourceTree = "<group>"; };
-		9B96A4C2215F4B4A003D1CD8 /* PKKLineValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineValueView.swift; sourceTree = "<group>"; };
-		9B96A4C4215F4B4A003D1CD8 /* PKKLineAccessoryPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineAccessoryPainter.swift; sourceTree = "<group>"; };
-		9B96A4C5215F4B4A003D1CD8 /* PKKLineAccessoryMAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineAccessoryMAView.swift; sourceTree = "<group>"; };
-		9B96A4C6215F4B4A003D1CD8 /* PKKLineAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineAccessoryView.swift; sourceTree = "<group>"; };
-		9B96A4C8215F4B4A003D1CD8 /* PKTimeKLineSubStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTimeKLineSubStruct.swift; sourceTree = "<group>"; };
-		9B96A4C9215F4B4B003D1CD8 /* PKKLineTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineTimeView.swift; sourceTree = "<group>"; };
-		9B96A4CB215F4B4B003D1CD8 /* PKKLineCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineCalculator.swift; sourceTree = "<group>"; };
-		9B96A4CC215F4B4B003D1CD8 /* PKKLineSubStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineSubStruct.swift; sourceTree = "<group>"; };
-		9B96A4CD215F4B4B003D1CD8 /* PKKLineGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineGroup.swift; sourceTree = "<group>"; };
-		9B96A4CE215F4B4B003D1CD8 /* PKKLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLine.swift; sourceTree = "<group>"; };
-		9B96A4D0215F4B4B003D1CD8 /* PkKLineVolumeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PkKLineVolumeView.swift; sourceTree = "<group>"; };
-		9B96A4D1215F4B4B003D1CD8 /* PKKLineVolumePainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineVolumePainter.swift; sourceTree = "<group>"; };
-		9B96A4D2215F4B4B003D1CD8 /* PKKLineVolumeMAPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineVolumeMAPainter.swift; sourceTree = "<group>"; };
-		9B96A4D3215F4B4B003D1CD8 /* PKKLineVolumeMAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineVolumeMAView.swift; sourceTree = "<group>"; };
-		9B96A4D5215F4B4B003D1CD8 /* VerificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationManager.swift; sourceTree = "<group>"; };
-		9B96A4D7215F4B4B003D1CD8 /* PKKLineFullScreenTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenTopView.swift; sourceTree = "<group>"; };
-		9B96A4D8215F4B4B003D1CD8 /* PKKLineFullScreenMiddleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenMiddleView.swift; sourceTree = "<group>"; };
-		9B96A4D9215F4B4B003D1CD8 /* PKKLineFullScreenBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenBottomView.swift; sourceTree = "<group>"; };
-		9B96A4DA215F4B4B003D1CD8 /* PKKLineFullScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenView.swift; sourceTree = "<group>"; };
-		9B96A4DC215F4B4B003D1CD8 /* PKKLinePainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLinePainter.swift; sourceTree = "<group>"; };
-		9B96A4DD215F4B4B003D1CD8 /* PKKLineMAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineMAView.swift; sourceTree = "<group>"; };
-		9B96A4DE215F4B4B003D1CD8 /* PKKLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineView.swift; sourceTree = "<group>"; };
-		9B96A4DF215F4B4B003D1CD8 /* PKKLineMAPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineMAPainter.swift; sourceTree = "<group>"; };
-		9B96A4E1215F4B4B003D1CD8 /* PKKLineCrossLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineCrossLine.swift; sourceTree = "<group>"; };
-		9B96A4E2215F4B4B003D1CD8 /* PKKLineScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineScrollView.swift; sourceTree = "<group>"; };
-		9B96A4E3215F4B4B003D1CD8 /* PKKLineRightYView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineRightYView.swift; sourceTree = "<group>"; };
-		9B96A4E4215F4B4B003D1CD8 /* PKKLineContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineContainerView.swift; sourceTree = "<group>"; };
-		9B96A4E5215F4B4B003D1CD8 /* PKKLineTopButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineTopButtonsView.swift; sourceTree = "<group>"; };
-		9B96A504215F4B5F003D1CD8 /* PKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKColor.swift; sourceTree = "<group>"; };
-		9B96A505215F4B5F003D1CD8 /* PKKLineTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineTheme.swift; sourceTree = "<group>"; };
-		9B96A506215F4B5F003D1CD8 /* PKKLineConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineConfig.swift; sourceTree = "<group>"; };
-		9B96A507215F4B5F003D1CD8 /* PKKLineTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineTool.swift; sourceTree = "<group>"; };
-		9B96A508215F4B5F003D1CD8 /* PKKLineParamters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineParamters.swift; sourceTree = "<group>"; };
-		9B96A512215F4B67003D1CD8 /* PKKLineCancel@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PKKLineCancel@2x.jpg"; sourceTree = "<group>"; };
-		9B96A513215F4B67003D1CD8 /* LocalizedUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedUtils.swift; sourceTree = "<group>"; };
-		9B96A514215F4B67003D1CD8 /* PKKLineCancel@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PKKLineCancel@3x.jpg"; sourceTree = "<group>"; };
-		9B96A515215F4B67003D1CD8 /* LocalizedUtils.swift.tmp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedUtils.swift.tmp.swift; sourceTree = "<group>"; };
+		9BBFACB5232978DD006EB0CE /* PKTimeKLineSubStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTimeKLineSubStruct.swift; sourceTree = "<group>"; };
+		9BBFACB6232978DD006EB0CE /* PKKLineTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineTimeView.swift; sourceTree = "<group>"; };
+		9BBFACB8232978DD006EB0CE /* PKKLineCrossLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineCrossLine.swift; sourceTree = "<group>"; };
+		9BBFACB9232978DD006EB0CE /* PKKLineScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineScrollView.swift; sourceTree = "<group>"; };
+		9BBFACBA232978DD006EB0CE /* PKKLineRightYView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineRightYView.swift; sourceTree = "<group>"; };
+		9BBFACBB232978DD006EB0CE /* PKKLineContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineContainerView.swift; sourceTree = "<group>"; };
+		9BBFACBC232978DD006EB0CE /* PKKLineTopButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineTopButtonsView.swift; sourceTree = "<group>"; };
+		9BBFACBE232978DD006EB0CE /* PKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKColor.swift; sourceTree = "<group>"; };
+		9BBFACBF232978DD006EB0CE /* PKKLineTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineTheme.swift; sourceTree = "<group>"; };
+		9BBFACC0232978DD006EB0CE /* PKKLineConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineConfig.swift; sourceTree = "<group>"; };
+		9BBFACC1232978DD006EB0CE /* PKKLineTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineTool.swift; sourceTree = "<group>"; };
+		9BBFACC2232978DD006EB0CE /* PKKLineParamters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineParamters.swift; sourceTree = "<group>"; };
+		9BBFACC4232978DD006EB0CE /* PKKLinePortraitValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLinePortraitValueView.swift; sourceTree = "<group>"; };
+		9BBFACC5232978DD006EB0CE /* PKKLineValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineValueView.swift; sourceTree = "<group>"; };
+		9BBFACC7232978DD006EB0CE /* PkKLineVolumeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PkKLineVolumeView.swift; sourceTree = "<group>"; };
+		9BBFACC8232978DD006EB0CE /* PKKLineVolumePainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineVolumePainter.swift; sourceTree = "<group>"; };
+		9BBFACC9232978DD006EB0CE /* PKKLineVolumeMAPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineVolumeMAPainter.swift; sourceTree = "<group>"; };
+		9BBFACCA232978DD006EB0CE /* PKKLineVolumeMAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineVolumeMAView.swift; sourceTree = "<group>"; };
+		9BBFACCC232978DD006EB0CE /* PKKLinePainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLinePainter.swift; sourceTree = "<group>"; };
+		9BBFACCD232978DD006EB0CE /* PKKLineMAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineMAView.swift; sourceTree = "<group>"; };
+		9BBFACCE232978DD006EB0CE /* PKKLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineView.swift; sourceTree = "<group>"; };
+		9BBFACCF232978DD006EB0CE /* PKKLineMAPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineMAPainter.swift; sourceTree = "<group>"; };
+		9BBFACD1232978DD006EB0CE /* PKKLineAccessoryPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineAccessoryPainter.swift; sourceTree = "<group>"; };
+		9BBFACD2232978DD006EB0CE /* PKKLineAccessoryMAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineAccessoryMAView.swift; sourceTree = "<group>"; };
+		9BBFACD3232978DD006EB0CE /* PKKLineAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineAccessoryView.swift; sourceTree = "<group>"; };
+		9BBFACD4232978DD006EB0CE /* PrincekinKlineFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincekinKlineFrame.h; sourceTree = "<group>"; };
+		9BBFACD6232978DD006EB0CE /* PKKLineDataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineDataParser.swift; sourceTree = "<group>"; };
+		9BBFACD7232978DD006EB0CE /* VerificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationManager.swift; sourceTree = "<group>"; };
+		9BBFACD9232978DD006EB0CE /* PKKLineCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineCalculator.swift; sourceTree = "<group>"; };
+		9BBFACDA232978DD006EB0CE /* PKKLineSubStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineSubStruct.swift; sourceTree = "<group>"; };
+		9BBFACDB232978DD006EB0CE /* PKKLineGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineGroup.swift; sourceTree = "<group>"; };
+		9BBFACDC232978DD006EB0CE /* PKKLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLine.swift; sourceTree = "<group>"; };
+		9BBFACDE232978DD006EB0CE /* PKKLineCancel@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PKKLineCancel@2x.jpg"; sourceTree = "<group>"; };
+		9BBFACDF232978DD006EB0CE /* LocalizedUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedUtils.swift; sourceTree = "<group>"; };
+		9BBFACE0232978DD006EB0CE /* PKKLineCancel@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PKKLineCancel@3x.jpg"; sourceTree = "<group>"; };
+		9BBFACE1232978DD006EB0CE /* LocalizedUtils.swift.tmp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedUtils.swift.tmp.swift; sourceTree = "<group>"; };
+		9BBFACE3232978DD006EB0CE /* PKKLineFullScreenTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenTopView.swift; sourceTree = "<group>"; };
+		9BBFACE4232978DD006EB0CE /* PKKLineFullScreenMiddleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenMiddleView.swift; sourceTree = "<group>"; };
+		9BBFACE5232978DD006EB0CE /* PKKLineFullScreenBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenBottomView.swift; sourceTree = "<group>"; };
+		9BBFACE6232978DD006EB0CE /* PKKLineFullScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenView.swift; sourceTree = "<group>"; };
+		9BBFACE7232978DD006EB0CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0551952965085C61FE8C9A2 /* Pods-PrincekinKlineFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrame/Pods-PrincekinKlineFrame.release.xcconfig"; sourceTree = "<group>"; };
 		DEB9E30EE7E34E34BF199710 /* Pods_PrincekinKlineFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrincekinKlineFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,7 +131,7 @@
 		9B96A4AB215F4B1F003D1CD8 = {
 			isa = PBXGroup;
 			children = (
-				9B96A4B7215F4B20003D1CD8 /* PrincekinKlineFrame */,
+				9BBFACB3232978DD006EB0CE /* PrincekinKline */,
 				9B96A4B6215F4B20003D1CD8 /* Products */,
 				98FC555959507F4E22C15E74 /* Pods */,
 				86AC11DDFB77076D3C43A9BC /* Frameworks */,
@@ -145,140 +146,140 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B96A4B7215F4B20003D1CD8 /* PrincekinKlineFrame */ = {
+		9BBFACB3232978DD006EB0CE /* PrincekinKline */ = {
 			isa = PBXGroup;
 			children = (
-				9B25A27F2272D49100BE4044 /* Info.plist */,
-				9B96A4B8215F4B20003D1CD8 /* PrincekinKlineFrame.h */,
-				9B96A4D4215F4B4B003D1CD8 /* Manager */,
-				9B96A4CA215F4B4B003D1CD8 /* Model */,
-				9B96A4C3215F4B4A003D1CD8 /* PKKLineAccessoryView */,
-				9B96A4E0215F4B4B003D1CD8 /* PKKLineContainerView */,
-				9B96A4D6215F4B4B003D1CD8 /* PKKLineFullScreenView */,
-				9B96A4C7215F4B4A003D1CD8 /* PKKLineTimeView */,
-				9B96A4C0215F4B4A003D1CD8 /* PKKLineValueView */,
-				9B96A4DB215F4B4B003D1CD8 /* PKKLineView */,
-				9B96A4CF215F4B4B003D1CD8 /* PKKLineVolumeView */,
-				9B96A503215F4B5F003D1CD8 /* Configuration */,
-				9B96A50E215F4B67003D1CD8 /* Resource */,
+				9BBFACB4232978DD006EB0CE /* PKKLineTimeView */,
+				9BBFACB7232978DD006EB0CE /* PKKLineContainerView */,
+				9BBFACBD232978DD006EB0CE /* Configuration */,
+				9BBFACC3232978DD006EB0CE /* PKKLineValueView */,
+				9BBFACC6232978DD006EB0CE /* PKKLineVolumeView */,
+				9BBFACCB232978DD006EB0CE /* PKKLineView */,
+				9BBFACD0232978DD006EB0CE /* PKKLineAccessoryView */,
+				9BBFACD4232978DD006EB0CE /* PrincekinKlineFrame.h */,
+				9BBFACD5232978DD006EB0CE /* Manager */,
+				9BBFACD8232978DD006EB0CE /* Model */,
+				9BBFACDD232978DD006EB0CE /* Resource */,
+				9BBFACE2232978DD006EB0CE /* PKKLineFullScreenView */,
+				9BBFACE7232978DD006EB0CE /* Info.plist */,
 			);
-			path = PrincekinKlineFrame;
+			path = PrincekinKline;
 			sourceTree = "<group>";
 		};
-		9B96A4C0215F4B4A003D1CD8 /* PKKLineValueView */ = {
+		9BBFACB4232978DD006EB0CE /* PKKLineTimeView */ = {
 			isa = PBXGroup;
 			children = (
-				9B96A4C1215F4B4A003D1CD8 /* PKKLinePortraitValueView.swift */,
-				9B96A4C2215F4B4A003D1CD8 /* PKKLineValueView.swift */,
-			);
-			path = PKKLineValueView;
-			sourceTree = "<group>";
-		};
-		9B96A4C3215F4B4A003D1CD8 /* PKKLineAccessoryView */ = {
-			isa = PBXGroup;
-			children = (
-				9B96A4C4215F4B4A003D1CD8 /* PKKLineAccessoryPainter.swift */,
-				9B96A4C5215F4B4A003D1CD8 /* PKKLineAccessoryMAView.swift */,
-				9B96A4C6215F4B4A003D1CD8 /* PKKLineAccessoryView.swift */,
-			);
-			path = PKKLineAccessoryView;
-			sourceTree = "<group>";
-		};
-		9B96A4C7215F4B4A003D1CD8 /* PKKLineTimeView */ = {
-			isa = PBXGroup;
-			children = (
-				9B96A4C8215F4B4A003D1CD8 /* PKTimeKLineSubStruct.swift */,
-				9B96A4C9215F4B4B003D1CD8 /* PKKLineTimeView.swift */,
+				9BBFACB5232978DD006EB0CE /* PKTimeKLineSubStruct.swift */,
+				9BBFACB6232978DD006EB0CE /* PKKLineTimeView.swift */,
 			);
 			path = PKKLineTimeView;
 			sourceTree = "<group>";
 		};
-		9B96A4CA215F4B4B003D1CD8 /* Model */ = {
+		9BBFACB7232978DD006EB0CE /* PKKLineContainerView */ = {
 			isa = PBXGroup;
 			children = (
-				9B96A4CB215F4B4B003D1CD8 /* PKKLineCalculator.swift */,
-				9B96A4CC215F4B4B003D1CD8 /* PKKLineSubStruct.swift */,
-				9B96A4CD215F4B4B003D1CD8 /* PKKLineGroup.swift */,
-				9B96A4CE215F4B4B003D1CD8 /* PKKLine.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		9B96A4CF215F4B4B003D1CD8 /* PKKLineVolumeView */ = {
-			isa = PBXGroup;
-			children = (
-				9B96A4D0215F4B4B003D1CD8 /* PkKLineVolumeView.swift */,
-				9B96A4D1215F4B4B003D1CD8 /* PKKLineVolumePainter.swift */,
-				9B96A4D2215F4B4B003D1CD8 /* PKKLineVolumeMAPainter.swift */,
-				9B96A4D3215F4B4B003D1CD8 /* PKKLineVolumeMAView.swift */,
-			);
-			path = PKKLineVolumeView;
-			sourceTree = "<group>";
-		};
-		9B96A4D4215F4B4B003D1CD8 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				9B360AEE215F601700FB0EB5 /* PKKLineDataParser.swift */,
-				9B96A4D5215F4B4B003D1CD8 /* VerificationManager.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		9B96A4D6215F4B4B003D1CD8 /* PKKLineFullScreenView */ = {
-			isa = PBXGroup;
-			children = (
-				9B96A4D7215F4B4B003D1CD8 /* PKKLineFullScreenTopView.swift */,
-				9B96A4D8215F4B4B003D1CD8 /* PKKLineFullScreenMiddleView.swift */,
-				9B96A4D9215F4B4B003D1CD8 /* PKKLineFullScreenBottomView.swift */,
-				9B96A4DA215F4B4B003D1CD8 /* PKKLineFullScreenView.swift */,
-			);
-			path = PKKLineFullScreenView;
-			sourceTree = "<group>";
-		};
-		9B96A4DB215F4B4B003D1CD8 /* PKKLineView */ = {
-			isa = PBXGroup;
-			children = (
-				9B96A4DC215F4B4B003D1CD8 /* PKKLinePainter.swift */,
-				9B96A4DD215F4B4B003D1CD8 /* PKKLineMAView.swift */,
-				9B96A4DE215F4B4B003D1CD8 /* PKKLineView.swift */,
-				9B96A4DF215F4B4B003D1CD8 /* PKKLineMAPainter.swift */,
-			);
-			path = PKKLineView;
-			sourceTree = "<group>";
-		};
-		9B96A4E0215F4B4B003D1CD8 /* PKKLineContainerView */ = {
-			isa = PBXGroup;
-			children = (
-				9B96A4E1215F4B4B003D1CD8 /* PKKLineCrossLine.swift */,
-				9B96A4E2215F4B4B003D1CD8 /* PKKLineScrollView.swift */,
-				9B96A4E3215F4B4B003D1CD8 /* PKKLineRightYView.swift */,
-				9B96A4E4215F4B4B003D1CD8 /* PKKLineContainerView.swift */,
-				9B96A4E5215F4B4B003D1CD8 /* PKKLineTopButtonsView.swift */,
+				9BBFACB8232978DD006EB0CE /* PKKLineCrossLine.swift */,
+				9BBFACB9232978DD006EB0CE /* PKKLineScrollView.swift */,
+				9BBFACBA232978DD006EB0CE /* PKKLineRightYView.swift */,
+				9BBFACBB232978DD006EB0CE /* PKKLineContainerView.swift */,
+				9BBFACBC232978DD006EB0CE /* PKKLineTopButtonsView.swift */,
 			);
 			path = PKKLineContainerView;
 			sourceTree = "<group>";
 		};
-		9B96A503215F4B5F003D1CD8 /* Configuration */ = {
+		9BBFACBD232978DD006EB0CE /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				9B96A504215F4B5F003D1CD8 /* PKColor.swift */,
-				9B96A505215F4B5F003D1CD8 /* PKKLineTheme.swift */,
-				9B96A506215F4B5F003D1CD8 /* PKKLineConfig.swift */,
-				9B96A507215F4B5F003D1CD8 /* PKKLineTool.swift */,
-				9B96A508215F4B5F003D1CD8 /* PKKLineParamters.swift */,
+				9BBFACBE232978DD006EB0CE /* PKColor.swift */,
+				9BBFACBF232978DD006EB0CE /* PKKLineTheme.swift */,
+				9BBFACC0232978DD006EB0CE /* PKKLineConfig.swift */,
+				9BBFACC1232978DD006EB0CE /* PKKLineTool.swift */,
+				9BBFACC2232978DD006EB0CE /* PKKLineParamters.swift */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		9B96A50E215F4B67003D1CD8 /* Resource */ = {
+		9BBFACC3232978DD006EB0CE /* PKKLineValueView */ = {
 			isa = PBXGroup;
 			children = (
-				9B96A512215F4B67003D1CD8 /* PKKLineCancel@2x.jpg */,
-				9B96A513215F4B67003D1CD8 /* LocalizedUtils.swift */,
-				9B96A514215F4B67003D1CD8 /* PKKLineCancel@3x.jpg */,
-				9B96A515215F4B67003D1CD8 /* LocalizedUtils.swift.tmp.swift */,
+				9BBFACC4232978DD006EB0CE /* PKKLinePortraitValueView.swift */,
+				9BBFACC5232978DD006EB0CE /* PKKLineValueView.swift */,
+			);
+			path = PKKLineValueView;
+			sourceTree = "<group>";
+		};
+		9BBFACC6232978DD006EB0CE /* PKKLineVolumeView */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFACC7232978DD006EB0CE /* PkKLineVolumeView.swift */,
+				9BBFACC8232978DD006EB0CE /* PKKLineVolumePainter.swift */,
+				9BBFACC9232978DD006EB0CE /* PKKLineVolumeMAPainter.swift */,
+				9BBFACCA232978DD006EB0CE /* PKKLineVolumeMAView.swift */,
+			);
+			path = PKKLineVolumeView;
+			sourceTree = "<group>";
+		};
+		9BBFACCB232978DD006EB0CE /* PKKLineView */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFACCC232978DD006EB0CE /* PKKLinePainter.swift */,
+				9BBFACCD232978DD006EB0CE /* PKKLineMAView.swift */,
+				9BBFACCE232978DD006EB0CE /* PKKLineView.swift */,
+				9BBFACCF232978DD006EB0CE /* PKKLineMAPainter.swift */,
+			);
+			path = PKKLineView;
+			sourceTree = "<group>";
+		};
+		9BBFACD0232978DD006EB0CE /* PKKLineAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFACD1232978DD006EB0CE /* PKKLineAccessoryPainter.swift */,
+				9BBFACD2232978DD006EB0CE /* PKKLineAccessoryMAView.swift */,
+				9BBFACD3232978DD006EB0CE /* PKKLineAccessoryView.swift */,
+			);
+			path = PKKLineAccessoryView;
+			sourceTree = "<group>";
+		};
+		9BBFACD5232978DD006EB0CE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFACD6232978DD006EB0CE /* PKKLineDataParser.swift */,
+				9BBFACD7232978DD006EB0CE /* VerificationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9BBFACD8232978DD006EB0CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFACD9232978DD006EB0CE /* PKKLineCalculator.swift */,
+				9BBFACDA232978DD006EB0CE /* PKKLineSubStruct.swift */,
+				9BBFACDB232978DD006EB0CE /* PKKLineGroup.swift */,
+				9BBFACDC232978DD006EB0CE /* PKKLine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BBFACDD232978DD006EB0CE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFACDE232978DD006EB0CE /* PKKLineCancel@2x.jpg */,
+				9BBFACDF232978DD006EB0CE /* LocalizedUtils.swift */,
+				9BBFACE0232978DD006EB0CE /* PKKLineCancel@3x.jpg */,
+				9BBFACE1232978DD006EB0CE /* LocalizedUtils.swift.tmp.swift */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		9BBFACE2232978DD006EB0CE /* PKKLineFullScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFACE3232978DD006EB0CE /* PKKLineFullScreenTopView.swift */,
+				9BBFACE4232978DD006EB0CE /* PKKLineFullScreenMiddleView.swift */,
+				9BBFACE5232978DD006EB0CE /* PKKLineFullScreenBottomView.swift */,
+				9BBFACE6232978DD006EB0CE /* PKKLineFullScreenView.swift */,
+			);
+			path = PKKLineFullScreenView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +289,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B96A4BA215F4B20003D1CD8 /* PrincekinKlineFrame.h in Headers */,
+				9BBFAD01232978DD006EB0CE /* PrincekinKlineFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +352,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B96A519215F4B67003D1CD8 /* PKKLineCancel@3x.jpg in Resources */,
-				9B96A517215F4B67003D1CD8 /* PKKLineCancel@2x.jpg in Resources */,
+				9BBFAD0A232978DD006EB0CE /* PKKLineCancel@3x.jpg in Resources */,
+				9BBFAD08232978DD006EB0CE /* PKKLineCancel@2x.jpg in Resources */,
+				9BBFAD10232978DD006EB0CE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,43 +386,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B96A500215F4B4C003D1CD8 /* PKKLineRightYView.swift in Sources */,
-				9B96A501215F4B4C003D1CD8 /* PKKLineContainerView.swift in Sources */,
-				9B96A518215F4B67003D1CD8 /* LocalizedUtils.swift in Sources */,
-				9B96A4FD215F4B4C003D1CD8 /* PKKLineMAPainter.swift in Sources */,
-				9B96A4F3215F4B4C003D1CD8 /* PKKLineVolumeMAPainter.swift in Sources */,
-				9B96A4E8215F4B4C003D1CD8 /* PKKLineAccessoryPainter.swift in Sources */,
-				9B96A502215F4B4C003D1CD8 /* PKKLineTopButtonsView.swift in Sources */,
-				9B96A4F5215F4B4C003D1CD8 /* VerificationManager.swift in Sources */,
-				9B96A4EA215F4B4C003D1CD8 /* PKKLineAccessoryView.swift in Sources */,
-				9B96A4ED215F4B4C003D1CD8 /* PKKLineCalculator.swift in Sources */,
-				9B96A4F1215F4B4C003D1CD8 /* PkKLineVolumeView.swift in Sources */,
-				9B96A4E6215F4B4C003D1CD8 /* PKKLinePortraitValueView.swift in Sources */,
-				9B360AEF215F601700FB0EB5 /* PKKLineDataParser.swift in Sources */,
-				9B96A4EF215F4B4C003D1CD8 /* PKKLineGroup.swift in Sources */,
-				9B96A4F8215F4B4C003D1CD8 /* PKKLineFullScreenBottomView.swift in Sources */,
-				9B96A4E9215F4B4C003D1CD8 /* PKKLineAccessoryMAView.swift in Sources */,
-				9B96A4EC215F4B4C003D1CD8 /* PKKLineTimeView.swift in Sources */,
-				9B96A4FF215F4B4C003D1CD8 /* PKKLineScrollView.swift in Sources */,
-				9B96A4F4215F4B4C003D1CD8 /* PKKLineVolumeMAView.swift in Sources */,
-				9B96A4F7215F4B4C003D1CD8 /* PKKLineFullScreenMiddleView.swift in Sources */,
-				9B96A50B215F4B5F003D1CD8 /* PKKLineConfig.swift in Sources */,
-				9B96A4E7215F4B4C003D1CD8 /* PKKLineValueView.swift in Sources */,
-				9B96A4F2215F4B4C003D1CD8 /* PKKLineVolumePainter.swift in Sources */,
-				9B96A4F0215F4B4C003D1CD8 /* PKKLine.swift in Sources */,
-				9B96A4EE215F4B4C003D1CD8 /* PKKLineSubStruct.swift in Sources */,
-				9B96A509215F4B5F003D1CD8 /* PKColor.swift in Sources */,
-				9B96A50C215F4B5F003D1CD8 /* PKKLineTool.swift in Sources */,
-				9B96A4F6215F4B4C003D1CD8 /* PKKLineFullScreenTopView.swift in Sources */,
-				9B96A4FE215F4B4C003D1CD8 /* PKKLineCrossLine.swift in Sources */,
-				9B96A4FA215F4B4C003D1CD8 /* PKKLinePainter.swift in Sources */,
-				9B96A50D215F4B5F003D1CD8 /* PKKLineParamters.swift in Sources */,
-				9B96A4F9215F4B4C003D1CD8 /* PKKLineFullScreenView.swift in Sources */,
-				9B96A4EB215F4B4C003D1CD8 /* PKTimeKLineSubStruct.swift in Sources */,
-				9B96A4FB215F4B4C003D1CD8 /* PKKLineMAView.swift in Sources */,
-				9B96A50A215F4B5F003D1CD8 /* PKKLineTheme.swift in Sources */,
-				9B96A4FC215F4B4C003D1CD8 /* PKKLineView.swift in Sources */,
-				9B96A51A215F4B67003D1CD8 /* LocalizedUtils.swift.tmp.swift in Sources */,
+				9BBFACE9232978DD006EB0CE /* PKKLineTimeView.swift in Sources */,
+				9BBFAD02232978DD006EB0CE /* PKKLineDataParser.swift in Sources */,
+				9BBFACED232978DD006EB0CE /* PKKLineContainerView.swift in Sources */,
+				9BBFACFD232978DD006EB0CE /* PKKLineMAPainter.swift in Sources */,
+				9BBFAD06232978DD006EB0CE /* PKKLineGroup.swift in Sources */,
+				9BBFACF4232978DD006EB0CE /* PKKLinePortraitValueView.swift in Sources */,
+				9BBFACF9232978DD006EB0CE /* PKKLineVolumeMAView.swift in Sources */,
+				9BBFAD0E232978DD006EB0CE /* PKKLineFullScreenBottomView.swift in Sources */,
+				9BBFACF5232978DD006EB0CE /* PKKLineValueView.swift in Sources */,
+				9BBFACF2232978DD006EB0CE /* PKKLineTool.swift in Sources */,
+				9BBFACEF232978DD006EB0CE /* PKColor.swift in Sources */,
+				9BBFACF6232978DD006EB0CE /* PkKLineVolumeView.swift in Sources */,
+				9BBFACE8232978DD006EB0CE /* PKTimeKLineSubStruct.swift in Sources */,
+				9BBFACEB232978DD006EB0CE /* PKKLineScrollView.swift in Sources */,
+				9BBFAD00232978DD006EB0CE /* PKKLineAccessoryView.swift in Sources */,
+				9BBFAD0B232978DD006EB0CE /* LocalizedUtils.swift.tmp.swift in Sources */,
+				9BBFAD0F232978DD006EB0CE /* PKKLineFullScreenView.swift in Sources */,
+				9BBFACEC232978DD006EB0CE /* PKKLineRightYView.swift in Sources */,
+				9BBFAD0D232978DD006EB0CE /* PKKLineFullScreenMiddleView.swift in Sources */,
+				9BBFAD07232978DD006EB0CE /* PKKLine.swift in Sources */,
+				9BBFACF1232978DD006EB0CE /* PKKLineConfig.swift in Sources */,
+				9BBFACEE232978DD006EB0CE /* PKKLineTopButtonsView.swift in Sources */,
+				9BBFACFB232978DD006EB0CE /* PKKLineMAView.swift in Sources */,
+				9BBFACFE232978DD006EB0CE /* PKKLineAccessoryPainter.swift in Sources */,
+				9BBFACF0232978DD006EB0CE /* PKKLineTheme.swift in Sources */,
+				9BBFAD03232978DD006EB0CE /* VerificationManager.swift in Sources */,
+				9BBFACF3232978DD006EB0CE /* PKKLineParamters.swift in Sources */,
+				9BBFAD09232978DD006EB0CE /* LocalizedUtils.swift in Sources */,
+				9BBFACFF232978DD006EB0CE /* PKKLineAccessoryMAView.swift in Sources */,
+				9BBFAD04232978DD006EB0CE /* PKKLineCalculator.swift in Sources */,
+				9BBFACF7232978DD006EB0CE /* PKKLineVolumePainter.swift in Sources */,
+				9BBFACFC232978DD006EB0CE /* PKKLineView.swift in Sources */,
+				9BBFAD05232978DD006EB0CE /* PKKLineSubStruct.swift in Sources */,
+				9BBFACFA232978DD006EB0CE /* PKKLinePainter.swift in Sources */,
+				9BBFACF8232978DD006EB0CE /* PKKLineVolumeMAPainter.swift in Sources */,
+				9BBFAD0C232978DD006EB0CE /* PKKLineFullScreenTopView.swift in Sources */,
+				9BBFACEA232978DD006EB0CE /* PKKLineCrossLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +560,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PrincekinKlineFrame/Info.plist;
+				INFOPLIST_FILE = PrincekinKline/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -585,7 +587,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PrincekinKlineFrame/Info.plist;
+				INFOPLIST_FILE = PrincekinKline/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

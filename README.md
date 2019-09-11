@@ -5,16 +5,16 @@ PrincekinKlineFrame
 [![Language: Swift-4.1](https://img.shields.io/badge/Swift-blue.svg)](https://swift.org)
 
 
-`PrincekinKlineFrame` 是使用Swift语言编写的在iOS平台上运行的k线图库，她具有轻量、敏捷、稳定等特点，可为虚拟货币、金融等行业提供专业的k线图信息显示，具有很强的实用性和可扩展性。
+`PrincekinKlineFrame` 是使用Swift语言编写的在iOS平台上运行的k线图库和深度图库的集合，她是由PrincekinKline和PrincekinDepthChart两个组件组成。她具有轻量、敏捷、稳定等特点，可为虚拟货币、金融等行业提供专业的k线图信息显示和深度图信息显示，具有很强的实用性和可扩展性。
 
 ----
 
 # 使用文档
-
+- PrincekinKline
 ## 安装
 
 ### CocoaPods
-1.使用CocoaPods安装，pod 'PrincekinKlineFrame'
+1.使用CocoaPods安装，pod 'PrincekinKlineFrame/PrincekinKline'
 
 2.引入 'import PrincekinKlineFrame'
 ## 使用
