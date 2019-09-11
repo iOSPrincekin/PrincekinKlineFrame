@@ -10,7 +10,7 @@ PrincekinKlineFrame
 ----
 
 # 使用文档
-- PrincekinKline
+- `PrincekinKline`是Swift语言编写的在iOS平台上运行的k线图库组件
 ## 安装
 
 ### CocoaPods
@@ -90,6 +90,21 @@ PrincekinKlineFrame
 [![img](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/横屏.gif)](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/横屏.gif)
 
 </details>
+
+
+----
+
+
+- `PrincekinDepthChart`是Swift语言编写的在iOS平台上运行的深度图组件
+## 安装
+
+### CocoaPods
+1.使用CocoaPods安装，pod 'PrincekinKlineFrame/PrincekinDepthChart'
+
+2.引入 'import PrincekinKlineFrame'
+## 使用
+
+
 
 ----
 # 许可
