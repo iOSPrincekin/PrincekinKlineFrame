@@ -32,7 +32,6 @@
 		9BBFACFE232978DD006EB0CE /* PKKLineAccessoryPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD1232978DD006EB0CE /* PKKLineAccessoryPainter.swift */; };
 		9BBFACFF232978DD006EB0CE /* PKKLineAccessoryMAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD2232978DD006EB0CE /* PKKLineAccessoryMAView.swift */; };
 		9BBFAD00232978DD006EB0CE /* PKKLineAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD3232978DD006EB0CE /* PKKLineAccessoryView.swift */; };
-		9BBFAD01232978DD006EB0CE /* PrincekinKlineFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBFACD4232978DD006EB0CE /* PrincekinKlineFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BBFAD02232978DD006EB0CE /* PKKLineDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD6232978DD006EB0CE /* PKKLineDataParser.swift */; };
 		9BBFAD03232978DD006EB0CE /* VerificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD7232978DD006EB0CE /* VerificationManager.swift */; };
 		9BBFAD04232978DD006EB0CE /* PKKLineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACD9232978DD006EB0CE /* PKKLineCalculator.swift */; };
@@ -48,6 +47,8 @@
 		9BBFAD0E232978DD006EB0CE /* PKKLineFullScreenBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE5232978DD006EB0CE /* PKKLineFullScreenBottomView.swift */; };
 		9BBFAD0F232978DD006EB0CE /* PKKLineFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE6232978DD006EB0CE /* PKKLineFullScreenView.swift */; };
 		9BBFAD10232978DD006EB0CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BBFACE7232978DD006EB0CE /* Info.plist */; };
+		9BBFAD122329853D006EB0CE /* PrincekinKlineFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBFAD112329853D006EB0CE /* PrincekinKlineFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BBFAD17232985CF006EB0CE /* PrincekinDepthChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFAD16232985CF006EB0CE /* PrincekinDepthChart.swift */; };
 		DCA0DC2B52261989668788D3 /* Pods_PrincekinKlineFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB9E30EE7E34E34BF199710 /* Pods_PrincekinKlineFrame.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,7 +80,6 @@
 		9BBFACD1232978DD006EB0CE /* PKKLineAccessoryPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineAccessoryPainter.swift; sourceTree = "<group>"; };
 		9BBFACD2232978DD006EB0CE /* PKKLineAccessoryMAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineAccessoryMAView.swift; sourceTree = "<group>"; };
 		9BBFACD3232978DD006EB0CE /* PKKLineAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineAccessoryView.swift; sourceTree = "<group>"; };
-		9BBFACD4232978DD006EB0CE /* PrincekinKlineFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincekinKlineFrame.h; sourceTree = "<group>"; };
 		9BBFACD6232978DD006EB0CE /* PKKLineDataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineDataParser.swift; sourceTree = "<group>"; };
 		9BBFACD7232978DD006EB0CE /* VerificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationManager.swift; sourceTree = "<group>"; };
 		9BBFACD9232978DD006EB0CE /* PKKLineCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineCalculator.swift; sourceTree = "<group>"; };
@@ -95,6 +95,8 @@
 		9BBFACE5232978DD006EB0CE /* PKKLineFullScreenBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenBottomView.swift; sourceTree = "<group>"; };
 		9BBFACE6232978DD006EB0CE /* PKKLineFullScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenView.swift; sourceTree = "<group>"; };
 		9BBFACE7232978DD006EB0CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BBFAD112329853D006EB0CE /* PrincekinKlineFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincekinKlineFrame.h; sourceTree = "<group>"; };
+		9BBFAD16232985CF006EB0CE /* PrincekinDepthChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincekinDepthChart.swift; sourceTree = "<group>"; };
 		D0551952965085C61FE8C9A2 /* Pods-PrincekinKlineFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrame/Pods-PrincekinKlineFrame.release.xcconfig"; sourceTree = "<group>"; };
 		DEB9E30EE7E34E34BF199710 /* Pods_PrincekinKlineFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrincekinKlineFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,6 +133,8 @@
 		9B96A4AB215F4B1F003D1CD8 = {
 			isa = PBXGroup;
 			children = (
+				9BBFAD15232985CF006EB0CE /* PrincekinDepthChart */,
+				9BBFAD112329853D006EB0CE /* PrincekinKlineFrame.h */,
 				9BBFACB3232978DD006EB0CE /* PrincekinKline */,
 				9B96A4B6215F4B20003D1CD8 /* Products */,
 				98FC555959507F4E22C15E74 /* Pods */,
@@ -156,7 +160,6 @@
 				9BBFACC6232978DD006EB0CE /* PKKLineVolumeView */,
 				9BBFACCB232978DD006EB0CE /* PKKLineView */,
 				9BBFACD0232978DD006EB0CE /* PKKLineAccessoryView */,
-				9BBFACD4232978DD006EB0CE /* PrincekinKlineFrame.h */,
 				9BBFACD5232978DD006EB0CE /* Manager */,
 				9BBFACD8232978DD006EB0CE /* Model */,
 				9BBFACDD232978DD006EB0CE /* Resource */,
@@ -282,6 +285,14 @@
 			path = PKKLineFullScreenView;
 			sourceTree = "<group>";
 		};
+		9BBFAD15232985CF006EB0CE /* PrincekinDepthChart */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFAD16232985CF006EB0CE /* PrincekinDepthChart.swift */,
+			);
+			path = PrincekinDepthChart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -289,7 +300,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BBFAD01232978DD006EB0CE /* PrincekinKlineFrame.h in Headers */,
+				9BBFAD122329853D006EB0CE /* PrincekinKlineFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +417,7 @@
 				9BBFACEC232978DD006EB0CE /* PKKLineRightYView.swift in Sources */,
 				9BBFAD0D232978DD006EB0CE /* PKKLineFullScreenMiddleView.swift in Sources */,
 				9BBFAD07232978DD006EB0CE /* PKKLine.swift in Sources */,
+				9BBFAD17232985CF006EB0CE /* PrincekinDepthChart.swift in Sources */,
 				9BBFACF1232978DD006EB0CE /* PKKLineConfig.swift in Sources */,
 				9BBFACEE232978DD006EB0CE /* PKKLineTopButtonsView.swift in Sources */,
 				9BBFACFB232978DD006EB0CE /* PKKLineMAView.swift in Sources */,
