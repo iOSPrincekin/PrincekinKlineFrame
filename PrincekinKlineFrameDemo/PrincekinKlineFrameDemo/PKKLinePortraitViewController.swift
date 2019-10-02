@@ -20,10 +20,6 @@ class PKKLinePortraitViewController: UIViewController{
         super.viewDidLoad()
 		klineView.wSymbol = "BTC/USDT"
     }
-//    override func viewDidAppear(_ animated: Bool) {
-//        super.viewDidAppear(true)
-//		
-//    }
 	//fullVC  右边的“index”按钮的点击事件传递给kLineView
     func clickKlineIndexView(_ str : String) {
         klineView.indexButtonBeClickedBlock!(str)

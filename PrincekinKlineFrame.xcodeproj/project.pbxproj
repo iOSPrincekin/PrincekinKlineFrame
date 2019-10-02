@@ -46,7 +46,6 @@
 		9BBFAD0D232978DD006EB0CE /* PKKLineFullScreenMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE4232978DD006EB0CE /* PKKLineFullScreenMiddleView.swift */; };
 		9BBFAD0E232978DD006EB0CE /* PKKLineFullScreenBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE5232978DD006EB0CE /* PKKLineFullScreenBottomView.swift */; };
 		9BBFAD0F232978DD006EB0CE /* PKKLineFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE6232978DD006EB0CE /* PKKLineFullScreenView.swift */; };
-		9BBFAD10232978DD006EB0CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BBFACE7232978DD006EB0CE /* Info.plist */; };
 		9BBFAD122329853D006EB0CE /* PrincekinKlineFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBFAD112329853D006EB0CE /* PrincekinKlineFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BBFAD17232985CF006EB0CE /* PrincekinDepthChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFAD16232985CF006EB0CE /* PrincekinDepthChart.swift */; };
 		DCA0DC2B52261989668788D3 /* Pods_PrincekinKlineFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB9E30EE7E34E34BF199710 /* Pods_PrincekinKlineFrame.framework */; };
@@ -365,7 +364,6 @@
 			files = (
 				9BBFAD0A232978DD006EB0CE /* PKKLineCancel@3x.jpg in Resources */,
 				9BBFAD08232978DD006EB0CE /* PKKLineCancel@2x.jpg in Resources */,
-				9BBFAD10232978DD006EB0CE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

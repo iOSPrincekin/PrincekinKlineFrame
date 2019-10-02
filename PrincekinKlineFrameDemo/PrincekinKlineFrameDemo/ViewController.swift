@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 	var _portaitVC: PKKLinePortraitViewController!
 	var _fullVC: PKFullScreenKLineViewController!
-	
+	var wfsDepthVC : KLineDepthViewController?
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func FullScreenVCClick(_ sender: UIButton) {
+    /*
         let sureAction = UIAlertAction.init(title: "确定", style: .default) { (action) in
           UIApplication.shared.openURL(URL(string: "https://github.com/iOSPrincekin/PrincekinKlineFrame")!)
         }
@@ -39,9 +40,15 @@ class ViewController: UIViewController {
         tmpAlertVC.addAction(sureAction)
         present(tmpAlertVC, animated: true, completion: nil)
 
-
+*/
+        let depthVC = KLineDepthViewController()
+		depthVC.currencyPairDetailModel = CurrencyPairDetailModel()
+        depthVC.wSymbol = "BTC/USDT";
+        wfsDepthVC = depthVC
+		navigationController?.pushViewController(depthVC, animated: true)
 
     }
-    
+
+		
 }
 
