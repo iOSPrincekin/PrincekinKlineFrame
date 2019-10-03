@@ -240,7 +240,7 @@ extension KLineDepthModelGroup{
         let extract200DataArray = extract200DataReplaceOriginalDepthDataDictionary()
         var delaPrice200DataArray = [[String : Double]]()
         extract200DataArray.forEach{
-            delaPrice200DataArray.append([WFSDataProcessManager.formatterArithmeticStringByTotaldigit($0.key, modelPriceDepth,modelPriceTotaldigit) : $0.value])
+            delaPrice200DataArray.append([PKDataProcessManager.formatterArithmeticStringByTotaldigit($0.key, modelPriceDepth,modelPriceTotaldigit) : $0.value])
         }
         
         //剔除价格为零的Dict

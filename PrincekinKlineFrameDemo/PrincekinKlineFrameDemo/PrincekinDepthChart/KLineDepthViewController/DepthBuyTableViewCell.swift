@@ -31,7 +31,7 @@ class DepthBuyTableViewCell: DepthTableViewCell {
         super.draw(rect)
         let backgroundRect = CGRect(x: frame.width * (1.0 - backgroundPercent), y: 0, width: frame.width * backgroundPercent, height: frame.height)
         let context = UIGraphicsGetCurrentContext()!
-        context.setFillColor(WFSTranslucenceGreenColor.cgColor)
+        context.setFillColor(PKTranslucenceGreenColor.cgColor)
         context.addRect(backgroundRect)
         context.fillPath()
     }

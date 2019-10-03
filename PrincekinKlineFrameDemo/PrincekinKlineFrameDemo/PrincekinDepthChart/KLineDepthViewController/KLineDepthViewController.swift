@@ -36,7 +36,7 @@ class KLineDepthViewController: UIViewController,UITableViewDelegate,UITableView
 	var asksModelArray: [KLineDepthModel]?{
 		didSet{
 			DispatchQueue.main.async(execute: {
-				//  if !WFSDepthUIHelper.sharedInstance.scrolling{
+				//  if !PKDepthUIHelper.sharedInstance.scrolling{
 				self.saleTableView.reloadData()
 				//   }
 			})
@@ -46,7 +46,7 @@ class KLineDepthViewController: UIViewController,UITableViewDelegate,UITableView
 		didSet{
 			
 			DispatchQueue.main.async(execute: {
-				//   if !WFSDepthUIHelper.sharedInstance.scrolling{
+				//   if !PKDepthUIHelper.sharedInstance.scrolling{
 				self.buyTableView.reloadData()
 				//   }
 			})

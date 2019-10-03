@@ -1,7 +1,7 @@
 
 
 //
-//  WFSTimerManager.swift
+//  PKTimerManager.swift
 //  Canonchain
 //
 //  Created by LEE on 4/18/18.
@@ -10,20 +10,20 @@
 
 import UIKit
 
-class WFSTimerManager: NSObject {
+class PKTimerManager: NSObject {
     var queue = DispatchQueue.global(qos: .default)
-    var timerHelperDictionary : [String:WFSTimerHelper] = [String:WFSTimerHelper]()
+    var timerHelperDictionary : [String:PKTimerHelper] = [String:PKTimerHelper]()
     //用于存放临时定时器 增加强引用  驱动定时器
     var tempTimerArray = [DispatchSource]()
     
-    static let sharedInstance = WFSTimerManager()
+    static let sharedInstance = PKTimerManager()
     private  override init() {}
     
     
-    func createTimerHelperWithHelperID(helperID:String) -> WFSTimerHelper  {
-        var timerHelper : WFSTimerHelper? = timerHelperDictionary[helperID]
+    func createTimerHelperWithHelperID(helperID:String) -> PKTimerHelper  {
+        var timerHelper : PKTimerHelper? = timerHelperDictionary[helperID]
         if timerHelper == nil{
-            timerHelper = WFSTimerHelper()
+            timerHelper = PKTimerHelper()
             timerHelper?.helperID = helperID
             timerHelperDictionary[helperID] = timerHelper
         }
@@ -65,14 +65,14 @@ class WFSTimerManager: NSObject {
     
  
 }
-//注意：WFSTimerHelper对象必须作为属性，否则无法启动
-class WFSTimerHelper: NSObject {
+//注意：PKTimerHelper对象必须作为属性，否则无法启动
+class PKTimerHelper: NSObject {
     var minuteNumber : Int?
     var secondNumber : Int?
     var wTimer : DispatchSource?
     var helperID : String?
-    typealias WFSTimerHelperBlock = (_ minuteNumber : Int,_ secondNumber : Int) -> Void
-    var timerHelperBlock : WFSTimerHelperBlock?
+    typealias PKTimerHelperBlock = (_ minuteNumber : Int,_ secondNumber : Int) -> Void
+    var timerHelperBlock : PKTimerHelperBlock?
     
     override init() {
         super.init()
@@ -85,12 +85,12 @@ class WFSTimerHelper: NSObject {
         weak var weakSelf = self
         if wTimer == nil {
           
-            wTimer = DispatchSource.makeTimerSource(queue: WFSTimerManager.sharedInstance.queue) as? DispatchSource
+            wTimer = DispatchSource.makeTimerSource(queue: PKTimerManager.sharedInstance.queue) as? DispatchSource
             wTimer?.schedule(deadline: .now(), repeating: pageStepTime )
             wTimer?.setEventHandler {
                 totalNumber -= 1
                 if totalNumber < 0{
-                    WFSTimerManager.sharedInstance.timerHelperDictionary.removeValue(forKey: (weakSelf?.helperID)!)
+                    PKTimerManager.sharedInstance.timerHelperDictionary.removeValue(forKey: (weakSelf?.helperID)!)
                     print("\(String(describing: weakSelf?.wTimer))--------\(String(describing: weakSelf))")
                     return
                 }
@@ -110,8 +110,8 @@ class WFSTimerHelper: NSObject {
    class func createTimerByInterval(_ interval : Int,_ IntimeBlcok : @escaping ()->Void) {
         let pageStepTime: DispatchTimeInterval = .milliseconds(interval)
     
-          let timer = DispatchSource.makeTimerSource(queue: WFSTimerManager.sharedInstance.queue) as! DispatchSource
-            WFSTimerManager.sharedInstance.tempTimerArray.append(timer)
+          let timer = DispatchSource.makeTimerSource(queue: PKTimerManager.sharedInstance.queue) as! DispatchSource
+            PKTimerManager.sharedInstance.tempTimerArray.append(timer)
     timer.schedule(deadline: .now(), repeating: pageStepTime )
             timer.setEventHandler {
                 DispatchQueue.main.async(execute: {
@@ -125,8 +125,8 @@ class WFSTimerHelper: NSObject {
     //每间隔一段时间执行  其他线程  类方法 直到程序结束才会销毁
    class func asyncTimerByInterval(_ interval : Int,_ IntimeBlcok : @escaping ()->Void) {
         let pageStepTime: DispatchTimeInterval = .milliseconds(interval)
-    let timer = DispatchSource.makeTimerSource(queue: WFSTimerManager.sharedInstance.queue) as! DispatchSource
-    WFSTimerManager.sharedInstance.tempTimerArray.append(timer)
+    let timer = DispatchSource.makeTimerSource(queue: PKTimerManager.sharedInstance.queue) as! DispatchSource
+    PKTimerManager.sharedInstance.tempTimerArray.append(timer)
     timer.schedule(deadline: .now(), repeating: pageStepTime )
     timer.setEventHandler {
             IntimeBlcok()
@@ -135,9 +135,9 @@ class WFSTimerHelper: NSObject {
     //每间隔一段时间执行  其他线程   对象方法
     func asyncTimerByInterval(_ interval : Int,_ IntimeBlcok : @escaping ()->Void) {
         let pageStepTime: DispatchTimeInterval = .milliseconds(interval)
-        let timer = DispatchSource.makeTimerSource(queue: WFSTimerManager.sharedInstance.queue) as! DispatchSource
+        let timer = DispatchSource.makeTimerSource(queue: PKTimerManager.sharedInstance.queue) as! DispatchSource
         wTimer = timer
-     //   WFSTimerManager.sharedInstance.tempTimerArray.append(timer)
+     //   PKTimerManager.sharedInstance.tempTimerArray.append(timer)
         timer.schedule(deadline: .now(), repeating: pageStepTime )
         timer.setEventHandler {
             IntimeBlcok()

@@ -2,7 +2,7 @@
 
 
 //
-//  WFSVerificationManager.swift
+//  PKVerificationManager.swift
 //  Canonchain
 //
 //  Created by LEE on 5/14/18.
@@ -11,8 +11,8 @@
 
 import UIKit
 
-//class WFSVerificationManager: NSObject {
-//    static let sharedInstance = WFSVerificationEnumManager()
+//class PKVerificationManager: NSObject {
+//    static let sharedInstance = PKVerificationEnumManager()
 //    private  override init() {}
 //    //判断手机号码，1开头的十一位数字
 //    class func checkPhoneNumberInput(_ text: String?) -> Bool {
@@ -36,7 +36,7 @@ import UIKit
 //
 //}
 
-enum WFSVerificationEnumManager {
+enum PKVerificationEnumManager {
     case email(_: String)
     case phoneNum(_: String)
     case carNum(_: String)

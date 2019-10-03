@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 	var _portaitVC: PKKLinePortraitViewController!
 	var _fullVC: PKFullScreenKLineViewController!
-	var wfsDepthVC : KLineDepthViewController?
+	var PKDepthVC : KLineDepthViewController?
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         let depthVC = KLineDepthViewController()
 		depthVC.currencyPairDetailModel = CurrencyPairDetailModel()
         depthVC.wSymbol = "BTC/USDT";
-        wfsDepthVC = depthVC
+        PKDepthVC = depthVC
 		navigationController?.pushViewController(depthVC, animated: true)
 
     }

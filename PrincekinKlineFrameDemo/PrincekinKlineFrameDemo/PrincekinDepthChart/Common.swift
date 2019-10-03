@@ -16,12 +16,6 @@ let wGreenColor = UIColorFromRGB(rgbValue : )
 // 获得RGB颜色
 
 
-func wColor(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat) -> UIColor {
-    return UIColor(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: 1)
-}
-func wColorAndAlpha(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat,_ alpha : CGFloat) -> UIColor {
-    return UIColor(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: alpha)
-}
 func UIColorFromRGB(rgbValue:Int) ->UIColor
 {
     return UIColorFromRGBAndAlpha(rgbValue: rgbValue, alpha: 1)
@@ -103,16 +97,16 @@ func IS_IPHONE_X()-> Bool{
     return HEIGHT() == 812.0
 }
 //主动ping时，对应定时器的id
-let WFSInitiativePingId = "WFSInitiativePing"
+let PKInitiativePingId = "PKInitiativePing"
 //MARK:=====================================自定义颜色值==========================
 //绿色
-let WFSGreenColor = UIColorFromRGB(rgbValue: 0x00B066)
+let PKGreenColor = UIColorFromRGB(rgbValue: 0x00B066)
 //橙色
-let WFSOrangeColor = UIColorFromRGB(rgbValue: 0xFF8617)
+let PKOrangeColor = UIColorFromRGB(rgbValue: 0xFF8617)
 //半透明绿色
-let WFSTranslucenceGreenColor = UIColorFromRGBAndAlpha(rgbValue:  0x00B066, alpha: CGFloat(0.2))
+let PKTranslucenceGreenColor = UIColorFromRGBAndAlpha(rgbValue:  0x00B066, alpha: CGFloat(0.2))
 //半透明橙色
-let WFSTranslucenceOrangeColor = UIColorFromRGBAndAlpha(rgbValue: 0xFF8617,alpha: CGFloat(0.2))
+let PKTranslucenceOrangeColor = UIColorFromRGBAndAlpha(rgbValue: 0xFF8617,alpha: CGFloat(0.2))
 //MARK: =====================================通知================
 
 let NOTIFICATION_NAME_fetchImageAndImageUrl = "notification_fetchImageAndImageUrl"
@@ -121,22 +115,22 @@ let NOTIFICATION_NAME_fabiCurrencyListLeftLabelStr = "fabiCurrencyListLeftLabelS
 //占位图片
 let PLACE_HOLDER_IMAGE = "PLACE_HOLDER_IMAGE"
 // token
-let WFS_TOKEN = "WFS_TOKEN"
+let PK_TOKEN = "PK_TOKEN"
 
 
 //MARK:=====================================宏定义参数集合===========
  //整个工程Realm数据库的名称
-let wCanonchainRealmName = "WFSCanonchainRealm"
+let wCanonchainRealmName = "PKCanonchainRealm"
  //行情数据写入Realm数据库的名称
-let wMarketPairDetailModelRealmName = "WFSMarketPairDetailModelRealm"
+let wMarketPairDetailModelRealmName = "PKMarketPairDetailModelRealm"
 //存储country plist时用到
-let wCountryDicArrayPlistName = "WFSCountryDicArray"
+let wCountryDicArrayPlistName = "PKCountryDicArray"
 //发送行情数据的通知名称
-let wMarketManagerNotification = "WFSMarketManagerNotification"
+let wMarketManagerNotification = "PKMarketManagerNotification"
 //发送涨幅榜的通知名称
-let wMarketIncreaseDataNotification = "WFSMarketIncreaseDataNotification"
+let wMarketIncreaseDataNotification = "PKMarketIncreaseDataNotification"
 //切换本地语言的通知名称
-let wChangeLanguageTypeNotification =  NSNotification.Name.init("WFSChangeLanguageTypeNotification")
+let wChangeLanguageTypeNotification =  NSNotification.Name.init("PKChangeLanguageTypeNotification")
 //币币交易设置和读取数据的key
 public let AsksFiveDepthModelGroupKey = "AsksFiveDepthModelGroupKey"
 public let AsksTenDepthModelGroupKey = "AsksTenDepthModelGroupKey"

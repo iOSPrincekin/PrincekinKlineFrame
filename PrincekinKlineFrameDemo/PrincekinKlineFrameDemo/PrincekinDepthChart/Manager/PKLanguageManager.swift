@@ -1,5 +1,5 @@
 //
-//  WFSLanguageManager.swift
+//  PKLanguageManager.swift
 //  Canonchain
 //
 //  Created by LEE on 8/1/18.
@@ -17,18 +17,18 @@ import UIKit
  
  
  */
-enum WFSLanguageType : String {
+enum PKLanguageType : String {
     case Chinese = "zh-Hans", English = "en"
-    public static func enumValue(_ rawValue: String) -> WFSLanguageType {
-        return WFSLanguageType.init(rawValue: rawValue)!
+    public static func enumValue(_ rawValue: String) -> PKLanguageType {
+        return PKLanguageType.init(rawValue: rawValue)!
     }
 }
 fileprivate var kBundleKey = 0
-class WFSLanguageManager : NSObject {
+class PKLanguageManager : NSObject {
     //网络请求时，加入header给后台
     var netRequestLanguage : String!
-    typealias ChangeLanguageBlock = (WFSLanguageType)->Int
-    static let sharedInstance = WFSLanguageManager()
+    typealias ChangeLanguageBlock = (PKLanguageType)->Int
+    static let sharedInstance = PKLanguageManager()
     //修改语言的block
     var changeLanguageBlock : ChangeLanguageBlock?
     private override init() {
@@ -38,7 +38,7 @@ class WFSLanguageManager : NSObject {
         print("模拟器语言切换之前：\(language1 ?? "")")
         language1 = language1.replacingOccurrences(of: "-CN", with: "")
         language1 = language1.replacingOccurrences(of: "-US", with: "")
-        languageType = WFSLanguageType.init(rawValue: language1)
+        languageType = PKLanguageType.init(rawValue: language1)
         if languageType == .Chinese{
             netRequestLanguage = "zh"
         }else{
@@ -67,7 +67,7 @@ class WFSLanguageManager : NSObject {
     
 
     //默认中文
-    var languageType : WFSLanguageType!{
+    var languageType : PKLanguageType!{
         set{
             if newValue != languageType{
                 let langArr1 = def.value(forKey: "AppleLanguages") as? [Any]
@@ -99,17 +99,17 @@ class WFSLanguageManager : NSObject {
             var language1 = langArr1?.first as! String
             language1 = language1.replacingOccurrences(of: "-CN", with: "")
             language1 = language1.replacingOccurrences(of: "-US", with: "")
-            return WFSLanguageType.init(rawValue: language1)
+            return PKLanguageType.init(rawValue: language1)
         }
     }
     func changeTabBarVC() {}
     //在切换语言后，要重新设置
-    func reloadWFSUserManagerAndCountrysInfo() {}
+    func reloadPKUserManagerAndCountrysInfo() {}
     deinit {
       //  NotificationCenter.default.removeObserver(self)
     }
 }
-class WFSLocalizableBundle: Bundle {
+class PKLocalizableBundle: Bundle {
     override func localizedString(forKey key: String, value: String?, table tableName: String?) -> String {
         let bundle: Bundle? = objc_getAssociatedObject(self, &kBundleKey) as? Bundle
         if bundle != nil {
@@ -129,7 +129,7 @@ extension Bundle: SelfAware {
         swizzleMethod
     }
     private static let swizzleMethod: Void = {
-    object_setClass(Bundle.main, WFSLocalizableBundle.self)
+    object_setClass(Bundle.main, PKLocalizableBundle.self)
     }()
 }
 

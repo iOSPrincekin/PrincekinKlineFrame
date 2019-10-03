@@ -15,9 +15,9 @@ open class CanonchainVCCenter: NSObject {
         case pop
     }
     //标记行情VC
-//    var marketVC : WFSMarketViewController?{
+//    var marketVC : PKMarketViewController?{
 //        get{
-//            return CanonchainVCCenter.getViewController(WFSMarketViewController.self) as! WFSMarketViewController
+//            return CanonchainVCCenter.getViewController(PKMarketViewController.self) as! PKMarketViewController
 //        }
 //    }
     

@@ -22,7 +22,7 @@ class DepthTableViewCell: UITableViewCell {
             amountLabel.text = "--"
             priceLabel.text = "--"
         }else{
-        amountLabel.text = WFSDataProcessManager.keepMultidigitDoublesOperationToString(model.amount, amountdigit)
+        amountLabel.text = PKDataProcessManager.keepMultidigitDoublesOperationToString(model.amount, amountdigit)
         priceLabel.text = model.price
         }
         backgroundPercent = model.percentage

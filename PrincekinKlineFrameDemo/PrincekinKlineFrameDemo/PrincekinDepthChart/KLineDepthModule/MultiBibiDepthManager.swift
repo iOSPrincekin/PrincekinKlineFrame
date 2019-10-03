@@ -24,7 +24,7 @@ class MultiBibiDepthManager: NSObject {
             getDepthDataByHttp()
         }
     }
-    var tSocketRocke : WFSSocketRocke!
+    var tSocketRocke : PKSocketRocke!
   
     //临时的数据存储  符合条件后再添加
     var temp_asksArray : [[String]]?
@@ -74,7 +74,7 @@ class MultiBibiDepthManager: NSObject {
         param["symbol"] = currencyPairDetailModel.symbol
         param["limit"] = 100
         let urlString : String = wGetDepthDataHttpURLString
-        WFSAlamofire.getDataWithURLStringAndParameterDic(urlString, param) {response in
+        PKAlamofire.getDataWithURLStringAndParameterDic(urlString, param) {response in
             
             let dataDic : NSDictionary? = response.value as? NSDictionary
             
@@ -112,7 +112,7 @@ class MultiBibiDepthManager: NSObject {
         if tSocketRocke == nil {
             //  ws://192.168.10.220:8070/ws/diff_depth@BTCUSDT
             let urlString = "ws://192.168.10.220:8070/ws/diff_depth@\(currencyPairDetailModel.symbol)"
-            let socketRocke = WFSSocketRocke.init(urlString)
+            let socketRocke = PKSocketRocke.init(urlString)
             socketRocke.socketDelegate = self
             tSocketRocke = socketRocke
         }else{
@@ -128,7 +128,7 @@ class MultiBibiDepthManager: NSObject {
         
     }
 }
-extension MultiBibiDepthManager : WFSSocketRockeDelegate{
+extension MultiBibiDepthManager : PKSocketRockeDelegate{
     func socketRockeConnectSuccess() {
         
     }

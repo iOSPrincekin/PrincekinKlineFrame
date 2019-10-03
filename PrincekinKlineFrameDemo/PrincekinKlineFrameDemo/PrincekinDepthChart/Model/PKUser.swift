@@ -1,5 +1,5 @@
 //
-//  WFSUser.swift
+//  PKUser.swift
 //  Canonchain
 //
 //  Created by LEE on 5/17/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 import RealmSwift
-class WFSUser: NSObject {
+class PKUser: NSObject {
     @objc dynamic var createTime : String = ""
     @objc dynamic var emailAddress : String = ""
     @objc dynamic var emailAddressAuth : Bool = false

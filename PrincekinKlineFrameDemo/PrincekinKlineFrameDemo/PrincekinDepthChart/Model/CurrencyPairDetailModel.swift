@@ -99,8 +99,8 @@ class CurrencyPairDetailModel: Object {
         
         let model = super.mj_setKeyValues(newKeyValues, context: context) as! CurrencyPairDetailModel?
         //进行位数处理
-        model?.Volume = WFSDataProcessManager.formatterArithmeticString(model?.Volume ?? "", Int(model?.totalDecimals  ?? "") ?? 8)
-        model?.lastPrice = WFSDataProcessManager.formatterArithmeticString(model?.lastPrice ?? "", priceDecimalsInt)
+        model?.Volume = PKDataProcessManager.formatterArithmeticString(model?.Volume ?? "", Int(model?.totalDecimals  ?? "") ?? 8)
+        model?.lastPrice = PKDataProcessManager.formatterArithmeticString(model?.lastPrice ?? "", priceDecimalsInt)
         model?.priceDecimalsInt = Int(model?.priceDecimals ?? "") ?? 4
         if model?.openPrice.count == 0 || model?.lastPrice.count == 0 {
             model?.calculatePriceChangePercent = 0
@@ -118,7 +118,7 @@ class CurrencyPairDetailModel: Object {
         let paramterDic : NSMutableDictionary = dicPointer.pointee
            if let symbolString = paramterDic["symbol"] as? String {
                     for titleString in CurrencyPairDetailModelGroup.sharedInstance.titleArray{
-                        if WFSVerificationEnumManager.matchSuffixCurrency(symbolString , titleString).isRight{
+                        if PKVerificationEnumManager.matchSuffixCurrency(symbolString , titleString).isRight{
                             paramterDic["quote"] = titleString
                             paramterDic["base"] = symbolString.components(separatedBy: titleString).first
                         }

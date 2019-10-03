@@ -1,5 +1,5 @@
 //
-//  WFSEssentialDataManager.swift
+//  PKEssentialDataManager.swift
 //  Canonchain
 //
 //  Created by LEE on 5/16/18.
@@ -8,8 +8,8 @@
 
 import UIKit
 //基础数据处理类
-class WFSEssentialDataManager: NSObject {
-    static let sharedInstance = WFSEssentialDataManager()
+class PKEssentialDataManager: NSObject {
+    static let sharedInstance = PKEssentialDataManager()
     private override init() {}
   //  var tFiatmoneyrate : Decimal?
     
@@ -49,7 +49,7 @@ class WFSEssentialDataManager: NSObject {
         let urlString = wGeGtfiatmoneyrateHttpURLString
         let paramterDic : NSMutableDictionary? = NSMutableDictionary.init()
         paramterDic!["symbol"] = "USD/CNY"
-        WFSAlamofire.getDataWithURLStringAndParameterDic(urlString, paramterDic) { respondData in
+        PKAlamofire.getDataWithURLStringAndParameterDic(urlString, paramterDic) { respondData in
             print("网络请求返回的用户data------------\(respondData)")
             if respondData.result.isSuccess {
                 print("返回成功")

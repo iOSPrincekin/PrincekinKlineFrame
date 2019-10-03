@@ -18,13 +18,13 @@
 		9B1D306D215CC5CC00434464 /* PKFullScreenKLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D306B215CC5CB00434464 /* PKFullScreenKLineViewController.swift */; };
 		9B360AF1215F660800FB0EB5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B360AF0215F660800FB0EB5 /* data.json */; };
 		9B360AF4215F696E00FB0EB5 /* SocketStob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B360AF3215F696E00FB0EB5 /* SocketStob.swift */; };
-		9B51E5BE23377E0E00A67CF9 /* WFSEssentialDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5BD23377E0E00A67CF9 /* WFSEssentialDataManager.swift */; };
-		9B51E5C023377E5C00A67CF9 /* WFSTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5BF23377E5C00A67CF9 /* WFSTimerManager.swift */; };
+		9B51E5BE23377E0E00A67CF9 /* PKEssentialDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5BD23377E0E00A67CF9 /* PKEssentialDataManager.swift */; };
+		9B51E5C023377E5C00A67CF9 /* PKTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5BF23377E5C00A67CF9 /* PKTimerManager.swift */; };
 		9B51E5C223377E8900A67CF9 /* CanonchainVCCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C123377E8900A67CF9 /* CanonchainVCCenter.swift */; };
-		9B51E5C423377EB600A67CF9 /* WFSAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C323377EB600A67CF9 /* WFSAlamofire.swift */; };
-		9B51E5C623377FA800A67CF9 /* WFSVerificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C523377FA800A67CF9 /* WFSVerificationManager.swift */; };
+		9B51E5C423377EB600A67CF9 /* PKAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C323377EB600A67CF9 /* PKAlamofire.swift */; };
+		9B51E5C623377FA800A67CF9 /* PKVerificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C523377FA800A67CF9 /* PKVerificationManager.swift */; };
 		9B51E5C82337800100A67CF9 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C72337800100A67CF9 /* String-Extension.swift */; };
-		9B51E5CA2337806900A67CF9 /* WFSLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C92337806900A67CF9 /* WFSLanguageManager.swift */; };
+		9B51E5CA2337806900A67CF9 /* PKLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C92337806900A67CF9 /* PKLanguageManager.swift */; };
 		9B51E5CC2337809200A67CF9 /* SwiftExtensionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5CB2337809200A67CF9 /* SwiftExtensionTool.swift */; };
 		9B95636B232A1F9B00226CE6 /* KLineDepthTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B956349232A1F9B00226CE6 /* KLineDepthTableView.swift */; };
 		9B95636C232A1F9B00226CE6 /* DepthBuyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95634B232A1F9B00226CE6 /* DepthBuyTableViewCell.swift */; };
@@ -35,19 +35,19 @@
 		9B956371232A1F9B00226CE6 /* DepthSaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B956350232A1F9B00226CE6 /* DepthSaleTableViewCell.swift */; };
 		9B956372232A1F9B00226CE6 /* KLineDepthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B956351232A1F9B00226CE6 /* KLineDepthViewController.xib */; };
 		9B956373232A1F9B00226CE6 /* DepthBuyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B956352232A1F9B00226CE6 /* DepthBuyTableViewCell.xib */; };
-		9B95637D232A1F9B00226CE6 /* WFSDataProcessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95635F232A1F9B00226CE6 /* WFSDataProcessManager.swift */; };
+		9B95637D232A1F9B00226CE6 /* PKDataProcessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95635F232A1F9B00226CE6 /* PKDataProcessManager.swift */; };
 		9B956389232A233E00226CE6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B956388232A233D00226CE6 /* Common.swift */; };
 		9B956393232A23AB00226CE6 /* AsksKLineDepthModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95638B232A23AB00226CE6 /* AsksKLineDepthModelGroup.swift */; };
 		9B956394232A23AB00226CE6 /* KLineDepthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95638C232A23AB00226CE6 /* KLineDepthModel.swift */; };
 		9B956395232A23AB00226CE6 /* BidsKLineDepthModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95638D232A23AB00226CE6 /* BidsKLineDepthModelGroup.swift */; };
 		9B956396232A23AB00226CE6 /* BibiDepthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95638E232A23AB00226CE6 /* BibiDepthManager.swift */; };
-		9B956397232A23AB00226CE6 /* WFSDepthUIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95638F232A23AB00226CE6 /* WFSDepthUIHelper.swift */; };
+		9B956397232A23AB00226CE6 /* PKDepthUIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95638F232A23AB00226CE6 /* PKDepthUIHelper.swift */; };
 		9B956398232A23AB00226CE6 /* KLineDepthModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B956390232A23AB00226CE6 /* KLineDepthModel1.swift */; };
 		9B956399232A23AB00226CE6 /* MultiBibiDepthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B956391232A23AB00226CE6 /* MultiBibiDepthManager.swift */; };
 		9B95639A232A23AB00226CE6 /* KLineDepthModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B956392232A23AB00226CE6 /* KLineDepthModelGroup.swift */; };
-		9B95639C232A283900226CE6 /* WFSSocketRocke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95639B232A283800226CE6 /* WFSSocketRocke.swift */; };
+		9B95639C232A283900226CE6 /* PKSocketRocke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95639B232A283800226CE6 /* PKSocketRocke.swift */; };
 		9B9563AC232A28A100226CE6 /* CountryModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95639E232A28A100226CE6 /* CountryModelGroup.swift */; };
-		9B9563AD232A28A100226CE6 /* WFSTradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95639F232A28A100226CE6 /* WFSTradeModel.swift */; };
+		9B9563AD232A28A100226CE6 /* PKTradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95639F232A28A100226CE6 /* PKTradeModel.swift */; };
 		9B9563AE232A28A100226CE6 /* CurrencyPair24hrModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563A0232A28A100226CE6 /* CurrencyPair24hrModelGroup.swift */; };
 		9B9563AF232A28A100226CE6 /* CurrencyPairDetailModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563A1232A28A100226CE6 /* CurrencyPairDetailModelGroup.swift */; };
 		9B9563B0232A28A100226CE6 /* CurrencyPair24hrModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563A2232A28A100226CE6 /* CurrencyPair24hrModel.swift */; };
@@ -55,7 +55,7 @@
 		9B9563B2232A28A100226CE6 /* CurrencyModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563A4232A28A100226CE6 /* CurrencyModelGroup.swift */; };
 		9B9563B3232A28A100226CE6 /* CurrencyPairDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563A5232A28A100226CE6 /* CurrencyPairDetailModel.swift */; };
 		9B9563B4232A28A100226CE6 /* CurrencyPairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563A6232A28A100226CE6 /* CurrencyPairModel.swift */; };
-		9B9563B5232A28A100226CE6 /* WFSUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563A7232A28A100226CE6 /* WFSUser.swift */; };
+		9B9563B5232A28A100226CE6 /* PKUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563A7232A28A100226CE6 /* PKUser.swift */; };
 		9B9563B6232A28A100226CE6 /* CurrencyPairModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563A9232A28A100226CE6 /* CurrencyPairModelGroup.swift */; };
 		9B9563B7232A28A100226CE6 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563AA232A28A100226CE6 /* CurrencyModel.swift */; };
 		9B9563B8232A28A100226CE6 /* SpotMarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563AB232A28A100226CE6 /* SpotMarketModel.swift */; };
@@ -81,13 +81,13 @@
 		9B1D306B215CC5CB00434464 /* PKFullScreenKLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKFullScreenKLineViewController.swift; sourceTree = "<group>"; };
 		9B360AF0215F660800FB0EB5 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		9B360AF3215F696E00FB0EB5 /* SocketStob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStob.swift; sourceTree = "<group>"; };
-		9B51E5BD23377E0E00A67CF9 /* WFSEssentialDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSEssentialDataManager.swift; sourceTree = "<group>"; };
-		9B51E5BF23377E5C00A67CF9 /* WFSTimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSTimerManager.swift; sourceTree = "<group>"; };
+		9B51E5BD23377E0E00A67CF9 /* PKEssentialDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKEssentialDataManager.swift; sourceTree = "<group>"; };
+		9B51E5BF23377E5C00A67CF9 /* PKTimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTimerManager.swift; sourceTree = "<group>"; };
 		9B51E5C123377E8900A67CF9 /* CanonchainVCCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanonchainVCCenter.swift; sourceTree = "<group>"; };
-		9B51E5C323377EB600A67CF9 /* WFSAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSAlamofire.swift; sourceTree = "<group>"; };
-		9B51E5C523377FA800A67CF9 /* WFSVerificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSVerificationManager.swift; sourceTree = "<group>"; };
+		9B51E5C323377EB600A67CF9 /* PKAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKAlamofire.swift; sourceTree = "<group>"; };
+		9B51E5C523377FA800A67CF9 /* PKVerificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKVerificationManager.swift; sourceTree = "<group>"; };
 		9B51E5C72337800100A67CF9 /* String-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
-		9B51E5C92337806900A67CF9 /* WFSLanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSLanguageManager.swift; sourceTree = "<group>"; };
+		9B51E5C92337806900A67CF9 /* PKLanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKLanguageManager.swift; sourceTree = "<group>"; };
 		9B51E5CB2337809200A67CF9 /* SwiftExtensionTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtensionTool.swift; sourceTree = "<group>"; };
 		9B956349232A1F9B00226CE6 /* KLineDepthTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthTableView.swift; sourceTree = "<group>"; };
 		9B95634B232A1F9B00226CE6 /* DepthBuyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthBuyTableViewCell.swift; sourceTree = "<group>"; };
@@ -98,19 +98,19 @@
 		9B956350232A1F9B00226CE6 /* DepthSaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthSaleTableViewCell.swift; sourceTree = "<group>"; };
 		9B956351232A1F9B00226CE6 /* KLineDepthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLineDepthViewController.xib; sourceTree = "<group>"; };
 		9B956352232A1F9B00226CE6 /* DepthBuyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepthBuyTableViewCell.xib; sourceTree = "<group>"; };
-		9B95635F232A1F9B00226CE6 /* WFSDataProcessManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSDataProcessManager.swift; sourceTree = "<group>"; };
+		9B95635F232A1F9B00226CE6 /* PKDataProcessManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKDataProcessManager.swift; sourceTree = "<group>"; };
 		9B956388232A233D00226CE6 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		9B95638B232A23AB00226CE6 /* AsksKLineDepthModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsksKLineDepthModelGroup.swift; sourceTree = "<group>"; };
 		9B95638C232A23AB00226CE6 /* KLineDepthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthModel.swift; sourceTree = "<group>"; };
 		9B95638D232A23AB00226CE6 /* BidsKLineDepthModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidsKLineDepthModelGroup.swift; sourceTree = "<group>"; };
 		9B95638E232A23AB00226CE6 /* BibiDepthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibiDepthManager.swift; sourceTree = "<group>"; };
-		9B95638F232A23AB00226CE6 /* WFSDepthUIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSDepthUIHelper.swift; sourceTree = "<group>"; };
+		9B95638F232A23AB00226CE6 /* PKDepthUIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKDepthUIHelper.swift; sourceTree = "<group>"; };
 		9B956390232A23AB00226CE6 /* KLineDepthModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthModel1.swift; sourceTree = "<group>"; };
 		9B956391232A23AB00226CE6 /* MultiBibiDepthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiBibiDepthManager.swift; sourceTree = "<group>"; };
 		9B956392232A23AB00226CE6 /* KLineDepthModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthModelGroup.swift; sourceTree = "<group>"; };
-		9B95639B232A283800226CE6 /* WFSSocketRocke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSSocketRocke.swift; sourceTree = "<group>"; };
+		9B95639B232A283800226CE6 /* PKSocketRocke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKSocketRocke.swift; sourceTree = "<group>"; };
 		9B95639E232A28A100226CE6 /* CountryModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModelGroup.swift; sourceTree = "<group>"; };
-		9B95639F232A28A100226CE6 /* WFSTradeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSTradeModel.swift; sourceTree = "<group>"; };
+		9B95639F232A28A100226CE6 /* PKTradeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTradeModel.swift; sourceTree = "<group>"; };
 		9B9563A0232A28A100226CE6 /* CurrencyPair24hrModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPair24hrModelGroup.swift; sourceTree = "<group>"; };
 		9B9563A1232A28A100226CE6 /* CurrencyPairDetailModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPairDetailModelGroup.swift; sourceTree = "<group>"; };
 		9B9563A2232A28A100226CE6 /* CurrencyPair24hrModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPair24hrModel.swift; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		9B9563A4232A28A100226CE6 /* CurrencyModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyModelGroup.swift; sourceTree = "<group>"; };
 		9B9563A5232A28A100226CE6 /* CurrencyPairDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPairDetailModel.swift; sourceTree = "<group>"; };
 		9B9563A6232A28A100226CE6 /* CurrencyPairModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPairModel.swift; sourceTree = "<group>"; };
-		9B9563A7232A28A100226CE6 /* WFSUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSUser.swift; sourceTree = "<group>"; };
+		9B9563A7232A28A100226CE6 /* PKUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKUser.swift; sourceTree = "<group>"; };
 		9B9563A9232A28A100226CE6 /* CurrencyPairModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPairModelGroup.swift; sourceTree = "<group>"; };
 		9B9563AA232A28A100226CE6 /* CurrencyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 		9B9563AB232A28A100226CE6 /* SpotMarketModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotMarketModel.swift; sourceTree = "<group>"; };
@@ -237,15 +237,15 @@
 			isa = PBXGroup;
 			children = (
 				9BF10DFB23460E7B00AA3576 /* SocketRocketTest.swift */,
-				9B95635F232A1F9B00226CE6 /* WFSDataProcessManager.swift */,
-				9B51E5BD23377E0E00A67CF9 /* WFSEssentialDataManager.swift */,
-				9B95639B232A283800226CE6 /* WFSSocketRocke.swift */,
-				9B51E5BF23377E5C00A67CF9 /* WFSTimerManager.swift */,
+				9B95635F232A1F9B00226CE6 /* PKDataProcessManager.swift */,
+				9B51E5BD23377E0E00A67CF9 /* PKEssentialDataManager.swift */,
+				9B95639B232A283800226CE6 /* PKSocketRocke.swift */,
+				9B51E5BF23377E5C00A67CF9 /* PKTimerManager.swift */,
 				9B51E5C123377E8900A67CF9 /* CanonchainVCCenter.swift */,
-				9B51E5C323377EB600A67CF9 /* WFSAlamofire.swift */,
-				9B51E5C523377FA800A67CF9 /* WFSVerificationManager.swift */,
+				9B51E5C323377EB600A67CF9 /* PKAlamofire.swift */,
+				9B51E5C523377FA800A67CF9 /* PKVerificationManager.swift */,
 				9B51E5C72337800100A67CF9 /* String-Extension.swift */,
-				9B51E5C92337806900A67CF9 /* WFSLanguageManager.swift */,
+				9B51E5C92337806900A67CF9 /* PKLanguageManager.swift */,
 				9B51E5CB2337809200A67CF9 /* SwiftExtensionTool.swift */,
 			);
 			path = Manager;
@@ -258,7 +258,7 @@
 				9B95638C232A23AB00226CE6 /* KLineDepthModel.swift */,
 				9B95638D232A23AB00226CE6 /* BidsKLineDepthModelGroup.swift */,
 				9B95638E232A23AB00226CE6 /* BibiDepthManager.swift */,
-				9B95638F232A23AB00226CE6 /* WFSDepthUIHelper.swift */,
+				9B95638F232A23AB00226CE6 /* PKDepthUIHelper.swift */,
 				9B956390232A23AB00226CE6 /* KLineDepthModel1.swift */,
 				9B956391232A23AB00226CE6 /* MultiBibiDepthManager.swift */,
 				9B956392232A23AB00226CE6 /* KLineDepthModelGroup.swift */,
@@ -270,7 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				9B95639E232A28A100226CE6 /* CountryModelGroup.swift */,
-				9B95639F232A28A100226CE6 /* WFSTradeModel.swift */,
+				9B95639F232A28A100226CE6 /* PKTradeModel.swift */,
 				9B9563A0232A28A100226CE6 /* CurrencyPair24hrModelGroup.swift */,
 				9B9563A1232A28A100226CE6 /* CurrencyPairDetailModelGroup.swift */,
 				9B9563A2232A28A100226CE6 /* CurrencyPair24hrModel.swift */,
@@ -278,7 +278,7 @@
 				9B9563A4232A28A100226CE6 /* CurrencyModelGroup.swift */,
 				9B9563A5232A28A100226CE6 /* CurrencyPairDetailModel.swift */,
 				9B9563A6232A28A100226CE6 /* CurrencyPairModel.swift */,
-				9B9563A7232A28A100226CE6 /* WFSUser.swift */,
+				9B9563A7232A28A100226CE6 /* PKUser.swift */,
 				9B9563A8232A28A100226CE6 /* ModelArray */,
 				9B9563A9232A28A100226CE6 /* CurrencyPairModelGroup.swift */,
 				9B9563AA232A28A100226CE6 /* CurrencyModel.swift */,
@@ -425,11 +425,11 @@
 				9B51E5C82337800100A67CF9 /* String-Extension.swift in Sources */,
 				9B1D3056215CC14100434464 /* ViewController.swift in Sources */,
 				9B1D306D215CC5CC00434464 /* PKFullScreenKLineViewController.swift in Sources */,
-				9B51E5C023377E5C00A67CF9 /* WFSTimerManager.swift in Sources */,
+				9B51E5C023377E5C00A67CF9 /* PKTimerManager.swift in Sources */,
 				9B9563B0232A28A100226CE6 /* CurrencyPair24hrModel.swift in Sources */,
-				9B956397232A23AB00226CE6 /* WFSDepthUIHelper.swift in Sources */,
+				9B956397232A23AB00226CE6 /* PKDepthUIHelper.swift in Sources */,
 				9B360AF4215F696E00FB0EB5 /* SocketStob.swift in Sources */,
-				9B95637D232A1F9B00226CE6 /* WFSDataProcessManager.swift in Sources */,
+				9B95637D232A1F9B00226CE6 /* PKDataProcessManager.swift in Sources */,
 				9B956395232A23AB00226CE6 /* BidsKLineDepthModelGroup.swift in Sources */,
 				9B956396232A23AB00226CE6 /* BibiDepthManager.swift in Sources */,
 				9B1D3054215CC14000434464 /* AppDelegate.swift in Sources */,
@@ -438,33 +438,33 @@
 				9B9563AE232A28A100226CE6 /* CurrencyPair24hrModelGroup.swift in Sources */,
 				9B956389232A233E00226CE6 /* Common.swift in Sources */,
 				9B95639A232A23AB00226CE6 /* KLineDepthModelGroup.swift in Sources */,
-				9B51E5CA2337806900A67CF9 /* WFSLanguageManager.swift in Sources */,
+				9B51E5CA2337806900A67CF9 /* PKLanguageManager.swift in Sources */,
 				9B9563AC232A28A100226CE6 /* CountryModelGroup.swift in Sources */,
 				9B9563B6232A28A100226CE6 /* CurrencyPairModelGroup.swift in Sources */,
 				9B1D3068215CC42F00434464 /* PKKLinePortraitViewController.swift in Sources */,
 				9B51E5CC2337809200A67CF9 /* SwiftExtensionTool.swift in Sources */,
-				9B95639C232A283900226CE6 /* WFSSocketRocke.swift in Sources */,
+				9B95639C232A283900226CE6 /* PKSocketRocke.swift in Sources */,
 				9BF10DFC23460E7B00AA3576 /* SocketRocketTest.swift in Sources */,
 				9B9563AF232A28A100226CE6 /* CurrencyPairDetailModelGroup.swift in Sources */,
 				9B95636C232A1F9B00226CE6 /* DepthBuyTableViewCell.swift in Sources */,
 				9B956394232A23AB00226CE6 /* KLineDepthModel.swift in Sources */,
 				9B9563B2232A28A100226CE6 /* CurrencyModelGroup.swift in Sources */,
-				9B51E5BE23377E0E00A67CF9 /* WFSEssentialDataManager.swift in Sources */,
+				9B51E5BE23377E0E00A67CF9 /* PKEssentialDataManager.swift in Sources */,
 				9B956393232A23AB00226CE6 /* AsksKLineDepthModelGroup.swift in Sources */,
 				9B9563B1232A28A100226CE6 /* CountryModel.swift in Sources */,
 				9B95636E232A1F9B00226CE6 /* DepthTableViewCell.swift in Sources */,
 				9B956398232A23AB00226CE6 /* KLineDepthModel1.swift in Sources */,
 				9B51E5C223377E8900A67CF9 /* CanonchainVCCenter.swift in Sources */,
 				9B9563B4232A28A100226CE6 /* CurrencyPairModel.swift in Sources */,
-				9B51E5C623377FA800A67CF9 /* WFSVerificationManager.swift in Sources */,
+				9B51E5C623377FA800A67CF9 /* PKVerificationManager.swift in Sources */,
 				9B95636F232A1F9B00226CE6 /* KLineDepthViewController.swift in Sources */,
 				9B1D306A215CC4CD00434464 /* PKKLineDemoView.swift in Sources */,
-				9B51E5C423377EB600A67CF9 /* WFSAlamofire.swift in Sources */,
+				9B51E5C423377EB600A67CF9 /* PKAlamofire.swift in Sources */,
 				9B9563B8232A28A100226CE6 /* SpotMarketModel.swift in Sources */,
-				9B9563AD232A28A100226CE6 /* WFSTradeModel.swift in Sources */,
+				9B9563AD232A28A100226CE6 /* PKTradeModel.swift in Sources */,
 				9B956371232A1F9B00226CE6 /* DepthSaleTableViewCell.swift in Sources */,
 				9B95636B232A1F9B00226CE6 /* KLineDepthTableView.swift in Sources */,
-				9B9563B5232A28A100226CE6 /* WFSUser.swift in Sources */,
+				9B9563B5232A28A100226CE6 /* PKUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,7 +21,7 @@ public class SocketRocketTest: NSObject {
             DispatchQueue.main.async(execute: block)
         }
     }
-    var timerHelp : WFSTimerHelper!
+    var timerHelp : PKTimerHelper!
     
         var urlString : String!
         
@@ -30,7 +30,7 @@ public class SocketRocketTest: NSObject {
         //切断数据的bool值
         var _turnOffData = false
         
-        var socketDelegate : WFSSocketRockeTestDelegate!
+        var socketDelegate : PKSocketRockeTestDelegate!
         init(_ urlString : String) {
             super.init()
            socketDelegate?.socketRockeConnectSuccess()
@@ -47,13 +47,13 @@ public class SocketRocketTest: NSObject {
             // 一分钟内重复发送的次数
             let repeatCount = 50.0
             
-            WFSTimerHelper.createTimerByInterval(Int((60.0 / repeatCount) * 1000.0)) {
+            PKTimerHelper.createTimerByInterval(Int((60.0 / repeatCount) * 1000.0)) {
       self.socketDelegate?.sendData(self.createKlineData(Int(repeatCount)))
             }
             break
         case XCTestUrlSuffix_Depth:
             // 1s
-            WFSTimerHelper.createTimerByInterval(1000) {
+            PKTimerHelper.createTimerByInterval(1000) {
                 self.socketDelegate?.sendData(self.createDepthData())
             }
             break
@@ -156,7 +156,7 @@ public class SocketRocketTest: NSObject {
     }
 
 
-public protocol WFSSocketRockeTestDelegate {
+public protocol PKSocketRockeTestDelegate {
         //socket连接成功
         func socketRockeConnectSuccess()
         //发送数据Protocol 'Collection' can only be used as a generic constraint because it has Self or associated type requirements

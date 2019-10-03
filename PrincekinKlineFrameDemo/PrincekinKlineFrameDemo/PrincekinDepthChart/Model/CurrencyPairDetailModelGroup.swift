@@ -144,7 +144,7 @@ class CurrencyPairDetailModelGroup : NSObject{
     func searchWithWithQuote(_ quote : String) -> [CurrencyPairDetailModel]{
        return currencyPairDetailModelList.filter{ model in
         //后缀匹配
-            return WFSVerificationEnumManager.matchSuffixCurrency(model.symbol, quote).isRight
+            return PKVerificationEnumManager.matchSuffixCurrency(model.symbol, quote).isRight
         }
     }
     func searchWithWithSymbol(_ symbol : String) -> [CurrencyPairDetailModel]{
@@ -166,7 +166,7 @@ class CurrencyPairDetailModelGroup : NSObject{
         }else{
         let symbolString = quoteUSDTArray?.filter{
             symbol in
-            return WFSVerificationEnumManager.matchSuffixCurrency(symbol, quote).isRight
+            return PKVerificationEnumManager.matchSuffixCurrency(symbol, quote).isRight
         }.first
         let model : CurrencyPairDetailModel? = searchWithWithSymbol(symbolString ?? "").first
         return Decimal(Double(model?.lastPrice ?? "") ?? 1)

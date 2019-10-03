@@ -1,5 +1,5 @@
 //
-//  WFSTradeModel.swift
+//  PKTradeModel.swift
 //  Canonchain
 //
 //  Created by gaobin on 2018/6/22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WFSTradeModel: NSObject {
+class PKTradeModel: NSObject {
     @objc dynamic var symbol : String = ""
     @objc dynamic var quote : String = ""
     @objc dynamic var base : String = ""

@@ -58,7 +58,7 @@ enum GrouopType : Int{      //当前Group的类型
     }
     func setGroupWithArray(_ array : [[Any]],_ totaldigit : Int){
         for subArr : [Any] in array {
-            let kDepthmodel : KLineDepthModel1 = KLineDepthModel1.wfs_setModelWithArray(subArr) as! KLineDepthModel1
+            let kDepthmodel : KLineDepthModel1 = KLineDepthModel1.PK_setModelWithArray(subArr) as! KLineDepthModel1
             defalutDepthModelGroup.append(kDepthmodel)
         }
 //      sortByprice()
@@ -111,7 +111,7 @@ enum GrouopType : Int{      //当前Group的类型
             if isExit{
                 continue
             }
-            let kDepthmodel : KLineDepthModel1 = KLineDepthModel1.wfs_setModelWithArray(subArr) as! KLineDepthModel1
+            let kDepthmodel : KLineDepthModel1 = KLineDepthModel1.PK_setModelWithArray(subArr) as! KLineDepthModel1
             defalutDepthModelGroup.append(kDepthmodel)
         }
       sortDefalutDepthModelGroupByprice()
@@ -122,7 +122,7 @@ enum GrouopType : Int{      //当前Group的类型
         
         let tDepthModelGroup : [KLineDepthModel1] = defalutDepthModelGroup.map{ model in
             let tModel = model.copy() as! KLineDepthModel1
-            tModel.price = WFSDataProcessManager.formatterArithmeticStringByTotaldigit(tModel.price, depthUnit,totaldigit)
+            tModel.price = PKDataProcessManager.formatterArithmeticStringByTotaldigit(tModel.price, depthUnit,totaldigit)
             return tModel
         }
         //剔除价格为零的model
@@ -199,7 +199,7 @@ enum GrouopType : Int{      //当前Group的类型
 //                return
 //            }
 //        }
-//         let kDepthmodel : KLineDepthModel1 = KLineDepthModel1.wfs_setModelWithArray(array) as! KLineDepthModel1
+//         let kDepthmodel : KLineDepthModel1 = KLineDepthModel1.PK_setModelWithArray(array) as! KLineDepthModel1
 //        depthModelGroup.append(kDepthmodel)
 //        if type(of: self) == BidsKLineDepthModel1Group.self{
 //            depthModelGroup.sort {$0.price > $1.price}

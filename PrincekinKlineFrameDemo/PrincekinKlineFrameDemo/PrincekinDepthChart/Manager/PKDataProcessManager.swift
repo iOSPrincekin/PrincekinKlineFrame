@@ -1,5 +1,5 @@
 //
-//  WFSDataProcessManager.swift
+//  PKDataProcessManager.swift
 //  Canonchain
 //
 //  Created by LEE on 5/16/18.
@@ -11,7 +11,7 @@ import CryptoSwift
 import DateToolsSwift
 import CommonCrypto
 //数据处理类
-class WFSDataProcessManager: NSObject {
+class PKDataProcessManager: NSObject {
     
     enum HMACAlgorithm {
         case MD5, SHA1, SHA224, SHA256, SHA384, SHA512
@@ -108,8 +108,8 @@ class WFSDataProcessManager: NSObject {
     }
     class func dealDicWithTimestampAndSHA256(_ dicPointer : AutoreleasingUnsafeMutablePointer<NSMutableDictionary?>) {
         let paramterDic : NSMutableDictionary = dicPointer.pointee!
-        paramterDic["timestamp"] = WFSEssentialDataManager.timeInterval()
-        paramterDic["signature"] = WFSDataProcessManager.dealParamsDicAndReturnhmacSHA256(paramterDic as? [String : Any])
+        paramterDic["timestamp"] = PKEssentialDataManager.timeInterval()
+        paramterDic["signature"] = PKDataProcessManager.dealParamsDicAndReturnhmacSHA256(paramterDic as? [String : Any])
     }
     //MARK:============================================================================格式化String======================================================
     //保留两位Double小数运算
@@ -231,10 +231,10 @@ class WFSDataProcessManager: NSObject {
     }
     //根据位数格式化实数string
     class func formatterArithmeticString(_ arithmeticString : String,_ multidigit : Int) -> String {
-        if WFSVerificationEnumManager.arithmeticNumber(arithmeticString).isRight{
+        if PKVerificationEnumManager.arithmeticNumber(arithmeticString).isRight{
             var arithmeticString = arithmeticString
 
-            if WFSVerificationEnumManager.positiveInteger(arithmeticString).isRight{
+            if PKVerificationEnumManager.positiveInteger(arithmeticString).isRight{
                 arithmeticString.append(".")
             }
             let pointIndex = arithmeticString.index(of: ".")

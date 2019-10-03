@@ -1,5 +1,5 @@
 //
-//  WFSSocketRocke.swift
+//  PKSocketRocke.swift
 //  Canonchain
 //
 //  Created by LEE on 8/14/18.
@@ -18,7 +18,7 @@ import SocketRocket
  
  
  
- 新类WFSSocketRocke应该具有的功能:
+ 新类PKSocketRocke应该具有的功能:
  1.简单的初始化，当前只有一个init url的方法；有重连功能、主动断开功能
  2.主动断开，主动重连的功能，验证SocketRocket  open和close方法能不能达到类似效果，最终会采用在didReceiveMessage屏蔽代理方法的形式，来达到主动断开、重连的功能  根据测试:(1).Cannot call -(void)open on SRWebSocket more than once
  (2).SRWebSockets are intended for one-time-use only.  Open should be called once and only once.我们只能采用采用在didReceiveMessage屏蔽代理方法的形式来达到主动断开重连的效果，这也是最优的形式
@@ -35,7 +35,7 @@ func dispatch_main_async_safe(block: @escaping AsyncBlock)  {
         DispatchQueue.main.async(execute: block)
     }
 }
-class WFSSocketRocke: NSObject {
+class PKSocketRocke: NSObject {
     var urlString : String!
     var webSocket:SRWebSocket!
     var heartBeat:Timer!
@@ -45,7 +45,7 @@ class WFSSocketRocke: NSObject {
     //切断数据的bool值
     var _turnOffData = false
     
-   weak var socketDelegate : WFSSocketRockeDelegate!
+   weak var socketDelegate : PKSocketRockeDelegate!
     init(_ urlString : String) {
         super.init()
         webSocket = SRWebSocket.init(url: URL.init(string: urlString))
@@ -127,7 +127,7 @@ class WFSSocketRocke: NSObject {
     func turnOnData() {
         _turnOffData = false
     }
-    //销毁webSocket,等于将要释放WFSSocketRocke
+    //销毁webSocket,等于将要释放PKSocketRocke
     func destroyWebSocket() {
         destroy = true
         webSocket?.close()
@@ -138,7 +138,7 @@ class WFSSocketRocke: NSObject {
         
     }
 }
-extension WFSSocketRocke : SRWebSocketDelegate{
+extension PKSocketRocke : SRWebSocketDelegate{
     func webSocket(_ webSocket: SRWebSocket!, didReceiveMessage message: Any!) {
         //切断数据
         if _turnOffData {
@@ -180,7 +180,7 @@ extension WFSSocketRocke : SRWebSocketDelegate{
     
     
 }
-public protocol WFSSocketRockeDelegate : NSObjectProtocol{
+public protocol PKSocketRockeDelegate : NSObjectProtocol{
     //socket连接成功
     func socketRockeConnectSuccess()
    //发送数据Protocol 'Collection' can only be used as a generic constraint because it has Self or associated type requirements

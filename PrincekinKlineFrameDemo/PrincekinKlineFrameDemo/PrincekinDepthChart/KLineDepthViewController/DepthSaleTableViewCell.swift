@@ -30,7 +30,7 @@ class DepthSaleTableViewCell: DepthTableViewCell {
         super.draw(rect)
         let backgroundRect = CGRect(x: 0, y: 0, width: frame.width * backgroundPercent, height: frame.height)
         let context = UIGraphicsGetCurrentContext()!
-        context.setFillColor(WFSTranslucenceOrangeColor.cgColor)
+        context.setFillColor(PKTranslucenceOrangeColor.cgColor)
         context.addRect(backgroundRect)
         context.fillPath()
     }

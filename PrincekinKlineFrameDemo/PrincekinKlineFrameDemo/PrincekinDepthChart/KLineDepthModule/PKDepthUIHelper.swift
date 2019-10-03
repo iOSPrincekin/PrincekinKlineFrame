@@ -1,5 +1,5 @@
 //
-//  WFSDepthUIHelper.swift
+//  PKDepthUIHelper.swift
 //  Canonchain
 //
 //  Created by LEE on 7/26/18.
@@ -16,6 +16,6 @@ import UIKit
 //滑动收到深度图影响的scrollview的在相应方法里面发送的通知名称
 //let DepthScrollViewBeginDeceleratingNot = NSNotification.Name.init("DepthScrollViewBeginDeceleratingNot")
 //let DepthScrollViewEndDeceleratingNot = NSNotification.Name.init("DepthScrollViewEndDeceleratingNot")
-class WFSDepthUIHelper: NSObject {
+class PKDepthUIHelper: NSObject {
    
 }

@@ -61,7 +61,7 @@ class BibiDepthManager: NSObject {
     var bidsDepthModelGroup : BidsKLineDepthModelGroup!
     init(_ currencyPairDetailModel : CurrencyPairDetailModel!) {
         super.init()
-        WFSTimerHelper().timerHelperBlock = { v1,v2 in
+        PKTimerHelper().timerHelperBlock = { v1,v2 in
 //            print(v1,v2)
         }
         self.currencyPairDetailModel = currencyPairDetailModel
@@ -89,7 +89,7 @@ class BibiDepthManager: NSObject {
         param["symbol"] = "BTCUSDT"
         param["limit"] = 100
         let urlString = iOSPrincekinTestBaseURL
-        WFSAlamofire.getResponseDataInTestTarget(urlString,param) { response in
+        PKAlamofire.getResponseDataInTestTarget(urlString,param) { response in
           //  print(response)
             let data = response.value
             let dataDic : [String : Any] = try! JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : Any]
@@ -131,7 +131,7 @@ class BibiDepthManager: NSObject {
     deinit {
     }
 }
-extension BibiDepthManager : WFSSocketRockeTestDelegate{
+extension BibiDepthManager : PKSocketRockeTestDelegate{
 	
 	
     public func socketRockeConnectSuccess() {
