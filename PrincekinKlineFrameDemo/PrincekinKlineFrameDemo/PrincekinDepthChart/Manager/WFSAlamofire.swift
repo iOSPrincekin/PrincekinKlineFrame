@@ -38,6 +38,9 @@ class WFSAlamofire: NSObject {
     }
     class func getDataWithURLStringAndParameterDicWithHeader(_ urlString : String, _ parameterDic :NSMutableDictionary?,_ wfsResponseData : @escaping (DataResponse<Any>) -> Void){}
     class func postDataWithURLStringAndParameterDicWithHeader(_ urlString : String, _ parameterDic : NSMutableDictionary?,_ wfsResponseData : @escaping (DataResponse<Any>) -> Void) {}
-    
+        //getResponseData
+    class func getResponseDataInTestTarget(_ urlString : String, _ parameterDic :[String : Any]?, _ wfsResponseData : @escaping (DataResponse<Data>) -> Void) {
+        Alamofire.request(urlString, method: .get, parameters: parameterDic, encoding: URLEncoding.default, headers: nil).responseData(completionHandler: wfsResponseData)
+    }
   
 }

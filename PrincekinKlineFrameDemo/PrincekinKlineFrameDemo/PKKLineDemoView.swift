@@ -11,8 +11,7 @@ import UIKit
 import PrincekinKlineFrame
 import Alamofire
 import OHHTTPStubs
-let iOSPrincekinTestBaseURLHost = "www.iOSPrincekinTestBaseURLHost.com"
-let iOSPrincekinTestBaseURL = "http://\(iOSPrincekinTestBaseURLHost)"
+
 class PKKLineDemoView: PKKLineContainerView{
     weak var socket =  SocketStob.init("")
     var klineArray : [PKKLine]?{

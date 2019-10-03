@@ -63,6 +63,7 @@
 		9B9563B8232A28A100226CE6 /* SpotMarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563AB232A28A100226CE6 /* SpotMarketModel.swift */; };
 		9B96A421215F25E7003D1CD8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B96A420215F25E7003D1CD8 /* ViewController.xib */; };
 		9BCFD4C0226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCFD4BF226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib */; };
+		9BF10DFC23460E7B00AA3576 /* SocketRocketTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF10DFB23460E7B00AA3576 /* SocketRocketTest.swift */; };
 		B6C64AC2923CF3EEB182757D /* Pods_PrincekinKlineFrameDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437C5A1660BDB915FA6A68BD /* Pods_PrincekinKlineFrameDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -127,6 +128,7 @@
 		9B9563AB232A28A100226CE6 /* SpotMarketModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotMarketModel.swift; sourceTree = "<group>"; };
 		9B96A420215F25E7003D1CD8 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		9BCFD4BF226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PKFullScreenKLineViewController.xib; sourceTree = "<group>"; };
+		9BF10DFB23460E7B00AA3576 /* SocketRocketTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketRocketTest.swift; sourceTree = "<group>"; };
 		CD0F5EBFFA506975A5528AAD /* Pods-PrincekinKlineFrameDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrameDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrameDemo/Pods-PrincekinKlineFrameDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -240,6 +242,7 @@
 		9B956353232A1F9B00226CE6 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				9BF10DFB23460E7B00AA3576 /* SocketRocketTest.swift */,
 				9B95635F232A1F9B00226CE6 /* WFSDataProcessManager.swift */,
 				9B51E5BD23377E0E00A67CF9 /* WFSEssentialDataManager.swift */,
 				9B95639B232A283800226CE6 /* WFSSocketRocke.swift */,
@@ -448,6 +451,7 @@
 				9B1D3068215CC42F00434464 /* PKKLinePortraitViewController.swift in Sources */,
 				9B51E5CC2337809200A67CF9 /* SwiftExtensionTool.swift in Sources */,
 				9B95639C232A283900226CE6 /* WFSSocketRocke.swift in Sources */,
+				9BF10DFC23460E7B00AA3576 /* SocketRocketTest.swift in Sources */,
 				9B9563AF232A28A100226CE6 /* CurrencyPairDetailModelGroup.swift in Sources */,
 				9B51E5BC23377CE500A67CF9 /* LocalizedUtils.swift in Sources */,
 				9B95636C232A1F9B00226CE6 /* DepthBuyTableViewCell.swift in Sources */,
