@@ -18,8 +18,6 @@
 		9B1D306D215CC5CC00434464 /* PKFullScreenKLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D306B215CC5CB00434464 /* PKFullScreenKLineViewController.swift */; };
 		9B360AF1215F660800FB0EB5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B360AF0215F660800FB0EB5 /* data.json */; };
 		9B360AF4215F696E00FB0EB5 /* SocketStob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B360AF3215F696E00FB0EB5 /* SocketStob.swift */; };
-		9B51E5B823377C5300A67CF9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B51E5BA23377C5300A67CF9 /* Localizable.strings */; };
-		9B51E5BC23377CE500A67CF9 /* LocalizedUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5BB23377CE500A67CF9 /* LocalizedUtils.swift */; };
 		9B51E5BE23377E0E00A67CF9 /* WFSEssentialDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5BD23377E0E00A67CF9 /* WFSEssentialDataManager.swift */; };
 		9B51E5C023377E5C00A67CF9 /* WFSTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5BF23377E5C00A67CF9 /* WFSTimerManager.swift */; };
 		9B51E5C223377E8900A67CF9 /* CanonchainVCCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C123377E8900A67CF9 /* CanonchainVCCenter.swift */; };
@@ -83,8 +81,6 @@
 		9B1D306B215CC5CB00434464 /* PKFullScreenKLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKFullScreenKLineViewController.swift; sourceTree = "<group>"; };
 		9B360AF0215F660800FB0EB5 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		9B360AF3215F696E00FB0EB5 /* SocketStob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStob.swift; sourceTree = "<group>"; };
-		9B51E5B923377C5300A67CF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9B51E5BB23377CE500A67CF9 /* LocalizedUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalizedUtils.swift; path = Utils/LocalizedUtils.swift; sourceTree = "<group>"; };
 		9B51E5BD23377E0E00A67CF9 /* WFSEssentialDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSEssentialDataManager.swift; sourceTree = "<group>"; };
 		9B51E5BF23377E5C00A67CF9 /* WFSTimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WFSTimerManager.swift; sourceTree = "<group>"; };
 		9B51E5C123377E8900A67CF9 /* CanonchainVCCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanonchainVCCenter.swift; sourceTree = "<group>"; };
@@ -194,8 +190,6 @@
 		9B360AF2215F692300FB0EB5 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				9B51E5BB23377CE500A67CF9 /* LocalizedUtils.swift */,
-				9B51E5BA23377C5300A67CF9 /* Localizable.strings */,
 				9B360AF3215F696E00FB0EB5 /* SocketStob.swift */,
 				9B360AF0215F660800FB0EB5 /* data.json */,
 				9B043DEA2176DB8000F569C1 /* data1.json */,
@@ -370,7 +364,6 @@
 			files = (
 				9B95636D232A1F9B00226CE6 /* DepthSaleTableViewCell.xib in Resources */,
 				9B956372232A1F9B00226CE6 /* KLineDepthViewController.xib in Resources */,
-				9B51E5B823377C5300A67CF9 /* Localizable.strings in Resources */,
 				9B956373232A1F9B00226CE6 /* DepthBuyTableViewCell.xib in Resources */,
 				9B96A421215F25E7003D1CD8 /* ViewController.xib in Resources */,
 				9B360AF1215F660800FB0EB5 /* data.json in Resources */,
@@ -453,7 +446,6 @@
 				9B95639C232A283900226CE6 /* WFSSocketRocke.swift in Sources */,
 				9BF10DFC23460E7B00AA3576 /* SocketRocketTest.swift in Sources */,
 				9B9563AF232A28A100226CE6 /* CurrencyPairDetailModelGroup.swift in Sources */,
-				9B51E5BC23377CE500A67CF9 /* LocalizedUtils.swift in Sources */,
 				9B95636C232A1F9B00226CE6 /* DepthBuyTableViewCell.swift in Sources */,
 				9B956394232A23AB00226CE6 /* KLineDepthModel.swift in Sources */,
 				9B9563B2232A28A100226CE6 /* CurrencyModelGroup.swift in Sources */,
@@ -485,14 +477,6 @@
 				9B1D305D215CC14200434464 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		9B51E5BA23377C5300A67CF9 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B51E5B923377C5300A67CF9 /* en */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
