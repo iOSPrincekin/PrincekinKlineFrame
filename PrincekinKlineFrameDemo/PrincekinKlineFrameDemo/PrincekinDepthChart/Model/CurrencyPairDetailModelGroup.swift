@@ -26,10 +26,10 @@ class CurrencyPairDetailModelGroup : NSObject{
         {
         get{
             if quoteArray.count == 0 {
-                return  [".localized_favorites","USDT","BTC","ETH"]
+                return  ["Favorites","USDT","BTC","ETH"]
             }else{
                 var tQuoteArray = quoteArray
-                tQuoteArray.insert(".localized_favorites", at: 0)
+                tQuoteArray.insert("Favorites", at: 0)
                 return tQuoteArray
             }
         }

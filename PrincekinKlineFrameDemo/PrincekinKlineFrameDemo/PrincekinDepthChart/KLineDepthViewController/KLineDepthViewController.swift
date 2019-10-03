@@ -78,11 +78,11 @@ class KLineDepthViewController: UIViewController,UITableViewDelegate,UITableView
 		wDepthManager = depthManager
 	}
 	func setUPUI()  {
-//		buyorderLabel.text = .localized_depth_style_1
-//		buyAmountLabel.text = String.init(format: .localized_b2b_volume,base)
-//		priceLabel.text = String.init(format: .localized_b2b_price, quote)
-//		saleAmountLabel.text = String.init(format: .localized_b2b_volume, base)
-//		saleOrderLabel.text = .localized_depth_style_2
+		buyorderLabel.text = "Buy Order"
+		buyAmountLabel.text = String.init(format: "Amount(%@)",base)
+		priceLabel.text = String.init(format: "Price(%@)", quote)
+		saleAmountLabel.text = String.init(format: "Amount(%@)", base)
+		saleOrderLabel.text = "Sell Order"
 	}
 	override func viewWillDisappear(_ animated: Bool) {
 		super.viewWillDisappear(animated)
