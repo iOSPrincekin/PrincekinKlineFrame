@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
       s.name         = "PrincekinKlineFrame"
-      s.version      = "0.0.37"
+      s.version      = "0.0.38"
       s.summary      = "一款敏捷的K线图框架，供金融和虚拟货币行业使用"
       s.homepage     = 'https://github.com/iOSPrincekin/PrincekinKlineFrame.git'
       s.license      = 'MIT'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
       s.frameworks   = "UIKit" #支持的框架
       s.dependency 'SnapKit'
       s.source_files = 'PrincekinKlineFrame.h' 'Common.swift'
-      s.source       = { :git => "https://github.com/iOSPrincekin/PrincekinKlineFrame.git", :tag => "0.0.37" }
+      s.source       = { :git => "https://github.com/iOSPrincekin/PrincekinKlineFrame.git", :tag => "0.0.38" }
 
     s.subspec 'PrincekinKline' do |princekinKline|
       princekinKline.source_files  = 'PrincekinKline/**/*'
