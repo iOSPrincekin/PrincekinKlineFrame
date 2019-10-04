@@ -18,13 +18,10 @@
 		9B1D306D215CC5CC00434464 /* PKFullScreenKLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D306B215CC5CB00434464 /* PKFullScreenKLineViewController.swift */; };
 		9B360AF1215F660800FB0EB5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B360AF0215F660800FB0EB5 /* data.json */; };
 		9B360AF4215F696E00FB0EB5 /* SocketStob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B360AF3215F696E00FB0EB5 /* SocketStob.swift */; };
-		9B51E5BE23377E0E00A67CF9 /* PKEssentialDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5BD23377E0E00A67CF9 /* PKEssentialDataManager.swift */; };
-		9B51E5C023377E5C00A67CF9 /* PKTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5BF23377E5C00A67CF9 /* PKTimerManager.swift */; };
 		9B51E5C223377E8900A67CF9 /* CanonchainVCCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C123377E8900A67CF9 /* CanonchainVCCenter.swift */; };
 		9B51E5C423377EB600A67CF9 /* PKAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C323377EB600A67CF9 /* PKAlamofire.swift */; };
 		9B51E5C623377FA800A67CF9 /* PKVerificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C523377FA800A67CF9 /* PKVerificationManager.swift */; };
 		9B51E5C82337800100A67CF9 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C72337800100A67CF9 /* String-Extension.swift */; };
-		9B51E5CA2337806900A67CF9 /* PKLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5C92337806900A67CF9 /* PKLanguageManager.swift */; };
 		9B51E5CC2337809200A67CF9 /* SwiftExtensionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51E5CB2337809200A67CF9 /* SwiftExtensionTool.swift */; };
 		9B95636B232A1F9B00226CE6 /* KLineDepthTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B956349232A1F9B00226CE6 /* KLineDepthTableView.swift */; };
 		9B95636C232A1F9B00226CE6 /* DepthBuyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95634B232A1F9B00226CE6 /* DepthBuyTableViewCell.swift */; };
@@ -43,7 +40,6 @@
 		9B956396232A23AB00226CE6 /* BibiDepthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95638E232A23AB00226CE6 /* BibiDepthManager.swift */; };
 		9B956397232A23AB00226CE6 /* PKDepthUIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95638F232A23AB00226CE6 /* PKDepthUIHelper.swift */; };
 		9B956398232A23AB00226CE6 /* KLineDepthModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B956390232A23AB00226CE6 /* KLineDepthModel1.swift */; };
-		9B956399232A23AB00226CE6 /* MultiBibiDepthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B956391232A23AB00226CE6 /* MultiBibiDepthManager.swift */; };
 		9B95639A232A23AB00226CE6 /* KLineDepthModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B956392232A23AB00226CE6 /* KLineDepthModelGroup.swift */; };
 		9B95639C232A283900226CE6 /* PKSocketRocke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95639B232A283800226CE6 /* PKSocketRocke.swift */; };
 		9B9563AC232A28A100226CE6 /* CountryModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95639E232A28A100226CE6 /* CountryModelGroup.swift */; };
@@ -60,6 +56,7 @@
 		9B9563B7232A28A100226CE6 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563AA232A28A100226CE6 /* CurrencyModel.swift */; };
 		9B9563B8232A28A100226CE6 /* SpotMarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9563AB232A28A100226CE6 /* SpotMarketModel.swift */; };
 		9B96A421215F25E7003D1CD8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B96A420215F25E7003D1CD8 /* ViewController.xib */; };
+		9BCCB5942347883800E1210D /* PKTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5932347883800E1210D /* PKTimerManager.swift */; };
 		9BCFD4C0226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCFD4BF226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib */; };
 		9BF10DFC23460E7B00AA3576 /* SocketRocketTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF10DFB23460E7B00AA3576 /* SocketRocketTest.swift */; };
 		B6C64AC2923CF3EEB182757D /* Pods_PrincekinKlineFrameDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437C5A1660BDB915FA6A68BD /* Pods_PrincekinKlineFrameDemo.framework */; };
@@ -81,13 +78,10 @@
 		9B1D306B215CC5CB00434464 /* PKFullScreenKLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKFullScreenKLineViewController.swift; sourceTree = "<group>"; };
 		9B360AF0215F660800FB0EB5 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		9B360AF3215F696E00FB0EB5 /* SocketStob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStob.swift; sourceTree = "<group>"; };
-		9B51E5BD23377E0E00A67CF9 /* PKEssentialDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKEssentialDataManager.swift; sourceTree = "<group>"; };
-		9B51E5BF23377E5C00A67CF9 /* PKTimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTimerManager.swift; sourceTree = "<group>"; };
 		9B51E5C123377E8900A67CF9 /* CanonchainVCCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanonchainVCCenter.swift; sourceTree = "<group>"; };
 		9B51E5C323377EB600A67CF9 /* PKAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKAlamofire.swift; sourceTree = "<group>"; };
 		9B51E5C523377FA800A67CF9 /* PKVerificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKVerificationManager.swift; sourceTree = "<group>"; };
 		9B51E5C72337800100A67CF9 /* String-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
-		9B51E5C92337806900A67CF9 /* PKLanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKLanguageManager.swift; sourceTree = "<group>"; };
 		9B51E5CB2337809200A67CF9 /* SwiftExtensionTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtensionTool.swift; sourceTree = "<group>"; };
 		9B956349232A1F9B00226CE6 /* KLineDepthTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthTableView.swift; sourceTree = "<group>"; };
 		9B95634B232A1F9B00226CE6 /* DepthBuyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthBuyTableViewCell.swift; sourceTree = "<group>"; };
@@ -106,7 +100,6 @@
 		9B95638E232A23AB00226CE6 /* BibiDepthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibiDepthManager.swift; sourceTree = "<group>"; };
 		9B95638F232A23AB00226CE6 /* PKDepthUIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKDepthUIHelper.swift; sourceTree = "<group>"; };
 		9B956390232A23AB00226CE6 /* KLineDepthModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthModel1.swift; sourceTree = "<group>"; };
-		9B956391232A23AB00226CE6 /* MultiBibiDepthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiBibiDepthManager.swift; sourceTree = "<group>"; };
 		9B956392232A23AB00226CE6 /* KLineDepthModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthModelGroup.swift; sourceTree = "<group>"; };
 		9B95639B232A283800226CE6 /* PKSocketRocke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKSocketRocke.swift; sourceTree = "<group>"; };
 		9B95639E232A28A100226CE6 /* CountryModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModelGroup.swift; sourceTree = "<group>"; };
@@ -123,6 +116,7 @@
 		9B9563AA232A28A100226CE6 /* CurrencyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 		9B9563AB232A28A100226CE6 /* SpotMarketModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotMarketModel.swift; sourceTree = "<group>"; };
 		9B96A420215F25E7003D1CD8 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9BCCB5932347883800E1210D /* PKTimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTimerManager.swift; sourceTree = "<group>"; };
 		9BCFD4BF226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PKFullScreenKLineViewController.xib; sourceTree = "<group>"; };
 		9BF10DFB23460E7B00AA3576 /* SocketRocketTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketRocketTest.swift; sourceTree = "<group>"; };
 		CD0F5EBFFA506975A5528AAD /* Pods-PrincekinKlineFrameDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrameDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrameDemo/Pods-PrincekinKlineFrameDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -236,16 +230,14 @@
 		9B956353232A1F9B00226CE6 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				9BCCB5932347883800E1210D /* PKTimerManager.swift */,
 				9BF10DFB23460E7B00AA3576 /* SocketRocketTest.swift */,
 				9B95635F232A1F9B00226CE6 /* PKDataProcessManager.swift */,
-				9B51E5BD23377E0E00A67CF9 /* PKEssentialDataManager.swift */,
 				9B95639B232A283800226CE6 /* PKSocketRocke.swift */,
-				9B51E5BF23377E5C00A67CF9 /* PKTimerManager.swift */,
 				9B51E5C123377E8900A67CF9 /* CanonchainVCCenter.swift */,
 				9B51E5C323377EB600A67CF9 /* PKAlamofire.swift */,
 				9B51E5C523377FA800A67CF9 /* PKVerificationManager.swift */,
 				9B51E5C72337800100A67CF9 /* String-Extension.swift */,
-				9B51E5C92337806900A67CF9 /* PKLanguageManager.swift */,
 				9B51E5CB2337809200A67CF9 /* SwiftExtensionTool.swift */,
 			);
 			path = Manager;
@@ -260,7 +252,6 @@
 				9B95638E232A23AB00226CE6 /* BibiDepthManager.swift */,
 				9B95638F232A23AB00226CE6 /* PKDepthUIHelper.swift */,
 				9B956390232A23AB00226CE6 /* KLineDepthModel1.swift */,
-				9B956391232A23AB00226CE6 /* MultiBibiDepthManager.swift */,
 				9B956392232A23AB00226CE6 /* KLineDepthModelGroup.swift */,
 			);
 			path = KLineDepthModule;
@@ -425,20 +416,18 @@
 				9B51E5C82337800100A67CF9 /* String-Extension.swift in Sources */,
 				9B1D3056215CC14100434464 /* ViewController.swift in Sources */,
 				9B1D306D215CC5CC00434464 /* PKFullScreenKLineViewController.swift in Sources */,
-				9B51E5C023377E5C00A67CF9 /* PKTimerManager.swift in Sources */,
 				9B9563B0232A28A100226CE6 /* CurrencyPair24hrModel.swift in Sources */,
 				9B956397232A23AB00226CE6 /* PKDepthUIHelper.swift in Sources */,
 				9B360AF4215F696E00FB0EB5 /* SocketStob.swift in Sources */,
 				9B95637D232A1F9B00226CE6 /* PKDataProcessManager.swift in Sources */,
 				9B956395232A23AB00226CE6 /* BidsKLineDepthModelGroup.swift in Sources */,
+				9BCCB5942347883800E1210D /* PKTimerManager.swift in Sources */,
 				9B956396232A23AB00226CE6 /* BibiDepthManager.swift in Sources */,
 				9B1D3054215CC14000434464 /* AppDelegate.swift in Sources */,
-				9B956399232A23AB00226CE6 /* MultiBibiDepthManager.swift in Sources */,
 				9B956370232A1F9B00226CE6 /* DepthBackgroundCellView.swift in Sources */,
 				9B9563AE232A28A100226CE6 /* CurrencyPair24hrModelGroup.swift in Sources */,
 				9B956389232A233E00226CE6 /* Common.swift in Sources */,
 				9B95639A232A23AB00226CE6 /* KLineDepthModelGroup.swift in Sources */,
-				9B51E5CA2337806900A67CF9 /* PKLanguageManager.swift in Sources */,
 				9B9563AC232A28A100226CE6 /* CountryModelGroup.swift in Sources */,
 				9B9563B6232A28A100226CE6 /* CurrencyPairModelGroup.swift in Sources */,
 				9B1D3068215CC42F00434464 /* PKKLinePortraitViewController.swift in Sources */,
@@ -449,7 +438,6 @@
 				9B95636C232A1F9B00226CE6 /* DepthBuyTableViewCell.swift in Sources */,
 				9B956394232A23AB00226CE6 /* KLineDepthModel.swift in Sources */,
 				9B9563B2232A28A100226CE6 /* CurrencyModelGroup.swift in Sources */,
-				9B51E5BE23377E0E00A67CF9 /* PKEssentialDataManager.swift in Sources */,
 				9B956393232A23AB00226CE6 /* AsksKLineDepthModelGroup.swift in Sources */,
 				9B9563B1232A28A100226CE6 /* CountryModel.swift in Sources */,
 				9B95636E232A1F9B00226CE6 /* DepthTableViewCell.swift in Sources */,

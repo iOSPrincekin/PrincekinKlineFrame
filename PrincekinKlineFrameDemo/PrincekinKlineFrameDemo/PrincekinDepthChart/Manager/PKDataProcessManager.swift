@@ -106,11 +106,7 @@ class PKDataProcessManager: NSObject {
         print("字典字符串是=====\(plaintext)")
         return hmacSHA256WithKey(plaintext)
     }
-    class func dealDicWithTimestampAndSHA256(_ dicPointer : AutoreleasingUnsafeMutablePointer<NSMutableDictionary?>) {
-        let paramterDic : NSMutableDictionary = dicPointer.pointee!
-        paramterDic["timestamp"] = PKEssentialDataManager.timeInterval()
-        paramterDic["signature"] = PKDataProcessManager.dealParamsDicAndReturnhmacSHA256(paramterDic as? [String : Any])
-    }
+    class func dealDicWithTimestampAndSHA256(_ dicPointer : AutoreleasingUnsafeMutablePointer<NSMutableDictionary?>) {}
     //MARK:============================================================================格式化String======================================================
     //保留两位Double小数运算
     class func keepTwoDoublesOperation(_ a : Double) -> Double {

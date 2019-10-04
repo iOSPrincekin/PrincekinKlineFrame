@@ -119,7 +119,7 @@ class BibiDepthManager: NSObject {
     func setUPSocketAndConnect() {
         if tSocketRocke == nil {
             //  ws://192.168.10.220:8070/ws/diff_depth@BTCUSDT
-            let urlString = iOSPrincekinTest_Depth
+            let urlString = iOSPrincekinTest_Depth_URL
             let socketRocke = SocketRocketTest.init(urlString)
             socketRocke.socketDelegate = self
             tSocketRocke = socketRocke

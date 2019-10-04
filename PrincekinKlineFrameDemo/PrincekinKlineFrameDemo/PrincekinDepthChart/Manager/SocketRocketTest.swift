@@ -6,9 +6,9 @@
 //  Copyright © 2018 LEE. All rights reserved.
 //
 
-let XCTestUrlSuffix_Kline = "/Kline"
-let XCTestUrlSuffix_Depth = "/Depth"
+
 import UIKit
+import PrincekinKlineFrame
 public class SocketRocketTest: NSObject {
     //切断数据的bool值
    
@@ -43,7 +43,7 @@ public class SocketRocketTest: NSObject {
         //虚拟数据产生器
     func createDataMachine(_ type : String) {
         switch type {
-        case XCTestUrlSuffix_Kline:
+        case iOSPrincekinTestURL_Suffix_Kline:
             // 一分钟内重复发送的次数
             let repeatCount = 50.0
             
@@ -51,7 +51,7 @@ public class SocketRocketTest: NSObject {
       self.socketDelegate?.sendData(self.createKlineData(Int(repeatCount)))
             }
             break
-        case XCTestUrlSuffix_Depth:
+        case iOSPrincekinTestURL_Suffix_Depth:
             // 1s
             PKTimerHelper.createTimerByInterval(1000) {
                 self.socketDelegate?.sendData(self.createDepthData())
