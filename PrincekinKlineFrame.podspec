@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
       s.swift_version = "4.1"
       s.frameworks   = "UIKit" #支持的框架
       s.dependency 'SnapKit'
-      s.source_files = 'PrincekinKlineFrame.h'
+      s.source_files = 'PrincekinKlineFrame.h' 'Common.swift'
       s.source       = { :git => "https://github.com/iOSPrincekin/PrincekinKlineFrame.git", :tag => "0.0.37" }
 
     s.subspec 'PrincekinKline' do |princekinKline|
