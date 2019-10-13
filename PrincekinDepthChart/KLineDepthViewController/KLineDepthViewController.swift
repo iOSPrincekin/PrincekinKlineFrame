@@ -22,7 +22,7 @@ public class KLineDepthViewController: UIViewController,UITableViewDelegate,UITa
 	//卖盘
 	@IBOutlet weak var saleOrderLabel: UILabel!
 	
-	var wSymbol : String = ""
+	public var wSymbol : String = ""
 	{
 		didSet{
 			let strArr = wSymbol.components(separatedBy: "/")

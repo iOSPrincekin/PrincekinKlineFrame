@@ -10,7 +10,7 @@ import UIKit
 import RealmSwift
 import MJExtension
 //CurrencyPairModel + CurrencyPair24hrModel
-class CurrencyPairDetailModel: Object {
+public class CurrencyPairDetailModel: Object {
     //默认4
     @objc dynamic var amountDecimals = "4"
     @objc dynamic var base = ""
@@ -63,7 +63,7 @@ class CurrencyPairDetailModel: Object {
     //通过自己计算获得最新的跌涨比
     @objc dynamic var calculatePriceChangePercent : Double = 0
     
-    override func mj_setKeyValues(_ keyValues: Any!, context: NSManagedObjectContext!) -> CurrencyPairDetailModel! {
+	override public func mj_setKeyValues(_ keyValues: Any!, context: NSManagedObjectContext!) -> CurrencyPairDetailModel! {
         var newKeyValues = NSMutableDictionary()
         if let tKeyValues = keyValues as? [String : Any]{
             if tKeyValues["e"] as? String == "24hrTicker"{
@@ -127,7 +127,7 @@ class CurrencyPairDetailModel: Object {
              }
     }
 
-    override static func mj_replacedKey(fromPropertyName121 propertyName: String!) -> Any! {
+	override public static func mj_replacedKey(fromPropertyName121 propertyName: String!) -> Any! {
         return propertyName
     }
     //根据两种model合并CurrencyPairDetailModel
