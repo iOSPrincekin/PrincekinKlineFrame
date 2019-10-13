@@ -47,7 +47,45 @@
 		9BBFAD0E232978DD006EB0CE /* PKKLineFullScreenBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE5232978DD006EB0CE /* PKKLineFullScreenBottomView.swift */; };
 		9BBFAD0F232978DD006EB0CE /* PKKLineFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACE6232978DD006EB0CE /* PKKLineFullScreenView.swift */; };
 		9BBFAD122329853D006EB0CE /* PrincekinKlineFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBFAD112329853D006EB0CE /* PrincekinKlineFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BBFAD17232985CF006EB0CE /* PrincekinDepthChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFAD16232985CF006EB0CE /* PrincekinDepthChart.swift */; };
+		9BCCB5EA234790B200E1210D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5E9234790B200E1210D /* Common.swift */; };
+		9BCCB617234790C100E1210D /* DepthBuyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5EC234790C100E1210D /* DepthBuyTableViewCell.swift */; };
+		9BCCB618234790C100E1210D /* DepthSaleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCB5ED234790C100E1210D /* DepthSaleTableViewCell.xib */; };
+		9BCCB619234790C100E1210D /* DepthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5EE234790C100E1210D /* DepthTableViewCell.swift */; };
+		9BCCB61A234790C100E1210D /* KLineDepthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5EF234790C100E1210D /* KLineDepthViewController.swift */; };
+		9BCCB61B234790C100E1210D /* DepthBackgroundCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F0234790C100E1210D /* DepthBackgroundCellView.swift */; };
+		9BCCB61C234790C100E1210D /* DepthSaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F1234790C100E1210D /* DepthSaleTableViewCell.swift */; };
+		9BCCB61D234790C100E1210D /* KLineDepthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F2234790C100E1210D /* KLineDepthViewController.xib */; };
+		9BCCB61E234790C100E1210D /* DepthBuyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F3234790C100E1210D /* DepthBuyTableViewCell.xib */; };
+		9BCCB61F234790C100E1210D /* AsksKLineDepthModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F5234790C100E1210D /* AsksKLineDepthModelGroup.swift */; };
+		9BCCB620234790C100E1210D /* KLineDepthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F6234790C100E1210D /* KLineDepthModel.swift */; };
+		9BCCB621234790C100E1210D /* BidsKLineDepthModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F7234790C100E1210D /* BidsKLineDepthModelGroup.swift */; };
+		9BCCB622234790C100E1210D /* BibiDepthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F8234790C100E1210D /* BibiDepthManager.swift */; };
+		9BCCB623234790C100E1210D /* KLineDepthModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F9234790C100E1210D /* KLineDepthModel1.swift */; };
+		9BCCB624234790C100E1210D /* KLineDepthModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5FA234790C100E1210D /* KLineDepthModelGroup.swift */; };
+		9BCCB625234790C100E1210D /* PKDepthUIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5FB234790C100E1210D /* PKDepthUIHelper.swift */; };
+		9BCCB626234790C100E1210D /* KLineDepthTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5FD234790C100E1210D /* KLineDepthTableView.swift */; };
+		9BCCB627234790C100E1210D /* PKAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5FF234790C100E1210D /* PKAlamofire.swift */; };
+		9BCCB628234790C100E1210D /* PKDataProcessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB600234790C100E1210D /* PKDataProcessManager.swift */; };
+		9BCCB629234790C100E1210D /* SwiftExtensionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB601234790C100E1210D /* SwiftExtensionTool.swift */; };
+		9BCCB62A234790C100E1210D /* PKTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB602234790C100E1210D /* PKTimerManager.swift */; };
+		9BCCB62B234790C100E1210D /* SocketRocketTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB603234790C100E1210D /* SocketRocketTest.swift */; };
+		9BCCB62C234790C100E1210D /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB604234790C100E1210D /* String-Extension.swift */; };
+		9BCCB62D234790C100E1210D /* PKSocketRocke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB605234790C100E1210D /* PKSocketRocke.swift */; };
+		9BCCB62E234790C100E1210D /* CanonchainVCCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB606234790C100E1210D /* CanonchainVCCenter.swift */; };
+		9BCCB62F234790C100E1210D /* PKVerificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB607234790C100E1210D /* PKVerificationManager.swift */; };
+		9BCCB630234790C100E1210D /* CountryModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB609234790C100E1210D /* CountryModelGroup.swift */; };
+		9BCCB631234790C100E1210D /* CurrencyPair24hrModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB60A234790C100E1210D /* CurrencyPair24hrModelGroup.swift */; };
+		9BCCB632234790C100E1210D /* CurrencyPairDetailModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB60B234790C100E1210D /* CurrencyPairDetailModelGroup.swift */; };
+		9BCCB633234790C100E1210D /* CurrencyPair24hrModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB60C234790C100E1210D /* CurrencyPair24hrModel.swift */; };
+		9BCCB634234790C100E1210D /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB60D234790C100E1210D /* CountryModel.swift */; };
+		9BCCB635234790C100E1210D /* PKTradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB60E234790C100E1210D /* PKTradeModel.swift */; };
+		9BCCB636234790C100E1210D /* CurrencyModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB60F234790C100E1210D /* CurrencyModelGroup.swift */; };
+		9BCCB637234790C100E1210D /* CurrencyPairDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB610234790C100E1210D /* CurrencyPairDetailModel.swift */; };
+		9BCCB638234790C100E1210D /* CurrencyPairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB611234790C100E1210D /* CurrencyPairModel.swift */; };
+		9BCCB639234790C100E1210D /* CurrencyPairModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB613234790C100E1210D /* CurrencyPairModelGroup.swift */; };
+		9BCCB63A234790C100E1210D /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB614234790C100E1210D /* CurrencyModel.swift */; };
+		9BCCB63B234790C100E1210D /* PKUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB615234790C100E1210D /* PKUser.swift */; };
+		9BCCB63C234790C100E1210D /* SpotMarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB616234790C100E1210D /* SpotMarketModel.swift */; };
 		DCA0DC2B52261989668788D3 /* Pods_PrincekinKlineFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB9E30EE7E34E34BF199710 /* Pods_PrincekinKlineFrame.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,7 +133,45 @@
 		9BBFACE6232978DD006EB0CE /* PKKLineFullScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKKLineFullScreenView.swift; sourceTree = "<group>"; };
 		9BBFACE7232978DD006EB0CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BBFAD112329853D006EB0CE /* PrincekinKlineFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincekinKlineFrame.h; sourceTree = "<group>"; };
-		9BBFAD16232985CF006EB0CE /* PrincekinDepthChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincekinDepthChart.swift; sourceTree = "<group>"; };
+		9BCCB5E9234790B200E1210D /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		9BCCB5EC234790C100E1210D /* DepthBuyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthBuyTableViewCell.swift; sourceTree = "<group>"; };
+		9BCCB5ED234790C100E1210D /* DepthSaleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepthSaleTableViewCell.xib; sourceTree = "<group>"; };
+		9BCCB5EE234790C100E1210D /* DepthTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthTableViewCell.swift; sourceTree = "<group>"; };
+		9BCCB5EF234790C100E1210D /* KLineDepthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthViewController.swift; sourceTree = "<group>"; };
+		9BCCB5F0234790C100E1210D /* DepthBackgroundCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthBackgroundCellView.swift; sourceTree = "<group>"; };
+		9BCCB5F1234790C100E1210D /* DepthSaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthSaleTableViewCell.swift; sourceTree = "<group>"; };
+		9BCCB5F2234790C100E1210D /* KLineDepthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLineDepthViewController.xib; sourceTree = "<group>"; };
+		9BCCB5F3234790C100E1210D /* DepthBuyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepthBuyTableViewCell.xib; sourceTree = "<group>"; };
+		9BCCB5F5234790C100E1210D /* AsksKLineDepthModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsksKLineDepthModelGroup.swift; sourceTree = "<group>"; };
+		9BCCB5F6234790C100E1210D /* KLineDepthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthModel.swift; sourceTree = "<group>"; };
+		9BCCB5F7234790C100E1210D /* BidsKLineDepthModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidsKLineDepthModelGroup.swift; sourceTree = "<group>"; };
+		9BCCB5F8234790C100E1210D /* BibiDepthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibiDepthManager.swift; sourceTree = "<group>"; };
+		9BCCB5F9234790C100E1210D /* KLineDepthModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthModel1.swift; sourceTree = "<group>"; };
+		9BCCB5FA234790C100E1210D /* KLineDepthModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthModelGroup.swift; sourceTree = "<group>"; };
+		9BCCB5FB234790C100E1210D /* PKDepthUIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKDepthUIHelper.swift; sourceTree = "<group>"; };
+		9BCCB5FD234790C100E1210D /* KLineDepthTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthTableView.swift; sourceTree = "<group>"; };
+		9BCCB5FF234790C100E1210D /* PKAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKAlamofire.swift; sourceTree = "<group>"; };
+		9BCCB600234790C100E1210D /* PKDataProcessManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKDataProcessManager.swift; sourceTree = "<group>"; };
+		9BCCB601234790C100E1210D /* SwiftExtensionTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtensionTool.swift; sourceTree = "<group>"; };
+		9BCCB602234790C100E1210D /* PKTimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTimerManager.swift; sourceTree = "<group>"; };
+		9BCCB603234790C100E1210D /* SocketRocketTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketRocketTest.swift; sourceTree = "<group>"; };
+		9BCCB604234790C100E1210D /* String-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		9BCCB605234790C100E1210D /* PKSocketRocke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKSocketRocke.swift; sourceTree = "<group>"; };
+		9BCCB606234790C100E1210D /* CanonchainVCCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanonchainVCCenter.swift; sourceTree = "<group>"; };
+		9BCCB607234790C100E1210D /* PKVerificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKVerificationManager.swift; sourceTree = "<group>"; };
+		9BCCB609234790C100E1210D /* CountryModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModelGroup.swift; sourceTree = "<group>"; };
+		9BCCB60A234790C100E1210D /* CurrencyPair24hrModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPair24hrModelGroup.swift; sourceTree = "<group>"; };
+		9BCCB60B234790C100E1210D /* CurrencyPairDetailModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPairDetailModelGroup.swift; sourceTree = "<group>"; };
+		9BCCB60C234790C100E1210D /* CurrencyPair24hrModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPair24hrModel.swift; sourceTree = "<group>"; };
+		9BCCB60D234790C100E1210D /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		9BCCB60E234790C100E1210D /* PKTradeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKTradeModel.swift; sourceTree = "<group>"; };
+		9BCCB60F234790C100E1210D /* CurrencyModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyModelGroup.swift; sourceTree = "<group>"; };
+		9BCCB610234790C100E1210D /* CurrencyPairDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPairDetailModel.swift; sourceTree = "<group>"; };
+		9BCCB611234790C100E1210D /* CurrencyPairModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPairModel.swift; sourceTree = "<group>"; };
+		9BCCB613234790C100E1210D /* CurrencyPairModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyPairModelGroup.swift; sourceTree = "<group>"; };
+		9BCCB614234790C100E1210D /* CurrencyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		9BCCB615234790C100E1210D /* PKUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKUser.swift; sourceTree = "<group>"; };
+		9BCCB616234790C100E1210D /* SpotMarketModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotMarketModel.swift; sourceTree = "<group>"; };
 		D0551952965085C61FE8C9A2 /* Pods-PrincekinKlineFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrame/Pods-PrincekinKlineFrame.release.xcconfig"; sourceTree = "<group>"; };
 		DEB9E30EE7E34E34BF199710 /* Pods_PrincekinKlineFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrincekinKlineFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,8 +208,9 @@
 		9B96A4AB215F4B1F003D1CD8 = {
 			isa = PBXGroup;
 			children = (
-				9BBFAD15232985CF006EB0CE /* PrincekinDepthChart */,
 				9BBFAD112329853D006EB0CE /* PrincekinKlineFrame.h */,
+				9BCCB5E9234790B200E1210D /* Common.swift */,
+				9BBFAD15232985CF006EB0CE /* PrincekinDepthChart */,
 				9BBFACB3232978DD006EB0CE /* PrincekinKline */,
 				9B96A4B6215F4B20003D1CD8 /* Products */,
 				98FC555959507F4E22C15E74 /* Pods */,
@@ -287,9 +364,94 @@
 		9BBFAD15232985CF006EB0CE /* PrincekinDepthChart */ = {
 			isa = PBXGroup;
 			children = (
-				9BBFAD16232985CF006EB0CE /* PrincekinDepthChart.swift */,
+				9BCCB5F4234790C100E1210D /* KLineDepthModule */,
+				9BCCB5FC234790C100E1210D /* KLineDepthTableView */,
+				9BCCB5EB234790C100E1210D /* KLineDepthViewController */,
+				9BCCB5FE234790C100E1210D /* Manager */,
+				9BCCB608234790C100E1210D /* Model */,
 			);
 			path = PrincekinDepthChart;
+			sourceTree = "<group>";
+		};
+		9BCCB5EB234790C100E1210D /* KLineDepthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BCCB5EC234790C100E1210D /* DepthBuyTableViewCell.swift */,
+				9BCCB5ED234790C100E1210D /* DepthSaleTableViewCell.xib */,
+				9BCCB5EE234790C100E1210D /* DepthTableViewCell.swift */,
+				9BCCB5EF234790C100E1210D /* KLineDepthViewController.swift */,
+				9BCCB5F0234790C100E1210D /* DepthBackgroundCellView.swift */,
+				9BCCB5F1234790C100E1210D /* DepthSaleTableViewCell.swift */,
+				9BCCB5F2234790C100E1210D /* KLineDepthViewController.xib */,
+				9BCCB5F3234790C100E1210D /* DepthBuyTableViewCell.xib */,
+			);
+			path = KLineDepthViewController;
+			sourceTree = "<group>";
+		};
+		9BCCB5F4234790C100E1210D /* KLineDepthModule */ = {
+			isa = PBXGroup;
+			children = (
+				9BCCB5F5234790C100E1210D /* AsksKLineDepthModelGroup.swift */,
+				9BCCB5F6234790C100E1210D /* KLineDepthModel.swift */,
+				9BCCB5F7234790C100E1210D /* BidsKLineDepthModelGroup.swift */,
+				9BCCB5F8234790C100E1210D /* BibiDepthManager.swift */,
+				9BCCB5F9234790C100E1210D /* KLineDepthModel1.swift */,
+				9BCCB5FA234790C100E1210D /* KLineDepthModelGroup.swift */,
+				9BCCB5FB234790C100E1210D /* PKDepthUIHelper.swift */,
+			);
+			path = KLineDepthModule;
+			sourceTree = "<group>";
+		};
+		9BCCB5FC234790C100E1210D /* KLineDepthTableView */ = {
+			isa = PBXGroup;
+			children = (
+				9BCCB5FD234790C100E1210D /* KLineDepthTableView.swift */,
+			);
+			path = KLineDepthTableView;
+			sourceTree = "<group>";
+		};
+		9BCCB5FE234790C100E1210D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9BCCB5FF234790C100E1210D /* PKAlamofire.swift */,
+				9BCCB600234790C100E1210D /* PKDataProcessManager.swift */,
+				9BCCB601234790C100E1210D /* SwiftExtensionTool.swift */,
+				9BCCB602234790C100E1210D /* PKTimerManager.swift */,
+				9BCCB603234790C100E1210D /* SocketRocketTest.swift */,
+				9BCCB604234790C100E1210D /* String-Extension.swift */,
+				9BCCB605234790C100E1210D /* PKSocketRocke.swift */,
+				9BCCB606234790C100E1210D /* CanonchainVCCenter.swift */,
+				9BCCB607234790C100E1210D /* PKVerificationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9BCCB608234790C100E1210D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BCCB609234790C100E1210D /* CountryModelGroup.swift */,
+				9BCCB60A234790C100E1210D /* CurrencyPair24hrModelGroup.swift */,
+				9BCCB60B234790C100E1210D /* CurrencyPairDetailModelGroup.swift */,
+				9BCCB60C234790C100E1210D /* CurrencyPair24hrModel.swift */,
+				9BCCB60D234790C100E1210D /* CountryModel.swift */,
+				9BCCB60E234790C100E1210D /* PKTradeModel.swift */,
+				9BCCB60F234790C100E1210D /* CurrencyModelGroup.swift */,
+				9BCCB610234790C100E1210D /* CurrencyPairDetailModel.swift */,
+				9BCCB611234790C100E1210D /* CurrencyPairModel.swift */,
+				9BCCB612234790C100E1210D /* ModelArray */,
+				9BCCB613234790C100E1210D /* CurrencyPairModelGroup.swift */,
+				9BCCB614234790C100E1210D /* CurrencyModel.swift */,
+				9BCCB615234790C100E1210D /* PKUser.swift */,
+				9BCCB616234790C100E1210D /* SpotMarketModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BCCB612234790C100E1210D /* ModelArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +524,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCCB61D234790C100E1210D /* KLineDepthViewController.xib in Resources */,
+				9BCCB618234790C100E1210D /* DepthSaleTableViewCell.xib in Resources */,
+				9BCCB61E234790C100E1210D /* DepthBuyTableViewCell.xib in Resources */,
 				9BBFAD0A232978DD006EB0CE /* PKKLineCancel@3x.jpg in Resources */,
 				9BBFAD08232978DD006EB0CE /* PKKLineCancel@2x.jpg in Resources */,
 			);
@@ -396,42 +561,77 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BBFACE9232978DD006EB0CE /* PKKLineTimeView.swift in Sources */,
+				9BCCB624234790C100E1210D /* KLineDepthModelGroup.swift in Sources */,
+				9BCCB62B234790C100E1210D /* SocketRocketTest.swift in Sources */,
 				9BBFAD02232978DD006EB0CE /* PKKLineDataParser.swift in Sources */,
 				9BBFACED232978DD006EB0CE /* PKKLineContainerView.swift in Sources */,
 				9BBFACFD232978DD006EB0CE /* PKKLineMAPainter.swift in Sources */,
 				9BBFAD06232978DD006EB0CE /* PKKLineGroup.swift in Sources */,
 				9BBFACF4232978DD006EB0CE /* PKKLinePortraitValueView.swift in Sources */,
 				9BBFACF9232978DD006EB0CE /* PKKLineVolumeMAView.swift in Sources */,
+				9BCCB625234790C100E1210D /* PKDepthUIHelper.swift in Sources */,
 				9BBFAD0E232978DD006EB0CE /* PKKLineFullScreenBottomView.swift in Sources */,
+				9BCCB62C234790C100E1210D /* String-Extension.swift in Sources */,
 				9BBFACF5232978DD006EB0CE /* PKKLineValueView.swift in Sources */,
 				9BBFACF2232978DD006EB0CE /* PKKLineTool.swift in Sources */,
+				9BCCB631234790C100E1210D /* CurrencyPair24hrModelGroup.swift in Sources */,
+				9BCCB622234790C100E1210D /* BibiDepthManager.swift in Sources */,
 				9BBFACEF232978DD006EB0CE /* PKColor.swift in Sources */,
+				9BCCB626234790C100E1210D /* KLineDepthTableView.swift in Sources */,
+				9BCCB628234790C100E1210D /* PKDataProcessManager.swift in Sources */,
+				9BCCB61A234790C100E1210D /* KLineDepthViewController.swift in Sources */,
 				9BBFACF6232978DD006EB0CE /* PkKLineVolumeView.swift in Sources */,
+				9BCCB621234790C100E1210D /* BidsKLineDepthModelGroup.swift in Sources */,
 				9BBFACE8232978DD006EB0CE /* PKTimeKLineSubStruct.swift in Sources */,
+				9BCCB630234790C100E1210D /* CountryModelGroup.swift in Sources */,
 				9BBFACEB232978DD006EB0CE /* PKKLineScrollView.swift in Sources */,
+				9BCCB636234790C100E1210D /* CurrencyModelGroup.swift in Sources */,
+				9BCCB61C234790C100E1210D /* DepthSaleTableViewCell.swift in Sources */,
 				9BBFAD00232978DD006EB0CE /* PKKLineAccessoryView.swift in Sources */,
+				9BCCB61B234790C100E1210D /* DepthBackgroundCellView.swift in Sources */,
+				9BCCB627234790C100E1210D /* PKAlamofire.swift in Sources */,
+				9BCCB638234790C100E1210D /* CurrencyPairModel.swift in Sources */,
 				9BBFAD0B232978DD006EB0CE /* LocalizedUtils.swift.tmp.swift in Sources */,
 				9BBFAD0F232978DD006EB0CE /* PKKLineFullScreenView.swift in Sources */,
+				9BCCB620234790C100E1210D /* KLineDepthModel.swift in Sources */,
 				9BBFACEC232978DD006EB0CE /* PKKLineRightYView.swift in Sources */,
+				9BCCB635234790C100E1210D /* PKTradeModel.swift in Sources */,
+				9BCCB639234790C100E1210D /* CurrencyPairModelGroup.swift in Sources */,
+				9BCCB61F234790C100E1210D /* AsksKLineDepthModelGroup.swift in Sources */,
 				9BBFAD0D232978DD006EB0CE /* PKKLineFullScreenMiddleView.swift in Sources */,
+				9BCCB629234790C100E1210D /* SwiftExtensionTool.swift in Sources */,
+				9BCCB62A234790C100E1210D /* PKTimerManager.swift in Sources */,
 				9BBFAD07232978DD006EB0CE /* PKKLine.swift in Sources */,
-				9BBFAD17232985CF006EB0CE /* PrincekinDepthChart.swift in Sources */,
+				9BCCB623234790C100E1210D /* KLineDepthModel1.swift in Sources */,
 				9BBFACF1232978DD006EB0CE /* PKKLineConfig.swift in Sources */,
+				9BCCB63A234790C100E1210D /* CurrencyModel.swift in Sources */,
 				9BBFACEE232978DD006EB0CE /* PKKLineTopButtonsView.swift in Sources */,
 				9BBFACFB232978DD006EB0CE /* PKKLineMAView.swift in Sources */,
 				9BBFACFE232978DD006EB0CE /* PKKLineAccessoryPainter.swift in Sources */,
+				9BCCB63C234790C100E1210D /* SpotMarketModel.swift in Sources */,
+				9BCCB632234790C100E1210D /* CurrencyPairDetailModelGroup.swift in Sources */,
+				9BCCB63B234790C100E1210D /* PKUser.swift in Sources */,
 				9BBFACF0232978DD006EB0CE /* PKKLineTheme.swift in Sources */,
+				9BCCB637234790C100E1210D /* CurrencyPairDetailModel.swift in Sources */,
 				9BBFAD03232978DD006EB0CE /* VerificationManager.swift in Sources */,
 				9BBFACF3232978DD006EB0CE /* PKKLineParamters.swift in Sources */,
+				9BCCB619234790C100E1210D /* DepthTableViewCell.swift in Sources */,
 				9BBFAD09232978DD006EB0CE /* LocalizedUtils.swift in Sources */,
 				9BBFACFF232978DD006EB0CE /* PKKLineAccessoryMAView.swift in Sources */,
+				9BCCB617234790C100E1210D /* DepthBuyTableViewCell.swift in Sources */,
 				9BBFAD04232978DD006EB0CE /* PKKLineCalculator.swift in Sources */,
 				9BBFACF7232978DD006EB0CE /* PKKLineVolumePainter.swift in Sources */,
 				9BBFACFC232978DD006EB0CE /* PKKLineView.swift in Sources */,
+				9BCCB634234790C100E1210D /* CountryModel.swift in Sources */,
+				9BCCB62F234790C100E1210D /* PKVerificationManager.swift in Sources */,
 				9BBFAD05232978DD006EB0CE /* PKKLineSubStruct.swift in Sources */,
 				9BBFACFA232978DD006EB0CE /* PKKLinePainter.swift in Sources */,
+				9BCCB62E234790C100E1210D /* CanonchainVCCenter.swift in Sources */,
+				9BCCB5EA234790B200E1210D /* Common.swift in Sources */,
 				9BBFACF8232978DD006EB0CE /* PKKLineVolumeMAPainter.swift in Sources */,
 				9BBFAD0C232978DD006EB0CE /* PKKLineFullScreenTopView.swift in Sources */,
+				9BCCB62D234790C100E1210D /* PKSocketRocke.swift in Sources */,
+				9BCCB633234790C100E1210D /* CurrencyPair24hrModel.swift in Sources */,
 				9BBFACEA232978DD006EB0CE /* PKKLineCrossLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

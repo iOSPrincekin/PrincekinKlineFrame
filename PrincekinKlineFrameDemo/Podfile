@@ -12,4 +12,3 @@ target 'PrincekinKlineFrameDemo' do
 		pod 'RealmSwift', '~> 3.9.0'
 		pod 'MJExtension', '~> 3.0.15.1'
  end
-

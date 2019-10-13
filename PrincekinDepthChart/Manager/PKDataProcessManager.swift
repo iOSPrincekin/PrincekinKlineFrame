@@ -8,7 +8,6 @@
 
 import UIKit
 import CryptoSwift
-import DateToolsSwift
 import CommonCrypto
 //数据处理类
 class PKDataProcessManager: NSObject {
@@ -274,9 +273,8 @@ class PKDataProcessManager: NSObject {
     //"HH:mm MM/dd"
     //根据秒数返回日期
     class func getNowDateBySecond(_ seconds : CLongLong, _ format : String)-> String {
-        let date = Date.init(timeIntervalSince1970: TimeInterval(seconds))
-        let dateString = date.format(with: format)
-        return dateString
+		
+        return ""
     }
     //根据毫秒数返回日期
     class func getNowDateByillisSecond(_ milliseconds : CLongLong,_ format : String)-> String {

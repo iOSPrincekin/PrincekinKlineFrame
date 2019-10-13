@@ -1,10 +1,16 @@
 platform :ios, '9.0'
 use_frameworks!
 target 'PrincekinKlineFrame' do
-    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-    
-    
-
-      pod 'SnapKit'
-      end
+	# Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+	
+	
+	
+	pod 'SnapKit'
+	pod 'Alamofire', '~> 4.7.3'
+	pod 'OHHTTPStubs/Swift', '~> 6.1.0'
+	pod 'CryptoSwift', '~> 0.11.0'
+	pod 'SocketRocket', '~> 0.5.1'
+	pod 'RealmSwift', '~> 3.9.0'
+	pod 'MJExtension', '~> 3.0.15.1'
+end
 
