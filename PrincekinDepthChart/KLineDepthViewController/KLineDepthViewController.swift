@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 //已占用tag 200~  tableView
-class KLineDepthViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
+public class KLineDepthViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
 	
 	//买盘
 	@IBOutlet weak var buyorderLabel: UILabel!
@@ -67,7 +67,7 @@ class KLineDepthViewController: UIViewController,UITableViewDelegate,UITableView
 		super.init(coder: aDecoder)
 		//  fatalError("init(coder:) has not been implemented")
 	}
-	override func viewDidLoad() {
+	override public func viewDidLoad() {
 		super.viewDidLoad()
 		setUPUI()
 		
@@ -84,7 +84,7 @@ class KLineDepthViewController: UIViewController,UITableViewDelegate,UITableView
 		saleAmountLabel.text = String.init(format: "Amount(%@)", base)
 		saleOrderLabel.text = "Sell Order"
 	}
-	override func viewWillDisappear(_ animated: Bool) {
+	override public func viewWillDisappear(_ animated: Bool) {
 		super.viewWillDisappear(animated)
 		//深度图的socket推送彻底销毁
 		if CanonchainVCCenter.sharedInstance.switchVCType == .pop {
@@ -93,14 +93,14 @@ class KLineDepthViewController: UIViewController,UITableViewDelegate,UITableView
 		}
 		
 	}
-	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+	public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		if tableView.tag == 200 {
 			return (bidsModelArray?.count == nil) ? 0 : bidsModelArray!.count
 		}else{
 			return (asksModelArray?.count == nil) ? 0 : asksModelArray!.count
 		}
 	}
-	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+	public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		if tableView.tag == 200 {
 			let DepthBuyTableViewCellIdentifier = "DepthBuyTableViewCellIdentifier"
 			
@@ -132,7 +132,7 @@ class KLineDepthViewController: UIViewController,UITableViewDelegate,UITableView
 	func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 		return 24
 	}
-	override func didReceiveMemoryWarning() {
+	override public func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}

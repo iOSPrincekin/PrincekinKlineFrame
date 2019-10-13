@@ -35,7 +35,7 @@ func dispatch_main_async_safe(block: @escaping AsyncBlock)  {
         DispatchQueue.main.async(execute: block)
     }
 }
-class PKSocketRocke: NSObject {
+public class PKSocketRocke: NSObject {
     var urlString : String!
     var webSocket:SRWebSocket!
     var heartBeat:Timer!
@@ -139,7 +139,7 @@ class PKSocketRocke: NSObject {
     }
 }
 extension PKSocketRocke : SRWebSocketDelegate{
-    func webSocket(_ webSocket: SRWebSocket!, didReceiveMessage message: Any!) {
+	public func webSocket(_ webSocket: SRWebSocket!, didReceiveMessage message: Any!) {
         //切断数据
         if _turnOffData {
            return

@@ -20,7 +20,7 @@ import PrincekinKlineFrame
  
  */
 
-class BibiDepthManager: NSObject {
+public class BibiDepthManager: NSObject {
     var sendDataDelegate : BibiDepthManagerSendDataDelegate!
         //socket连接类
         

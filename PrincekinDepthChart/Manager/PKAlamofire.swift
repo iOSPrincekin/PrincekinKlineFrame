@@ -10,7 +10,7 @@
 
 import UIKit
 import Alamofire
-class PKAlamofire: NSObject {
+public class PKAlamofire: NSObject {
     static let sharedInstance = PKAlamofire()
     private  override init() {}
     //设置超时时间

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import PrincekinKlineFrame
 class ViewController: UIViewController {
 	var _portaitVC: PKKLinePortraitViewController!
 	var _fullVC: PKFullScreenKLineViewController!
