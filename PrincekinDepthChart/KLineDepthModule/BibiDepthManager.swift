@@ -237,5 +237,5 @@ extension BibiDepthManager : PKSocketRockeTestDelegate{
 }
 //深度manager发送数据的协议
 public protocol BibiDepthManagerSendDataDelegate {
-	public func sendData( asksModelArray : [KLineDepthModel]?,bidsModelArray : [KLineDepthModel]?)
+	func sendData( asksModelArray : [KLineDepthModel]?,bidsModelArray : [KLineDepthModel]?)
 }
