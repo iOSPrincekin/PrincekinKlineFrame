@@ -14,8 +14,8 @@ public class DepthTableViewCell: UITableViewCell {
    @IBOutlet weak var amountLabel: UILabel!
    @IBOutlet weak var priceLabel: UILabel!
     var backgroundPercent : CGFloat = 0
-    var amountdigit = 4
-    func setUPCellWithKLineDepthModel(model : KLineDepthModel) {
+   public var amountdigit = 4
+    public func setUPCellWithKLineDepthModel(model : KLineDepthModel) {
     //    let serialNum = ((model.serial == nil) ? 0 : model.serial!)
         serialLabel.text = String(model.serial )
         if model.amount == 0 {

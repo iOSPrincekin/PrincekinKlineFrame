@@ -59,7 +59,7 @@ public class BibiDepthManager: NSObject {
 	
 	var asksDepthModelGroup : AsksKLineDepthModelGroup!
 	var bidsDepthModelGroup : BidsKLineDepthModelGroup!
-	init(_ currencyPairDetailModel : CurrencyPairDetailModel!) {
+	public init(_ currencyPairDetailModel : CurrencyPairDetailModel!) {
 		super.init()
 		PKTimerHelper().timerHelperBlock = { v1,v2 in
 			//            print(v1,v2)
@@ -237,5 +237,5 @@ extension BibiDepthManager : PKSocketRockeTestDelegate{
 }
 //深度manager发送数据的协议
 public protocol BibiDepthManagerSendDataDelegate {
-	func sendData( asksModelArray : [KLineDepthModel]?,bidsModelArray : [KLineDepthModel]?)
+	public func sendData( asksModelArray : [KLineDepthModel]?,bidsModelArray : [KLineDepthModel]?)
 }

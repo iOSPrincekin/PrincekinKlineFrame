@@ -15,7 +15,7 @@ public class DepthBuyTableViewCell: DepthTableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-    class func returnDepthBuyTableViewCell() -> DepthBuyTableViewCell {
+   public class func returnDepthBuyTableViewCell() -> DepthBuyTableViewCell {
         let cell : DepthBuyTableViewCell = Bundle.main.loadNibNamed("DepthBuyTableViewCell", owner: self, options: nil)?.last as! DepthBuyTableViewCell
         return cell
     }
