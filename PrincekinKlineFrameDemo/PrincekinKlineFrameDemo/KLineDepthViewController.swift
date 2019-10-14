@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import PrincekinKlineFrame
 //已占用tag 200~  tableView
 public class KLineDepthViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
 	
@@ -87,10 +88,8 @@ public class KLineDepthViewController: UIViewController,UITableViewDelegate,UITa
 	override public func viewWillDisappear(_ animated: Bool) {
 		super.viewWillDisappear(animated)
 		//深度图的socket推送彻底销毁
-		if CanonchainVCCenter.sharedInstance.switchVCType == .pop {
 			wDepthManager!.destroyTSocketRocke()
 			wDepthManager = nil
-		}
 		
 	}
 	public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

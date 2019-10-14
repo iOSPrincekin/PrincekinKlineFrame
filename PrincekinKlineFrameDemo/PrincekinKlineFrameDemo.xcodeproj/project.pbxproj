@@ -20,6 +20,8 @@
 		9B360AF4215F696E00FB0EB5 /* SocketStob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B360AF3215F696E00FB0EB5 /* SocketStob.swift */; };
 		9B96A421215F25E7003D1CD8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B96A420215F25E7003D1CD8 /* ViewController.xib */; };
 		9BCFD4C0226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCFD4BF226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib */; };
+		9BD467E92354429A00F58591 /* KLineDepthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BD467E72354429A00F58591 /* KLineDepthViewController.xib */; };
+		9BD467EA2354429A00F58591 /* KLineDepthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD467E82354429A00F58591 /* KLineDepthViewController.swift */; };
 		B6C64AC2923CF3EEB182757D /* Pods_PrincekinKlineFrameDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437C5A1660BDB915FA6A68BD /* Pods_PrincekinKlineFrameDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		9B360AF3215F696E00FB0EB5 /* SocketStob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStob.swift; sourceTree = "<group>"; };
 		9B96A420215F25E7003D1CD8 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		9BCFD4BF226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PKFullScreenKLineViewController.xib; sourceTree = "<group>"; };
+		9BD467E72354429A00F58591 /* KLineDepthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLineDepthViewController.xib; sourceTree = "<group>"; };
+		9BD467E82354429A00F58591 /* KLineDepthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthViewController.swift; sourceTree = "<group>"; };
 		CD0F5EBFFA506975A5528AAD /* Pods-PrincekinKlineFrameDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrameDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrameDemo/Pods-PrincekinKlineFrameDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +99,8 @@
 				9B1D3065215CC42E00434464 /* PKKLinePortraitViewController.xib */,
 				9B1D306B215CC5CB00434464 /* PKFullScreenKLineViewController.swift */,
 				9BCFD4BF226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib */,
+				9BD467E82354429A00F58591 /* KLineDepthViewController.swift */,
+				9BD467E72354429A00F58591 /* KLineDepthViewController.xib */,
 				9B1D305A215CC14200434464 /* Assets.xcassets */,
 				9B1D305C215CC14200434464 /* LaunchScreen.storyboard */,
 				9B1D305F215CC14200434464 /* Info.plist */,
@@ -184,6 +190,7 @@
 				9B360AF1215F660800FB0EB5 /* data.json in Resources */,
 				9B1D305E215CC14200434464 /* LaunchScreen.storyboard in Resources */,
 				9BCFD4C0226B120E00DA6CE1 /* PKFullScreenKLineViewController.xib in Resources */,
+				9BD467E92354429A00F58591 /* KLineDepthViewController.xib in Resources */,
 				9B1D305B215CC14200434464 /* Assets.xcassets in Resources */,
 				9B1D3067215CC42F00434464 /* PKKLinePortraitViewController.xib in Resources */,
 				9B043DEB2176DB8000F569C1 /* data1.json in Resources */,
@@ -237,6 +244,7 @@
 			files = (
 				9B1D3056215CC14100434464 /* ViewController.swift in Sources */,
 				9B1D306D215CC5CC00434464 /* PKFullScreenKLineViewController.swift in Sources */,
+				9BD467EA2354429A00F58591 /* KLineDepthViewController.swift in Sources */,
 				9B360AF4215F696E00FB0EB5 /* SocketStob.swift in Sources */,
 				9B1D3054215CC14000434464 /* AppDelegate.swift in Sources */,
 				9B1D3068215CC42F00434464 /* PKKLinePortraitViewController.swift in Sources */,

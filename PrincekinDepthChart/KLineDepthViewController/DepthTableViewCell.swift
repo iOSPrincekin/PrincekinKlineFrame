@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DepthTableViewCell: UITableViewCell {
+public class DepthTableViewCell: UITableViewCell {
 
    @IBOutlet weak var serialLabel: UILabel!
    @IBOutlet weak var amountLabel: UILabel!
@@ -28,7 +28,7 @@ class DepthTableViewCell: UITableViewCell {
         backgroundPercent = model.percentage
         setNeedsDisplay()
     }
-    override func setSelected(_ selected: Bool, animated: Bool) {
+	override public func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state

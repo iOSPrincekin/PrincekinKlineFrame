@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KLineDepthModel: NSObject{
+public class KLineDepthModel: NSObject{
     var price:String = ""
     var amount:Double = 0.0
     var serial:Int = 0
@@ -23,7 +23,7 @@ class KLineDepthEmptyModel: KLineDepthModel{
 }
 
 extension KLineDepthModel: NSCopying{
-    func copy(with zone: NSZone? = nil) -> Any {
+	public func copy(with zone: NSZone? = nil) -> Any {
         let copy = KLineDepthModel()
         copy.price = price
         copy.amount = amount

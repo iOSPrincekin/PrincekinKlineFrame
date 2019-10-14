@@ -51,10 +51,8 @@
 		9BCCB617234790C100E1210D /* DepthBuyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5EC234790C100E1210D /* DepthBuyTableViewCell.swift */; };
 		9BCCB618234790C100E1210D /* DepthSaleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCB5ED234790C100E1210D /* DepthSaleTableViewCell.xib */; };
 		9BCCB619234790C100E1210D /* DepthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5EE234790C100E1210D /* DepthTableViewCell.swift */; };
-		9BCCB61A234790C100E1210D /* KLineDepthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5EF234790C100E1210D /* KLineDepthViewController.swift */; };
 		9BCCB61B234790C100E1210D /* DepthBackgroundCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F0234790C100E1210D /* DepthBackgroundCellView.swift */; };
 		9BCCB61C234790C100E1210D /* DepthSaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F1234790C100E1210D /* DepthSaleTableViewCell.swift */; };
-		9BCCB61D234790C100E1210D /* KLineDepthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F2234790C100E1210D /* KLineDepthViewController.xib */; };
 		9BCCB61E234790C100E1210D /* DepthBuyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F3234790C100E1210D /* DepthBuyTableViewCell.xib */; };
 		9BCCB61F234790C100E1210D /* AsksKLineDepthModelGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F5234790C100E1210D /* AsksKLineDepthModelGroup.swift */; };
 		9BCCB620234790C100E1210D /* KLineDepthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB5F6234790C100E1210D /* KLineDepthModel.swift */; };
@@ -137,10 +135,8 @@
 		9BCCB5EC234790C100E1210D /* DepthBuyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthBuyTableViewCell.swift; sourceTree = "<group>"; };
 		9BCCB5ED234790C100E1210D /* DepthSaleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepthSaleTableViewCell.xib; sourceTree = "<group>"; };
 		9BCCB5EE234790C100E1210D /* DepthTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthTableViewCell.swift; sourceTree = "<group>"; };
-		9BCCB5EF234790C100E1210D /* KLineDepthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthViewController.swift; sourceTree = "<group>"; };
 		9BCCB5F0234790C100E1210D /* DepthBackgroundCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthBackgroundCellView.swift; sourceTree = "<group>"; };
 		9BCCB5F1234790C100E1210D /* DepthSaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthSaleTableViewCell.swift; sourceTree = "<group>"; };
-		9BCCB5F2234790C100E1210D /* KLineDepthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLineDepthViewController.xib; sourceTree = "<group>"; };
 		9BCCB5F3234790C100E1210D /* DepthBuyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepthBuyTableViewCell.xib; sourceTree = "<group>"; };
 		9BCCB5F5234790C100E1210D /* AsksKLineDepthModelGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsksKLineDepthModelGroup.swift; sourceTree = "<group>"; };
 		9BCCB5F6234790C100E1210D /* KLineDepthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDepthModel.swift; sourceTree = "<group>"; };
@@ -379,10 +375,8 @@
 				9BCCB5EC234790C100E1210D /* DepthBuyTableViewCell.swift */,
 				9BCCB5ED234790C100E1210D /* DepthSaleTableViewCell.xib */,
 				9BCCB5EE234790C100E1210D /* DepthTableViewCell.swift */,
-				9BCCB5EF234790C100E1210D /* KLineDepthViewController.swift */,
 				9BCCB5F0234790C100E1210D /* DepthBackgroundCellView.swift */,
 				9BCCB5F1234790C100E1210D /* DepthSaleTableViewCell.swift */,
-				9BCCB5F2234790C100E1210D /* KLineDepthViewController.xib */,
 				9BCCB5F3234790C100E1210D /* DepthBuyTableViewCell.xib */,
 			);
 			path = KLineDepthViewController;
@@ -524,7 +518,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCCB61D234790C100E1210D /* KLineDepthViewController.xib in Resources */,
 				9BCCB618234790C100E1210D /* DepthSaleTableViewCell.xib in Resources */,
 				9BCCB61E234790C100E1210D /* DepthBuyTableViewCell.xib in Resources */,
 				9BBFAD0A232978DD006EB0CE /* PKKLineCancel@3x.jpg in Resources */,
@@ -579,7 +572,6 @@
 				9BBFACEF232978DD006EB0CE /* PKColor.swift in Sources */,
 				9BCCB626234790C100E1210D /* KLineDepthTableView.swift in Sources */,
 				9BCCB628234790C100E1210D /* PKDataProcessManager.swift in Sources */,
-				9BCCB61A234790C100E1210D /* KLineDepthViewController.swift in Sources */,
 				9BBFACF6232978DD006EB0CE /* PkKLineVolumeView.swift in Sources */,
 				9BCCB621234790C100E1210D /* BidsKLineDepthModelGroup.swift in Sources */,
 				9BBFACE8232978DD006EB0CE /* PKTimeKLineSubStruct.swift in Sources */,

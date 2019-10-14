@@ -8,10 +8,10 @@
 
 import UIKit
 
-class DepthSaleTableViewCell: DepthTableViewCell {
+public class DepthSaleTableViewCell: DepthTableViewCell {
     
     
-    override func awakeFromNib() {
+	override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
@@ -20,13 +20,13 @@ class DepthSaleTableViewCell: DepthTableViewCell {
         return cell
     }
   
-    override func setSelected(_ selected: Bool, animated: Bool) {
+	override public func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     
         // Configure the view for the selected state
     }
    
-    override func draw(_ rect: CGRect) {
+	override public func draw(_ rect: CGRect) {
         super.draw(rect)
         let backgroundRect = CGRect(x: 0, y: 0, width: frame.width * backgroundPercent, height: frame.height)
         let context = UIGraphicsGetCurrentContext()!
