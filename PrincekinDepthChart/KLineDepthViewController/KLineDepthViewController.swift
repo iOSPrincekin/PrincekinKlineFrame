@@ -32,7 +32,7 @@ public class KLineDepthViewController: UIViewController,UITableViewDelegate,UITa
 	}
 	var base : String = ""
 	var quote : String = ""
-	var currencyPairDetailModel : CurrencyPairDetailModel!
+	public var currencyPairDetailModel : CurrencyPairDetailModel!
 	var asksModelArray: [KLineDepthModel]?{
 		didSet{
 			DispatchQueue.main.async(execute: {
