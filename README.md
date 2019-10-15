@@ -3,6 +3,8 @@ PrincekinKlineFrame
 
 [![Platform](https://img.shields.io/badge/platform-ios%7Cmacosx-green.svg)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
 [![Language: Swift-4.1](https://img.shields.io/badge/Swift-blue.svg)](https://swift.org)
+[![DepthChart](https://img.shields.io/badge/DepthChart-navy.svg)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
+[![DepthChart](https://img.shields.io/badge/Kline-pink.svg)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
 
 
 `PrincekinKlineFrame` 是使用Swift语言编写的在iOS平台上运行的k线图库和深度图库的集合，她是由PrincekinKline和PrincekinDepthChart两个组件组成。她具有轻量、敏捷、稳定等特点，可为虚拟货币、金融等行业提供专业的k线图信息显示和深度图信息显示，具有很强的实用性和可扩展性。
