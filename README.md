@@ -10,6 +10,30 @@ PrincekinKlineFrame
 `PrincekinKlineFrame` 是使用Swift语言编写的在iOS平台上运行的k线图库和深度图库的集合，她是由PrincekinKline和PrincekinDepthChart两个组件组成。她具有轻量、敏捷、稳定等特点，可为虚拟货币、金融等行业提供专业的k线图信息显示和深度图信息显示，具有很强的实用性和可扩展性。
 
 ----
+# 使用效果
+
+<details open=0>
+<summary>竖屏</summary>
+    
+[![img](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/竖屏.gif)](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/竖屏.gif)
+
+</details>
+
+<details open=1>
+<summary>横屏</summary>
+    
+[![img](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/横屏.gif)](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/横屏.gif)
+
+</details>
+
+<details open=1>
+<summary>深度图</summary>
+    
+[![img](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/深度图.gif)](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/深度图.gif)
+
+</details>
+
+
 
 # 使用文档
 - `PrincekinKline`是Swift语言编写的在iOS平台上运行的k线图库组件
@@ -77,25 +101,12 @@ PrincekinKlineFrame
 
     
 
-# 使用效果
 
-<details open=0>
-<summary>竖屏</summary>
-    
-[![img](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/竖屏.gif)](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/竖屏.gif)
 
-</details>
 
-<details open=1>
-<summary>横屏</summary>
-    
-[![img](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/横屏.gif)](https://github.com/iOSPrincekin/PrincekinKlineFrame/blob/master/gif/横屏.gif)
-
-</details>
 
 
 ----
-
 
 - `PrincekinDepthChart`是Swift语言编写的在iOS平台上运行的深度图组件
 ## 安装
