@@ -12,7 +12,7 @@ import MJExtension
 //CurrencyPairModel + CurrencyPair24hrModel
 public class CurrencyPairDetailModel: Object {
     //默认4
-    @objc dynamic var amountDecimals = "4"
+    public var amountDecimals = "4"
     @objc dynamic var base = ""
     @objc dynamic var depthMergeUnits = ""
         {

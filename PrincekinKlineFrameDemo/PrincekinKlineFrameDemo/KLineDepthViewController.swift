@@ -141,7 +141,7 @@ public class KLineDepthViewController: UIViewController,UITableViewDelegate,UITa
 	}
 }
 extension KLineDepthViewController: BibiDepthManagerSendDataDelegate{
-	func sendData(asksModelArray: [KLineDepthModel]?, bidsModelArray: [KLineDepthModel]?) {
+	public func sendData(asksModelArray: [KLineDepthModel]?, bidsModelArray: [KLineDepthModel]?) {
 		//    print("返回的数据是----55555------------\(asksModelArray)------\(bidsModelArray)-------\(Thread.current)")
 		
 		self.asksModelArray = asksModelArray
