@@ -16,7 +16,7 @@ public class DepthSaleTableViewCell: DepthTableViewCell {
         // Initialization code
     }
    public class func returnDepthSaleTableViewCell() -> DepthSaleTableViewCell {
-        let cell : DepthSaleTableViewCell = Bundle.main.loadNibNamed("DepthSaleTableViewCell", owner: self, options: nil)?.last as! DepthSaleTableViewCell
+	let cell : DepthSaleTableViewCell = Bundle.init(identifier: "ss.PrincekinKlineFrame")?.loadNibNamed("DepthSaleTableViewCell", owner: self, options: nil)?.last as! DepthSaleTableViewCell
         return cell
     }
   
