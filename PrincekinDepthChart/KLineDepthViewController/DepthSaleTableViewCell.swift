@@ -9,29 +9,30 @@
 import UIKit
 
 public class DepthSaleTableViewCell: DepthTableViewCell {
-    
-    
+	
+	
 	override public func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-   public class func returnDepthSaleTableViewCell() -> DepthSaleTableViewCell {
-	let cell : DepthSaleTableViewCell = Bundle.init(identifier: "ss.PrincekinKlineFrame")?.loadNibNamed("DepthSaleTableViewCell", owner: self, options: nil)?.last as! DepthSaleTableViewCell
-        return cell
-    }
-  
+		super.awakeFromNib()
+		// Initialization code
+	}
+	public class func returnDepthSaleTableViewCell() -> DepthSaleTableViewCell {
+		let currentBundle : Bundle = Bundle(for: DepthTableViewCell.self)
+		let cell : DepthSaleTableViewCell = currentBundle.loadNibNamed("DepthSaleTableViewCell", owner: self, options: nil)?.last as! DepthSaleTableViewCell
+		return cell
+	}
+	
 	override public func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    
-        // Configure the view for the selected state
-    }
-   
+		super.setSelected(selected, animated: animated)
+		
+		// Configure the view for the selected state
+	}
+	
 	override public func draw(_ rect: CGRect) {
-        super.draw(rect)
-        let backgroundRect = CGRect(x: 0, y: 0, width: frame.width * backgroundPercent, height: frame.height)
-        let context = UIGraphicsGetCurrentContext()!
-        context.setFillColor(PKTranslucenceOrangeColor.cgColor)
-        context.addRect(backgroundRect)
-        context.fillPath()
-    }
+		super.draw(rect)
+		let backgroundRect = CGRect(x: 0, y: 0, width: frame.width * backgroundPercent, height: frame.height)
+		let context = UIGraphicsGetCurrentContext()!
+		context.setFillColor(PKTranslucenceOrangeColor.cgColor)
+		context.addRect(backgroundRect)
+		context.fillPath()
+	}
 }
