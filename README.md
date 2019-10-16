@@ -1,10 +1,11 @@
 PrincekinKlineFrame
 ===========
 
-[![Platform](https://img.shields.io/badge/platform-ios%7Cmacosx-green.svg)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
-[![Language: Swift-4.1](https://img.shields.io/badge/Swift-blue.svg)](https://swift.org)
 [![DepthChart](https://img.shields.io/badge/DepthChart-navy.svg)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
 [![DepthChart](https://img.shields.io/badge/Kline-pink.svg)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
+[![Platform](https://img.shields.io/badge/platform-ios%7Cmacosx-green.svg)](https://github.com/iOSPrincekin/PrincekinKlineFrame)
+[![Language: Swift-4.1](https://img.shields.io/badge/Swift-blue.svg)](https://swift.org)
+
 
 
 `PrincekinKlineFrame` 是使用Swift语言编写的在iOS平台上运行的k线图库和深度图库的集合，她是由PrincekinKline和PrincekinDepthChart两个组件组成。她具有轻量、敏捷、稳定等特点，可为虚拟货币、金融等行业提供专业的k线图信息显示和深度图信息显示，具有很强的实用性和可扩展性。
@@ -68,7 +69,7 @@ PrincekinKlineFrame
 <summary>横屏</summary>
     
 ### 优点：    
-    PrincekinKlineFrame横屏功能和竖屏共用同一数据源，保证了数据的准确性和较小的cpu消耗，同时横屏和竖屏的交互性，
+    PrincekinKline横屏功能和竖屏共用同一数据源，保证了数据的准确性和较小的cpu消耗，同时横屏和竖屏的交互性，
     如全部按钮的点击事件已经做好同步，符合实际开发产品的需要，只要按照正确姿势进行使用即可。
     
 ### 步骤：
@@ -115,7 +116,15 @@ PrincekinKlineFrame
 1.使用CocoaPods安装，pod 'PrincekinKlineFrame/PrincekinDepthChart'
 
 2.引入 'import PrincekinKlineFrame'
-## 使用
+
+### 优点：    
+    PrincekinDepthChart是作者在实际开发中，自己开发的深度图组件，具有实用性和紧贴深度图开发主流设计等特点，集成起来方便快捷。  
+    
+
+### 步骤：
+可参考PrincekinKlineFrameDemo
+    
+    
 
 
 

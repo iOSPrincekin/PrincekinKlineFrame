@@ -3,7 +3,7 @@ use_frameworks!
 target 'PrincekinKlineFrameDemo' do
     # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
     
-    pod 'PrincekinKlineFrame'
+    pod 'PrincekinKlineFrame', '~> 0.0.48'
     pod 'Alamofire', '~> 4.7.3'
     pod 'OHHTTPStubs/Swift', '~> 6.1.0'
 		pod 'CryptoSwift', '~> 0.11.0'
