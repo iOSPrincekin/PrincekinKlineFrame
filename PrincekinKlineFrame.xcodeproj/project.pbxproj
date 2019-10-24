@@ -6,6 +6,21 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		9B3784592361969F00BF0FAB /* Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B37845C2361969F00BF0FAB /* Build configuration list for PBXAggregateTarget "Test" */;
+			buildPhases = (
+				9B37845F2361970200BF0FAB /* ShellScript */,
+			);
+			dependencies = (
+				9B37845E236196FF00BF0FAB /* PBXTargetDependency */,
+			);
+			name = Test;
+			productName = Test;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		9BBFACE8232978DD006EB0CE /* PKTimeKLineSubStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACB5232978DD006EB0CE /* PKTimeKLineSubStruct.swift */; };
 		9BBFACE9232978DD006EB0CE /* PKKLineTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFACB6232978DD006EB0CE /* PKKLineTimeView.swift */; };
@@ -86,6 +101,16 @@
 		9BCCB63C234790C100E1210D /* SpotMarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB616234790C100E1210D /* SpotMarketModel.swift */; };
 		DCA0DC2B52261989668788D3 /* Pods_PrincekinKlineFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB9E30EE7E34E34BF199710 /* Pods_PrincekinKlineFrame.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B37845D236196FF00BF0FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B96A4AC215F4B1F003D1CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B96A4B4215F4B20003D1CD8;
+			remoteInfo = PrincekinKlineFrame;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0C6E5260D70EC3C1049AFC7F /* Pods-PrincekinKlineFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrame/Pods-PrincekinKlineFrame.debug.xcconfig"; sourceTree = "<group>"; };
@@ -490,6 +515,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = LEE;
 				TargetAttributes = {
+					9B3784592361969F00BF0FAB = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					9B96A4B4215F4B20003D1CD8 = {
 						CreatedOnToolsVersion = 9.3.1;
 					};
@@ -509,6 +537,7 @@
 			projectRoot = "";
 			targets = (
 				9B96A4B4215F4B20003D1CD8 /* PrincekinKlineFrame */,
+				9B3784592361969F00BF0FAB /* Test */,
 			);
 		};
 /* End PBXProject section */
@@ -528,6 +557,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9B37845F2361970200BF0FAB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=PrincekinKlineFrame\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nWRK_DIR=build\nINSTALL_DIR=${SRCROOT}/Products/\nINSTALL_Framework=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nDEMO_Framework_DIR=/Users/lee/Desktop/MyFrame/PrincekinKlineFrame/PrincekinKlineFrameDemo/PrincekinKlineFrameDemo/\nCONFIGURATION_BUILD_Framework=${CONFIGURATION_BUILD_DIR}/${FMK_NAME}.framework\n\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${CONFIGURATION_BUILD_Framework}/\" \"${INSTALL_Framework}\"\nrm -rf ${WRK_DIR}\nrm -rf ${DEMO_Framework}\ncp -R  ${INSTALL_Framework} ${DEMO_Framework_DIR}\n\n\n\n";
+		};
 		C2D2FEF70407A34FF3AA5AE0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -630,7 +676,35 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9B37845E236196FF00BF0FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B96A4B4215F4B20003D1CD8 /* PrincekinKlineFrame */;
+			targetProxy = 9B37845D236196FF00BF0FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		9B37845A2361969F00BF0FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXH8LLTUQN;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B37845B2361969F00BF0FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXH8LLTUQN;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9B96A4BB215F4B20003D1CD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -808,6 +882,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9B37845C2361969F00BF0FAB /* Build configuration list for PBXAggregateTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B37845A2361969F00BF0FAB /* Debug */,
+				9B37845B2361969F00BF0FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9B96A4AF215F4B1F003D1CD8 /* Build configuration list for PBXProject "PrincekinKlineFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

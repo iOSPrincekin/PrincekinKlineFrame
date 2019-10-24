@@ -11,4 +11,6 @@ target 'PrincekinKlineFrameDemo' do
 		pod 'SocketRocket', '~> 0.5.1'
 		pod 'RealmSwift', '~> 3.9.0'
 		pod 'MJExtension', '~> 3.0.15.1'
+		
+
  end

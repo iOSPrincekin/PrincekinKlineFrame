@@ -79,7 +79,7 @@ public class BibiDepthManager: NSObject {
 			
 			let stubData = try! JSONSerialization.data(withJSONObject: dataDic, options: .prettyPrinted)
 			//   let stubData = "Hello World!".data(using: String.Encoding.utf8)
-			return OHHTTPStubsResponse(data: stubData, statusCode:200, headers:nil).responseTime(2)
+			return OHHTTPStubsResponse(data: stubData, statusCode:200, headers:nil).responseTime(0)
 		}
 	}
 	//通过http请求拉取Socket数据

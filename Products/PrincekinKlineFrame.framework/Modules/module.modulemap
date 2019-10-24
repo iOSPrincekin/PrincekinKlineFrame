@@ -1,0 +1,11 @@
+framework module PrincekinKlineFrame {
+  umbrella header "PrincekinKlineFrame.h"
+
+  export *
+  module * { export * }
+}
+
+module PrincekinKlineFrame.Swift {
+    header "PrincekinKlineFrame-Swift.h"
+    requires objc
+}

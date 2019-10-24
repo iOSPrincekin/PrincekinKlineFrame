@@ -25,6 +25,19 @@
 		B6C64AC2923CF3EEB182757D /* Pods_PrincekinKlineFrameDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437C5A1660BDB915FA6A68BD /* Pods_PrincekinKlineFrameDemo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9B8D70E8236198AE00F83707 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		120FB1742E35808B5A6F945E /* Pods-PrincekinKlineFrameDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrameDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrameDemo/Pods-PrincekinKlineFrameDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		437C5A1660BDB915FA6A68BD /* Pods_PrincekinKlineFrameDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrincekinKlineFrameDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +151,7 @@
 				9B1D304D215CC14000434464 /* Frameworks */,
 				9B1D304E215CC14000434464 /* Resources */,
 				CFB7A8E58D53489C5A80FBC5 /* [CP] Embed Pods Frameworks */,
+				9B8D70E8236198AE00F83707 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -390,6 +404,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PrincekinKlineFrameDemo",
 				);
 				INFOPLIST_FILE = PrincekinKlineFrameDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -413,6 +428,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PrincekinKlineFrameDemo",
 				);
 				INFOPLIST_FILE = PrincekinKlineFrameDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
