@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,26 +18,42 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVx-OP-wsx">
-                    <rect key="frame" x="167" y="117" width="41" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="K线图"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVx-OP-wsx">
+                    <rect key="frame" x="112.5" y="100" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="5uq-vC-jx4"/>
+                        <constraint firstAttribute="height" constant="150" id="rlU-uS-609"/>
+                    </constraints>
+                    <state key="normal" image="Kline_Btn"/>
                     <connections>
                         <action selector="PortraitVCClick:" destination="-1" eventType="touchUpInside" id="wA4-3h-oAh"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDy-yd-SLd">
-                    <rect key="frame" x="158" y="371" width="46" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="深度图"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDy-yd-SLd">
+                    <rect key="frame" x="112.5" y="417" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="Mtj-xm-zJr"/>
+                        <constraint firstAttribute="width" constant="150" id="nQ0-PP-7dJ"/>
+                    </constraints>
+                    <state key="normal" image="DepthChart_Btn"/>
                     <connections>
                         <action selector="FullScreenVCClick:" destination="-1" eventType="touchUpInside" id="GMd-Li-IDB"/>
                     </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="IVx-OP-wsx" firstAttribute="top" secondItem="uA8-3B-nZJ" secondAttribute="top" constant="100" id="1dz-iR-JbF"/>
+                <constraint firstItem="uA8-3B-nZJ" firstAttribute="bottom" secondItem="RDy-yd-SLd" secondAttribute="bottom" constant="100" id="BHo-3c-IYM"/>
+                <constraint firstItem="IVx-OP-wsx" firstAttribute="centerX" secondItem="p6M-2X-DBu" secondAttribute="centerX" id="Pzr-CT-EsZ"/>
+                <constraint firstItem="RDy-yd-SLd" firstAttribute="centerX" secondItem="p6M-2X-DBu" secondAttribute="centerX" id="wNM-FZ-C1Q"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="uA8-3B-nZJ"/>
             <point key="canvasLocation" x="70" y="-275"/>
         </view>
     </objects>
+    <resources>
+        <image name="DepthChart_Btn" width="150" height="150"/>
+        <image name="Kline_Btn" width="150" height="150"/>
+    </resources>
 </document>

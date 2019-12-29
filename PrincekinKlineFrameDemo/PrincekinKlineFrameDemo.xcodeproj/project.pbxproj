@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9B043DEB2176DB8000F569C1 /* data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B043DEA2176DB8000F569C1 /* data1.json */; };
+		9B0A976823B8540500765D8B /* AboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A976723B8540500765D8B /* AboutController.xib */; };
+		9B0A976A23B8546900765D8B /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A976923B8546900765D8B /* AboutController.swift */; };
 		9B1D3054215CC14000434464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D3053215CC14000434464 /* AppDelegate.swift */; };
 		9B1D3056215CC14100434464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D3055215CC14100434464 /* ViewController.swift */; };
 		9B1D305B215CC14200434464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1D305A215CC14200434464 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		120FB1742E35808B5A6F945E /* Pods-PrincekinKlineFrameDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrincekinKlineFrameDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrincekinKlineFrameDemo/Pods-PrincekinKlineFrameDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		437C5A1660BDB915FA6A68BD /* Pods_PrincekinKlineFrameDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrincekinKlineFrameDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B043DEA2176DB8000F569C1 /* data1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data1.json; sourceTree = "<group>"; };
+		9B0A976723B8540500765D8B /* AboutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutController.xib; sourceTree = "<group>"; };
+		9B0A976923B8546900765D8B /* AboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
 		9B1D3050215CC14000434464 /* PrincekinKlineFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrincekinKlineFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1D3053215CC14000434464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B1D3055215CC14100434464 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				9B1D3053215CC14000434464 /* AppDelegate.swift */,
 				9B1D3055215CC14100434464 /* ViewController.swift */,
 				9B96A420215F25E7003D1CD8 /* ViewController.xib */,
+				9B0A976923B8546900765D8B /* AboutController.swift */,
+				9B0A976723B8540500765D8B /* AboutController.xib */,
 				9B1D3069215CC4CD00434464 /* PKKLineDemoView.swift */,
 				9B1D3066215CC42E00434464 /* PKKLinePortraitViewController.swift */,
 				9B1D3065215CC42E00434464 /* PKKLinePortraitViewController.xib */,
@@ -207,6 +213,7 @@
 				9BD467E92354429A00F58591 /* KLineDepthViewController.xib in Resources */,
 				9B1D305B215CC14200434464 /* Assets.xcassets in Resources */,
 				9B1D3067215CC42F00434464 /* PKKLinePortraitViewController.xib in Resources */,
+				9B0A976823B8540500765D8B /* AboutController.xib in Resources */,
 				9B043DEB2176DB8000F569C1 /* data1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +270,7 @@
 				9B1D3054215CC14000434464 /* AppDelegate.swift in Sources */,
 				9B1D3068215CC42F00434464 /* PKKLinePortraitViewController.swift in Sources */,
 				9B1D306A215CC4CD00434464 /* PKKLineDemoView.swift in Sources */,
+				9B0A976A23B8546900765D8B /* AboutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.49;
 				PRODUCT_BUNDLE_IDENTIFIER = ss.PrincekinKlineFrameDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -435,6 +444,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.49;
 				PRODUCT_BUNDLE_IDENTIFIER = ss.PrincekinKlineFrameDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

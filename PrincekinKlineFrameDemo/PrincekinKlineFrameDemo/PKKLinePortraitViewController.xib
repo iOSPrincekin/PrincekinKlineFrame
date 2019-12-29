@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,10 +24,13 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaV-FV-UDq">
-                    <rect key="frame" x="0.0" y="553" width="375" height="54"/>
-                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="35"/>
-                    <state key="normal" title="全屏">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaV-FV-UDq">
+                    <rect key="frame" x="155" y="562" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="SZi-QI-bRb"/>
+                        <constraint firstAttribute="height" constant="65" id="jYp-fH-1rf"/>
+                    </constraints>
+                    <state key="normal" image="fullScreen">
                         <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </state>
                     <connections>
@@ -39,13 +40,14 @@
             </subviews>
             <color key="backgroundColor" red="0.023529411764705882" green="0.090196078431372548" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="FaV-FV-UDq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2NC-hm-0NK"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FaV-FV-UDq" secondAttribute="trailing" id="63L-1b-423"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="FaV-FV-UDq" secondAttribute="bottom" constant="60" id="mUZ-7v-QHn"/>
-                <constraint firstItem="FaV-FV-UDq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yp5-Mf-77r"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="FaV-FV-UDq" secondAttribute="bottom" constant="40" id="OxF-41-tpi"/>
+                <constraint firstItem="FaV-FV-UDq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZNO-wb-pzc"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="47.200000000000003" y="-213.64317841079463"/>
         </view>
     </objects>
+    <resources>
+        <image name="fullScreen" width="65" height="65"/>
+    </resources>
 </document>

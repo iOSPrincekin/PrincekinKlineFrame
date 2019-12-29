@@ -70,6 +70,7 @@ public class KLineDepthViewController: UIViewController,UITableViewDelegate,UITa
 	}
 	override public func viewDidLoad() {
 		super.viewDidLoad()
+		self.title = "DepthChart"
 		setUPUI()
 		
 		//"CZRETH"
@@ -77,6 +78,22 @@ public class KLineDepthViewController: UIViewController,UITableViewDelegate,UITa
 		let depthManager : BibiDepthManager = BibiDepthManager(currencyPairDetailModel)
 		depthManager.sendDataDelegate = self
 		wDepthManager = depthManager
+		let leftBtnX = 0
+		let leftBtnY = 0
+		let leftBtnW = 56 + 20
+		let leftBtnH = leftBtnW
+		
+		let leftBtn = UIButton.init(frame: CGRect(x: leftBtnX, y: leftBtnY, width: leftBtnW, height: leftBtnH))
+		leftBtn.addTarget(self, action:#selector(backClick) , for: .touchUpInside)
+		leftBtn.setImage(UIImage.init(named: "back"), for: .normal)
+		leftBtn.contentHorizontalAlignment = .left;
+		let leftItem = UIBarButtonItem.init(customView: leftBtn)
+		self.navigationItem.leftBarButtonItem = leftItem
+	}
+	@objc
+	func backClick() {
+		print("backClick--------")
+		navigationController?.popViewController(animated: true);
 	}
 	func setUPUI()  {
 		buyorderLabel.text = "Buy Order"
@@ -88,8 +105,8 @@ public class KLineDepthViewController: UIViewController,UITableViewDelegate,UITa
 	override public func viewWillDisappear(_ animated: Bool) {
 		super.viewWillDisappear(animated)
 		//深度图的socket推送彻底销毁
-			wDepthManager!.destroyTSocketRocke()
-			wDepthManager = nil
+		wDepthManager!.destroyTSocketRocke()
+		wDepthManager = nil
 		
 	}
 	public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
